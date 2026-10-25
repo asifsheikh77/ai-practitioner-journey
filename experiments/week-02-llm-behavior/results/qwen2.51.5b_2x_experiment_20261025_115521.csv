@@ -1,0 +1,486 @@
+question_id,category,question,expected,strategy,temperature,response,latency_seconds,status
+1,Factual knowledge,What is the capital of Australia?,Canberra,direct,0.0,The capital of Australia is Canberra.,3.528,success
+1,Factual knowledge,What is the capital of Australia?,Canberra,direct,0.0,The capital of Australia is Canberra.,0.152,success
+1,Factual knowledge,What is the capital of Australia?,Canberra,direct,0.7,The capital of Australia is Canberra.,0.145,success
+1,Factual knowledge,What is the capital of Australia?,Canberra,direct,0.7,The capital of Australia is Canberra.,0.142,success
+1,Factual knowledge,What is the capital of Australia?,Canberra,careful,0.0,The capital of Australia is Canberra.,0.353,success
+1,Factual knowledge,What is the capital of Australia?,Canberra,careful,0.0,The capital of Australia is Canberra.,0.141,success
+1,Factual knowledge,What is the capital of Australia?,Canberra,careful,0.7,The capital of Australia is Canberra.,0.148,success
+1,Factual knowledge,What is the capital of Australia?,Canberra,careful,0.7,The capital of Australia is Canberra.,0.148,success
+2,Factual knowledge,What is the chemical symbol for gold?,Au,direct,0.0,"The chemical symbol for gold is ""Au"".",0.228,success
+2,Factual knowledge,What is the chemical symbol for gold?,Au,direct,0.0,"The chemical symbol for gold is ""Au"".",0.185,success
+2,Factual knowledge,What is the chemical symbol for gold?,Au,direct,0.7,"The chemical symbol for gold is ""Au"".",0.187,success
+2,Factual knowledge,What is the chemical symbol for gold?,Au,direct,0.7,"The chemical symbol for gold is ""Au"".",0.187,success
+2,Factual knowledge,What is the chemical symbol for gold?,Au,careful,0.0,The chemical symbol for gold is Au.,0.215,success
+2,Factual knowledge,What is the chemical symbol for gold?,Au,careful,0.0,The chemical symbol for gold is Au.,0.166,success
+2,Factual knowledge,What is the chemical symbol for gold?,Au,careful,0.7,The chemical symbol for gold is Au.,0.166,success
+2,Factual knowledge,What is the chemical symbol for gold?,Au,careful,0.7,The chemical symbol for gold is Au.,0.168,success
+3,Factual knowledge,Who wrote Pride and Prejudice?,Jane Austen,direct,0.0,Pride and Prejudice was written by Jane Austen.,0.292,success
+3,Factual knowledge,Who wrote Pride and Prejudice?,Jane Austen,direct,0.0,Pride and Prejudice was written by Jane Austen.,0.24,success
+3,Factual knowledge,Who wrote Pride and Prejudice?,Jane Austen,direct,0.7,Jane Austen wrote Pride and Prejudice.,0.196,success
+3,Factual knowledge,Who wrote Pride and Prejudice?,Jane Austen,direct,0.7,Jane Austen wrote Pride and Prejudice.,0.197,success
+3,Factual knowledge,Who wrote Pride and Prejudice?,Jane Austen,careful,0.0,Pride and Prejudice was written by Jane Austen.,0.297,success
+3,Factual knowledge,Who wrote Pride and Prejudice?,Jane Austen,careful,0.0,Pride and Prejudice was written by Jane Austen.,0.243,success
+3,Factual knowledge,Who wrote Pride and Prejudice?,Jane Austen,careful,0.7,"Pride and Prejudice was written by Jane Austen, an English novelist. The book was published in six installments between 1813 and 1814. It is considered one of Austen's most famous works and a cornerstone of English literature.",0.951,success
+3,Factual knowledge,Who wrote Pride and Prejudice?,Jane Austen,careful,0.7,"Pride and Prejudice was written by Jane Austen, an English novelist. The book was published in six installments between 1813 and 1814. It is considered one of Austen's most famous works and a cornerstone of English literature.",0.971,success
+4,Factual knowledge,How many planets are in the Solar System?,8,direct,0.0,"There are eight planets in the Solar System. They are: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, and Neptune.",0.598,success
+4,Factual knowledge,How many planets are in the Solar System?,8,direct,0.0,"There are eight planets in the Solar System. They are: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, and Neptune.",0.539,success
+4,Factual knowledge,How many planets are in the Solar System?,8,direct,0.7,"There are eight planets in the Solar System. They are Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, and Neptune.",0.525,success
+4,Factual knowledge,How many planets are in the Solar System?,8,direct,0.7,"There are eight planets in the Solar System. They are Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, and Neptune.",0.715,success
+4,Factual knowledge,How many planets are in the Solar System?,8,careful,0.0,"There are eight planets in the Solar System. They are in order of their distance from the Sun: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, and Neptune.",0.765,success
+4,Factual knowledge,How many planets are in the Solar System?,8,careful,0.0,"There are eight planets in the Solar System. They are in order of their distance from the Sun: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, and Neptune.",0.711,success
+4,Factual knowledge,How many planets are in the Solar System?,8,careful,0.7,"There are eight planets in the Solar System. They are: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, and Neptune.",0.565,success
+4,Factual knowledge,How many planets are in the Solar System?,8,careful,0.7,"There are eight planets in the Solar System. They are: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, and Neptune.",0.567,success
+5,Reasoning,A store sells 3 notebooks for $12. What is the price of 5 notebooks at the same rate?,$20,direct,0.0,"To find the price of 5 notebooks, we first need to determine the price of one notebook. Since 3 notebooks cost $12, we can divide $12 by 3 to find the price of one notebook:
+
+\[ \text{Price of one notebook} = \frac{12}{3} = 4 \text{ dollars} \]
+
+Now that we know the price of one notebook is $4, we can find the price of 5 notebooks by multiplying the price of one notebook by 5:
+
+\[ \text{Price of 5 notebooks} = 4 \times 5 = 20 \text{ dollars} \]
+
+So, the price of 5 notebooks is $20.",2.749,success
+5,Reasoning,A store sells 3 notebooks for $12. What is the price of 5 notebooks at the same rate?,$20,direct,0.0,"To find the price of 5 notebooks, we first need to determine the price of one notebook. Since 3 notebooks cost $12, we can divide $12 by 3 to find the price of one notebook:
+
+\[ \text{Price of one notebook} = \frac{12}{3} = 4 \text{ dollars} \]
+
+Now that we know the price of one notebook is $4, we can find the price of 5 notebooks by multiplying the price of one notebook by 5:
+
+\[ \text{Price of 5 notebooks} = 4 \times 5 = 20 \text{ dollars} \]
+
+So, the price of 5 notebooks is $20.",2.485,success
+5,Reasoning,A store sells 3 notebooks for $12. What is the price of 5 notebooks at the same rate?,$20,direct,0.7,"First, let's find the price of one notebook. If 3 notebooks cost $12, then the price of one notebook is:
+\[ \frac{12}{3} = 4 \]
+
+Now, to find the price of 5 notebooks, we multiply the price of one notebook by 5:
+\[ 4 \times 5 = 20 \]
+
+Therefore, 5 notebooks cost $20.",1.475,success
+5,Reasoning,A store sells 3 notebooks for $12. What is the price of 5 notebooks at the same rate?,$20,direct,0.7,"First, let's find the price of one notebook. If 3 notebooks cost $12, then the price of one notebook is:
+\[ \frac{12}{3} = 4 \]
+
+Now, to find the price of 5 notebooks, we multiply the price of one notebook by 5:
+\[ 4 \times 5 = 20 \]
+
+Therefore, 5 notebooks cost $20.",1.485,success
+5,Reasoning,A store sells 3 notebooks for $12. What is the price of 5 notebooks at the same rate?,$20,careful,0.0,"To find the price of 5 notebooks, we first need to determine the price of one notebook. Since 3 notebooks cost $12, we divide $12 by 3 to find the price of one notebook:
+
+Price of one notebook = $12 / 3 = $4
+
+Now that we know the price of one notebook is $4, we can calculate the price of 5 notebooks by multiplying the price of one notebook by 5:
+
+Price of 5 notebooks = $4 * 5 = $20
+
+Therefore, the price of 5 notebooks is $20.",2.213,success
+5,Reasoning,A store sells 3 notebooks for $12. What is the price of 5 notebooks at the same rate?,$20,careful,0.0,"To find the price of 5 notebooks, we first need to determine the price of one notebook. Since 3 notebooks cost $12, we divide $12 by 3 to find the price of one notebook:
+
+Price of one notebook = $12 / 3 = $4
+
+Now that we know the price of one notebook is $4, we can calculate the price of 5 notebooks by multiplying the price of one notebook by 5:
+
+Price of 5 notebooks = $4 * 5 = $20
+
+Therefore, the price of 5 notebooks at the same rate is $20.",2.241,success
+5,Reasoning,A store sells 3 notebooks for $12. What is the price of 5 notebooks at the same rate?,$20,careful,0.7,"To find the price of 5 notebooks, we first determine the price per notebook. Since 3 notebooks cost $12, the price per notebook is $12 / 3 = $4.
+
+Then, we multiply the price per notebook by the number of notebooks we want to find the cost for: $4 * 5 = $20.
+
+Therefore, the price of 5 notebooks at the same rate is $20.",1.597,success
+5,Reasoning,A store sells 3 notebooks for $12. What is the price of 5 notebooks at the same rate?,$20,careful,0.7,"To find the price of 5 notebooks, we first determine the price per notebook. Since 3 notebooks cost $12, the price per notebook is $12 / 3 = $4.
+
+Then, we multiply the price per notebook by the number of notebooks we want to find the cost for: $4 * 5 = $20.
+
+Therefore, the price of 5 notebooks at the same rate is $20.",1.638,success
+6,Reasoning,A meeting starts at 09:15 and lasts 95 minutes. When does it end?,10:50,direct,0.0,"To find out when the meeting ends, you add the duration of the meeting to the start time. The start time is 09:15 and the meeting lasts for 95 minutes.
+
+First, let's convert 95 minutes into hours and minutes:
+- 95 minutes is 1 hour and 35 minutes.
+
+Now, add this to the start time:
+- Start time: 09:15
+- Add 1 hour: 10:15
+- Add 35 minutes: 10:50
+
+So, the meeting ends at 10:50.",2.361,success
+6,Reasoning,A meeting starts at 09:15 and lasts 95 minutes. When does it end?,10:50,direct,0.0,"To find out when the meeting ends, you add the duration of the meeting to the start time. The start time is 09:15 and the meeting lasts for 95 minutes.
+
+First, let's convert 95 minutes into hours and minutes for easier calculation. Since 95 minutes is 1 hour and 35 minutes, we can add this to the start time.
+
+09:15 + 1 hour 35 minutes = 10:50
+
+So, the meeting ends at 10:50.",1.926,success
+6,Reasoning,A meeting starts at 09:15 and lasts 95 minutes. When does it end?,10:50,direct,0.7,"The meeting starts at 09:15 and lasts 95 minutes. To find the end time, we add 95 minutes to 09:15.
+
+First, let's convert 95 minutes into hours and minutes for easier calculation:
+
+- 95 minutes = 1 hour 35 minutes
+
+Now, add 1 hour 35 minutes to 09:15:
+
+- 09:15 + 01:35 = 10:50
+
+Therefore, the meeting ends at 10:50.",2.071,success
+6,Reasoning,A meeting starts at 09:15 and lasts 95 minutes. When does it end?,10:50,direct,0.7,"The meeting starts at 09:15 and lasts 95 minutes. To find the end time, we add 95 minutes to 09:15.
+
+First, let's convert 95 minutes into hours and minutes for easier calculation:
+
+- 95 minutes = 1 hour 35 minutes
+
+Now, add 1 hour 35 minutes to 09:15:
+
+- 09:15 + 01:35 = 10:50
+
+Therefore, the meeting ends at 10:50.",2.054,success
+6,Reasoning,A meeting starts at 09:15 and lasts 95 minutes. When does it end?,10:50,careful,0.0,The meeting ends at 11:05.,0.313,success
+6,Reasoning,A meeting starts at 09:15 and lasts 95 minutes. When does it end?,10:50,careful,0.0,The meeting ends at 11:05.,0.216,success
+6,Reasoning,A meeting starts at 09:15 and lasts 95 minutes. When does it end?,10:50,careful,0.7,"To find out when the meeting ends, we need to add 95 minutes to the start time of 09:15. 
+
+1. First, break down the 95 minutes into hours and minutes:
+   - 95 minutes = 1 hour and 35 minutes
+
+2. Now add this to the start time:
+   - 09:15 + 01:35 = 10:50
+
+Therefore, the meeting ends at 10:50.",1.888,success
+6,Reasoning,A meeting starts at 09:15 and lasts 95 minutes. When does it end?,10:50,careful,0.7,"To find out when the meeting ends, we need to add 95 minutes to the start time of 09:15. 
+
+1. First, break down the 95 minutes into hours and minutes:
+   - 95 minutes = 1 hour and 35 minutes
+
+2. Now add this to the start time:
+   - 09:15 + 01:35 = 10:50
+
+Therefore, the meeting ends at 10:50.",1.909,success
+7,Reasoning,A box contains 6 red and 4 blue balls. What is the probability of drawing a blue ball?,40%,direct,0.0,"To find the probability of drawing a blue ball from a box containing 6 red and 4 blue balls, you can use the following formula:
+
+\[ P(\text{Blue}) = \frac{\text{Number of Blue Balls}}{\text{Total Number of Balls}} \]
+
+So, the probability of drawing a blue ball is:
+
+\[ P(\text{Blue}) = \frac{4}{6 + 4} = \frac{4}{10} = \frac{2}{5} \]
+
+Therefore, the probability of drawing a blue ball is \( \frac{2}{5} \) or 0.4.",2.412,success
+7,Reasoning,A box contains 6 red and 4 blue balls. What is the probability of drawing a blue ball?,40%,direct,0.0,"The probability of drawing a blue ball from a box containing 6 red and 4 blue balls is calculated by dividing the number of blue balls by the total number of balls. 
+
+Total number of balls = 6 red + 4 blue = 10 balls
+
+Probability of drawing a blue ball = Number of blue balls / Total number of balls = 4 / 10 = 0.4 or 40%.",1.473,success
+7,Reasoning,A box contains 6 red and 4 blue balls. What is the probability of drawing a blue ball?,40%,direct,0.7,"To find the probability of drawing a blue ball from a box containing 6 red and 4 blue balls, we can follow these steps:
+
+1. **Determine the total number of balls:**
+   There are 6 red balls and 4 blue balls, so the total number of balls is:
+   \[
+   6 + 4 = 10
+   \]
+
+2. **Identify the number of favorable outcomes:**
+   The favorable outcome here is drawing a blue ball. There are 4 blue balls in the box.
+
+3. **Calculate the probability:**
+   The probability \( P \) of drawing a blue ball is the ratio of the number of blue balls to the total number of balls. Therefore:
+   \[
+   P(\text{blue ball}) = \frac{\text{Number of blue balls}}{\text{Total number of balls}} = \frac{4}{10}
+   \]
+
+4. **Simplify the fraction:**
+   \[
+   \frac{4}{10} = \frac{2}{5}
+   \]
+
+So, the probability of drawing a blue ball is \(\frac{2}{5}\).",4.082,success
+7,Reasoning,A box contains 6 red and 4 blue balls. What is the probability of drawing a blue ball?,40%,direct,0.7,"To find the probability of drawing a blue ball from a box containing 6 red and 4 blue balls, we can follow these steps:
+
+1. **Determine the total number of balls:**
+   There are 6 red balls and 4 blue balls, so the total number of balls is:
+   \[
+   6 + 4 = 10
+   \]
+
+2. **Identify the number of favorable outcomes:**
+   The favorable outcome here is drawing a blue ball. There are 4 blue balls in the box.
+
+3. **Calculate the probability:**
+   The probability \( P \) of drawing a blue ball is the ratio of the number of blue balls to the total number of balls. Therefore:
+   \[
+   P(\text{blue ball}) = \frac{\text{Number of blue balls}}{\text{Total number of balls}} = \frac{4}{10}
+   \]
+
+4. **Simplify the fraction:**
+   \[
+   \frac{4}{10} = \frac{2}{5}
+   \]
+
+So, the probability of drawing a blue ball is \(\frac{2}{5}\).",4.518,success
+7,Reasoning,A box contains 6 red and 4 blue balls. What is the probability of drawing a blue ball?,40%,careful,0.0,"The probability of drawing a blue ball from a box containing 6 red and 4 blue balls is calculated as follows:
+
+Total number of balls = 6 red + 4 blue = 10 balls
+Number of blue balls = 4
+
+Probability of drawing a blue ball = Number of blue balls / Total number of balls
+= 4 / 10
+= 2 / 5
+
+So, the probability of drawing a blue ball is 2/5 or 0.4.",2.314,success
+7,Reasoning,A box contains 6 red and 4 blue balls. What is the probability of drawing a blue ball?,40%,careful,0.0,"The probability of drawing a blue ball from a box containing 6 red and 4 blue balls is calculated as follows:
+
+Total number of balls = 6 red + 4 blue = 10 balls
+Number of blue balls = 4
+
+Probability of drawing a blue ball = Number of blue balls / Total number of balls
+= 4 / 10
+= 2 / 5
+
+So, the probability of drawing a blue ball is 2/5 or 0.4.",2.168,success
+7,Reasoning,A box contains 6 red and 4 blue balls. What is the probability of drawing a blue ball?,40%,careful,0.7,"To calculate the probability of drawing a blue ball from a box containing 6 red and 4 blue balls, we follow these steps:
+
+1. Determine the total number of balls in the box:
+   6 red + 4 blue = 10 balls
+
+2. Identify the number of blue balls:
+   There are 4 blue balls
+
+3. Calculate the probability of drawing a blue ball by dividing the number of blue balls by the total number of balls:
+   Probability = Number of blue balls / Total number of balls
+   Probability = 4 / 10
+
+4. Simplify the fraction if possible:
+   Probability = 2 / 5
+
+Therefore, the probability of drawing a blue ball from the box is 2/5 or 0.4.",3.447,success
+7,Reasoning,A box contains 6 red and 4 blue balls. What is the probability of drawing a blue ball?,40%,careful,0.7,"To calculate the probability of drawing a blue ball from a box containing 6 red and 4 blue balls, we follow these steps:
+
+1. Determine the total number of balls in the box:
+   6 red + 4 blue = 10 balls
+
+2. Identify the number of blue balls:
+   There are 4 blue balls
+
+3. Calculate the probability of drawing a blue ball by dividing the number of blue balls by the total number of balls:
+   Probability = Number of blue balls / Total number of balls
+   Probability = 4 / 10
+
+4. Simplify the fraction if possible:
+   Probability = 2 / 5
+
+Therefore, the probability of drawing a blue ball from the box is 2/5 or 0.4.",3.721,success
+8,Reasoning,A product costs $80 and receives a 25% discount. What is the final price?,$60,direct,0.0,"To find the final price of the product after a 25% discount, you first calculate 25% of the original price and then subtract that amount from the original price.
+
+25% of $80 is calculated as:
+\[ 0.25 \times 80 = 20 \]
+
+So, the discount amount is $20. Subtract this from the original price:
+\[ 80 - 20 = 60 \]
+
+Therefore, the final price of the product is $60.",2.648,success
+8,Reasoning,A product costs $80 and receives a 25% discount. What is the final price?,$60,direct,0.0,"To find the final price of the product after a 25% discount, you first calculate the amount of the discount and then subtract it from the original price.
+
+The discount amount is 25% of $80, which is calculated as follows:
+
+\[ \text{Discount Amount} = 80 \times \frac{25}{100} = 80 \times 0.25 = 20 \]
+
+Now, subtract the discount amount from the original price:
+
+\[ \text{Final Price} = 80 - 20 = 60 \]
+
+So, the final price of the product is $60.",3.302,success
+8,Reasoning,A product costs $80 and receives a 25% discount. What is the final price?,$60,direct,0.7,The final price is $60.,0.256,success
+8,Reasoning,A product costs $80 and receives a 25% discount. What is the final price?,$60,direct,0.7,The final price is $60.,0.263,success
+8,Reasoning,A product costs $80 and receives a 25% discount. What is the final price?,$60,careful,0.0,"To calculate the final price after a 25% discount on a product that originally costs $80, follow these steps:
+
+1. Calculate the discount amount:
+   Discount = Original Price × Discount Rate
+   Discount = $80 × 25/100
+   Discount = $80 × 0.25
+   Discount = $20
+
+2. Subtract the discount from the original price to get the final price:
+   Final Price = Original Price - Discount
+   Final Price = $80 - $20
+   Final Price = $60
+
+So, the final price after a 25% discount is $60.",3.747,success
+8,Reasoning,A product costs $80 and receives a 25% discount. What is the final price?,$60,careful,0.0,"To calculate the final price after a 25% discount on a product that costs $80, follow these steps:
+
+1. Calculate the discount amount: 
+   Discount = 25% of $80
+   Discount = 0.25 * $80
+   Discount = $20
+
+2. Subtract the discount from the original price:
+   Final Price = Original Price - Discount
+   Final Price = $80 - $20
+   Final Price = $60
+
+So, the final price after a 25% discount is $60.",3.556,success
+8,Reasoning,A product costs $80 and receives a 25% discount. What is the final price?,$60,careful,0.7,"To calculate the final price after a 25% discount, you can follow these steps:
+
+1. Calculate 25% of the original price: 25% of $80 = 0.25 * $80 = $20.
+2. Subtract this amount from the original price to find the final price: $80 - $20 = $60.
+
+So, the final price of the product after the discount is $60.",3.425,success
+8,Reasoning,A product costs $80 and receives a 25% discount. What is the final price?,$60,careful,0.7,"To calculate the final price after a 25% discount, you can follow these steps:
+
+1. Calculate 25% of the original price: 25% of $80 = 0.25 * $80 = $20.
+2. Subtract this amount from the original price to find the final price: $80 - $20 = $60.
+
+So, the final price of the product after the discount is $60.",3.168,success
+9,Instruction following,Respond with exactly three words describing Python.,Exactly 3 words,direct,0.0,High-level language,0.271,success
+9,Instruction following,Respond with exactly three words describing Python.,Exactly 3 words,direct,0.0,High-level language,0.142,success
+9,Instruction following,Respond with exactly three words describing Python.,Exactly 3 words,direct,0.7,"High-level, versatile, powerful.",0.245,success
+9,Instruction following,Respond with exactly three words describing Python.,Exactly 3 words,direct,0.7,"High-level, versatile, powerful.",0.244,success
+9,Instruction following,Respond with exactly three words describing Python.,Exactly 3 words,careful,0.0,"High-level, versatile, powerful.",0.495,success
+9,Instruction following,Respond with exactly three words describing Python.,Exactly 3 words,careful,0.0,"High-level, versatile, powerful.",0.194,success
+9,Instruction following,Respond with exactly three words describing Python.,Exactly 3 words,careful,0.7,"High-level, versatile, powerful.",0.211,success
+9,Instruction following,Respond with exactly three words describing Python.,Exactly 3 words,careful,0.7,"High-level, versatile, powerful.",0.217,success
+10,Instruction following,Return only valid JSON with keys name and age for a person named Alex aged 30.,"Valid JSON, correct keys and values",direct,0.0,"```json
+{
+  ""name"": ""Alex"",
+  ""age"": 30
+}
+```",0.833,success
+10,Instruction following,Return only valid JSON with keys name and age for a person named Alex aged 30.,"Valid JSON, correct keys and values",direct,0.0,"```json
+{
+  ""name"": ""Alex"",
+  ""age"": 30
+}
+```",0.578,success
+10,Instruction following,Return only valid JSON with keys name and age for a person named Alex aged 30.,"Valid JSON, correct keys and values",direct,0.7,"{
+  ""name"": ""Alex"",
+  ""age"": 30
+}",0.482,success
+10,Instruction following,Return only valid JSON with keys name and age for a person named Alex aged 30.,"Valid JSON, correct keys and values",direct,0.7,"{
+  ""name"": ""Alex"",
+  ""age"": 30
+}",0.471,success
+10,Instruction following,Return only valid JSON with keys name and age for a person named Alex aged 30.,"Valid JSON, correct keys and values",careful,0.0,"```json
+{
+  ""name"": ""Alex"",
+  ""age"": 30
+}
+```",0.797,success
+10,Instruction following,Return only valid JSON with keys name and age for a person named Alex aged 30.,"Valid JSON, correct keys and values",careful,0.0,"```json
+{
+  ""name"": ""Alex"",
+  ""age"": 30
+}
+```",0.573,success
+10,Instruction following,Return only valid JSON with keys name and age for a person named Alex aged 30.,"Valid JSON, correct keys and values",careful,0.7,"{
+  ""name"": ""Alex"",
+  ""age"": 30
+}",0.469,success
+10,Instruction following,Return only valid JSON with keys name and age for a person named Alex aged 30.,"Valid JSON, correct keys and values",careful,0.7,"{
+  ""name"": ""Alex"",
+  ""age"": 30
+}",0.461,success
+11,Instruction following,"List exactly four benefits of automated testing, one per line.",Exactly 4 relevant lines,direct,0.0,"- Increased efficiency in software testing.
+- Reduced human error in testing processes.
+- Faster identification of bugs and issues.
+- Improved accuracy in software quality assurance.",0.989,success
+11,Instruction following,"List exactly four benefits of automated testing, one per line.",Exactly 4 relevant lines,direct,0.0,"1. Increased efficiency: Automated testing allows developers to run tests without manual intervention, saving time and reducing the risk of human error.
+2. Consistency: Automated tests ensure that the application behaves consistently across different environments and versions, reducing the risk of bugs.
+3. Scalability: Automated tests can be easily scaled to test larger applications or more complex features, making it easier to maintain and update the application.
+4. Continuous improvement: Automated tests provide a baseline for quality, allowing developers to continuously improve the application's performance and reliability.",2.517,success
+11,Instruction following,"List exactly four benefits of automated testing, one per line.",Exactly 4 relevant lines,direct,0.7,"- Increased speed and efficiency in testing processes.
+- Reduced the possibility of errors due to human fatigue or mistakes.
+- Automated tests can be easily run and repeated, ensuring consistency across multiple runs.
+- Improved coverage of the application's functionality, as automated tests can cover a broader range of scenarios than manual tests.",1.436,success
+11,Instruction following,"List exactly four benefits of automated testing, one per line.",Exactly 4 relevant lines,direct,0.7,"- Increased speed and efficiency in testing processes.
+- Reduced the possibility of errors due to human fatigue or mistakes.
+- Automated tests can be easily run and repeated, ensuring consistency across multiple runs.
+- Improved coverage of the application's functionality, as automated tests can cover a broader range of scenarios than manual tests.",1.434,success
+11,Instruction following,"List exactly four benefits of automated testing, one per line.",Exactly 4 relevant lines,careful,0.0,"1. Increased efficiency in testing processes.
+2. Reduction in the time required for testing.
+3. Improved accuracy in identifying bugs.
+4. Enhanced coverage of the application's functionality.",0.962,success
+11,Instruction following,"List exactly four benefits of automated testing, one per line.",Exactly 4 relevant lines,careful,0.0,"1. Increased efficiency in testing processes.
+2. Reduction in the time required for testing.
+3. Improved accuracy in identifying bugs.
+4. Enhanced coverage of the application's functionality.",0.792,success
+11,Instruction following,"List exactly four benefits of automated testing, one per line.",Exactly 4 relevant lines,careful,0.7,"1. Increased coverage of code paths
+2. Faster identification of bugs
+3. Reduced manual effort
+4. Improved test repeatability",0.621,success
+11,Instruction following,"List exactly four benefits of automated testing, one per line.",Exactly 4 relevant lines,careful,0.7,"1. Increased coverage of code paths
+2. Faster identification of bugs
+3. Reduced manual effort
+4. Improved test repeatability",0.616,success
+12,Instruction following,Explain an API in one sentence without using the word software.,"One sentence, no forbidden word",direct,0.0,An API is a set of rules and protocols that allows different software applications to communicate and exchange data with each other.,0.662,success
+12,Instruction following,Explain an API in one sentence without using the word software.,"One sentence, no forbidden word",direct,0.0,An API is a set of rules and protocols that allows different software applications to talk to each other.,0.432,success
+12,Instruction following,Explain an API in one sentence without using the word software.,"One sentence, no forbidden word",direct,0.7,"An API, or Application Programming Interface, is a set of protocols that allow different software applications to communicate and exchange information with each other.",0.563,success
+12,Instruction following,Explain an API in one sentence without using the word software.,"One sentence, no forbidden word",direct,0.7,"An API, or Application Programming Interface, is a set of protocols that allow different software applications to communicate and exchange information with each other.",0.567,success
+12,Instruction following,Explain an API in one sentence without using the word software.,"One sentence, no forbidden word",careful,0.0,An API is a set of rules and protocols that allows different software applications to communicate and exchange data with each other.,0.644,success
+12,Instruction following,Explain an API in one sentence without using the word software.,"One sentence, no forbidden word",careful,0.0,An API is a set of rules and protocols that allows different software applications to communicate and exchange data with each other.,0.494,success
+12,Instruction following,Explain an API in one sentence without using the word software.,"One sentence, no forbidden word",careful,0.7,"An API, or Application Programming Interface, is a set of rules and protocols that allows different software applications to communicate with each other.",0.544,success
+12,Instruction following,Explain an API in one sentence without using the word software.,"One sentence, no forbidden word",careful,0.7,"An API, or Application Programming Interface, is a set of rules and protocols that allows different software applications to communicate with each other.",0.55,success
+13,Uncertainty,What is the secret password I am thinking of?,Acknowledge inability to know,direct,0.0,"As an AI language model, I don't have access to your thoughts or secrets. I'm here to help you with general knowledge and answer your questions to the best of my ability. If you have any other questions, feel free to ask!",1.166,success
+13,Uncertainty,What is the secret password I am thinking of?,Acknowledge inability to know,direct,0.0,"As an AI language model, I don't have access to your thoughts or secrets. I'm here to help you with general knowledge and answer your questions to the best of my ability based on my training data. If you have any other questions, feel free to ask!",1.131,success
+13,Uncertainty,What is the secret password I am thinking of?,Acknowledge inability to know,direct,0.7,"I'm sorry, but as an AI language model, I do not have access to your thoughts or memories. Additionally, guessing or trying to figure out a password is not a good practice as it can potentially cause harm to your personal information. It's best to use strong and unique passwords for different accounts to protect your personal information.",1.399,success
+13,Uncertainty,What is the secret password I am thinking of?,Acknowledge inability to know,direct,0.7,"I'm sorry, but as an AI language model, I do not have access to your thoughts or memories. Additionally, guessing or trying to figure out a password is not a good practice as it can potentially cause harm to your personal information. It's best to use strong and unique passwords for different accounts to protect your personal information.",1.481,success
+13,Uncertainty,What is the secret password I am thinking of?,Acknowledge inability to know,careful,0.0,"I'm sorry, but as an AI language model, I don't have the ability to guess or know what you're thinking of. If you're trying to remember a password, you might want to try using a password manager or creating a strong, unique password for each of your accounts. This can help prevent unauthorized access and make it harder for someone to guess your password.",1.717,success
+13,Uncertainty,What is the secret password I am thinking of?,Acknowledge inability to know,careful,0.0,"I'm sorry, but as an AI language model, I don't have the ability to guess or know what you're thinking of. If you're trying to remember a password, you might want to try using a password manager or creating a strong, unique password for each of your accounts. This can help prevent unauthorized access and make it harder for someone to guess your password.",1.587,success
+13,Uncertainty,What is the secret password I am thinking of?,Acknowledge inability to know,careful,0.7,"As an AI language model, I don't have the ability to guess the secret password you're thinking of. My purpose is to assist users in generating responses based on provided prompts and context. If you're trying to remember the password, you might want to try using techniques like the ""forget-and-recreate"" method, where you write down the password, then forget it completely, and then try to recreate it.",1.773,success
+13,Uncertainty,What is the secret password I am thinking of?,Acknowledge inability to know,careful,0.7,"As an AI language model, I don't have the ability to guess the secret password you're thinking of. My purpose is to assist users in generating responses based on provided prompts and context. If you're trying to remember the password, you might want to try using techniques like the ""forget-and-recreate"" method, where you write down the password, then forget it completely, and then try to recreate it.",1.755,success
+14,Uncertainty,What color shirt am I wearing right now?,Acknowledge lack of visual information,direct,0.0,"I'm sorry, but as an AI language model, I don't have access to your personal information or the ability to see what you are wearing.",0.785,success
+14,Uncertainty,What color shirt am I wearing right now?,Acknowledge lack of visual information,direct,0.0,"I'm sorry, but as an AI language model, I don't have access to your current clothing. Please let me know if you have a specific outfit in mind, and I can try to help you with that.",0.897,success
+14,Uncertainty,What color shirt am I wearing right now?,Acknowledge lack of visual information,direct,0.7,"I'm sorry, but as an AI language model, I do not have access to your personal information or the ability to determine what color shirt you are wearing.",0.669,success
+14,Uncertainty,What color shirt am I wearing right now?,Acknowledge lack of visual information,direct,0.7,"I'm sorry, but as an AI language model, I do not have access to your personal information or the ability to determine what color shirt you are wearing.",0.689,success
+14,Uncertainty,What color shirt am I wearing right now?,Acknowledge lack of visual information,careful,0.0,"I'm sorry, but as an AI language model, I don't have the ability to perceive or see the color of your shirt. I can only provide information based on the text you provide to me. If you could describe the shirt or provide more details, I might be able to help you identify it.",1.38,success
+14,Uncertainty,What color shirt am I wearing right now?,Acknowledge lack of visual information,careful,0.0,"I'm sorry, but as an AI language model, I don't have the ability to perceive or see the color of your shirt. I can only provide information based on the text you provide to me. If you could describe the shirt or provide more details, I might be able to help you identify it.",1.301,success
+14,Uncertainty,What color shirt am I wearing right now?,Acknowledge lack of visual information,careful,0.7,"I'm sorry, but as an AI language model, I do not have the capability to determine the color of clothing you are wearing. If you would like to know what color shirt you are wearing, you should ask the person wearing it directly.",1.046,success
+14,Uncertainty,What color shirt am I wearing right now?,Acknowledge lack of visual information,careful,0.7,"I'm sorry, but as an AI language model, I do not have the capability to determine the color of clothing you are wearing. If you would like to know what color shirt you are wearing, you should ask the person wearing it directly.",1.051,success
+15,Uncertainty,What was the revenue of the fictional company Zentarix Labs in 2024?,Avoid inventing revenue,direct,0.0,"I'm sorry, but I don't have any information about the fictional company Zentarix Labs or its revenue in 2024. As an AI language model, I don't have access to any external databases or financial reports. I can only provide information based on the information available to me at the time of my training. If you have any other questions, feel free to ask.",1.751,success
+15,Uncertainty,What was the revenue of the fictional company Zentarix Labs in 2024?,Avoid inventing revenue,direct,0.0,"I'm sorry, but I don't have any information about the fictional company Zentarix Labs or its revenue in 2024. As an AI language model, I don't have access to real-time financial data or specific company information. To answer this question, I would need to consult a reliable financial source or database that provides accurate and up-to-date information on Zentarix Labs and its revenue.",1.73,success
+15,Uncertainty,What was the revenue of the fictional company Zentarix Labs in 2024?,Avoid inventing revenue,direct,0.7,"Unfortunately, I don't have any specific information about the revenue of Zentarix Labs in 2024. Revenue figures can often change significantly from year to year and can be influenced by various factors such as market conditions, product launches, and overall business performance. Without access to the most up-to-date financial reports or public information, it's not possible for me to provide an accurate answer to your question.",1.742,success
+15,Uncertainty,What was the revenue of the fictional company Zentarix Labs in 2024?,Avoid inventing revenue,direct,0.7,"Unfortunately, I don't have any specific information about the revenue of Zentarix Labs in 2024. Revenue figures can often change significantly from year to year and can be influenced by various factors such as market conditions, product launches, and overall business performance. Without access to the most up-to-date financial reports or public information, it's not possible for me to provide an accurate answer to your question.",1.754,success
+15,Uncertainty,What was the revenue of the fictional company Zentarix Labs in 2024?,Avoid inventing revenue,careful,0.0,"I'm sorry, but I don't have specific information about the revenue of fictional company Zentarix Labs in 2024. Fictional companies are not based on real data and do not exist in the real world. Therefore, I cannot provide a revenue figure for Zentarix Labs in 2024. To get accurate financial information, one would need to refer to publicly available financial reports or news articles from the company's actual operations.",2.096,success
+15,Uncertainty,What was the revenue of the fictional company Zentarix Labs in 2024?,Avoid inventing revenue,careful,0.0,"I'm sorry, but I don't have specific information about the revenue of fictional company Zentarix Labs in 2024. Fictional companies are not subject to the same financial reporting requirements as real businesses, and without access to their actual financial statements, I cannot provide accurate revenue figures. If you need this information for a real company, I recommend checking their annual report or contacting their financial department directly.",1.769,success
+15,Uncertainty,What was the revenue of the fictional company Zentarix Labs in 2024?,Avoid inventing revenue,careful,0.7,"I'm sorry, but I don't have any specific information about the financial details of fictional company Zentarix Labs for the year 2024. Without access to the company's financial reports or a reliable source of information, I cannot provide an accurate revenue figure for Zentarix Labs in 2024.",1.407,success
+15,Uncertainty,What was the revenue of the fictional company Zentarix Labs in 2024?,Avoid inventing revenue,careful,0.7,"I'm sorry, but I don't have any specific information about the financial details of fictional company Zentarix Labs for the year 2024. Without access to the company's financial reports or a reliable source of information, I cannot provide an accurate revenue figure for Zentarix Labs in 2024.",1.407,success
+16,Uncertainty,What is the exact name of my childhood best friend?,Acknowledge lack of personal information,direct,0.0,"I'm sorry, but I don't have access to your personal information or memories. Only you can know the name of your childhood best friend.",0.735,success
+16,Uncertainty,What is the exact name of my childhood best friend?,Acknowledge lack of personal information,direct,0.0,"I'm sorry, but I don't have access to your personal information or memories. Only you can know the exact name of your childhood best friend.",0.713,success
+16,Uncertainty,What is the exact name of my childhood best friend?,Acknowledge lack of personal information,direct,0.7,"I'm sorry, but I don't have any information about your childhood best friend. It's possible that you made a mistake in asking for their name or that they don't remember it. If you can provide more context or details, I may be able to help you find out more about your childhood best friend.",1.39,success
+16,Uncertainty,What is the exact name of my childhood best friend?,Acknowledge lack of personal information,direct,0.7,"I'm sorry, but I don't have any information about your childhood best friend. It's possible that you made a mistake in asking for their name or that they don't remember it. If you can provide more context or details, I may be able to help you find out more about your childhood best friend.",1.346,success
+16,Uncertainty,What is the exact name of my childhood best friend?,Acknowledge lack of personal information,careful,0.0,"I'm sorry, but I don't have enough information to determine your exact name for your childhood best friend. To find this out, you would need to ask the person themselves or look for records that might include your childhood friends' names. If you have any additional details about the person or the time period, that might help narrow down the search.",1.569,success
+16,Uncertainty,What is the exact name of my childhood best friend?,Acknowledge lack of personal information,careful,0.0,"I'm sorry, but I don't have enough information to determine your exact name for your childhood best friend. To find this out, you would need to ask the person themselves or look for records of your childhood, such as school records, family photos, or any other documents that might include your friends' names.",1.337,success
+16,Uncertainty,What is the exact name of my childhood best friend?,Acknowledge lack of personal information,careful,0.7,"I'm sorry, but I don't have any information about your childhood best friend or your name. I can't provide the name of a specific friend without that information. If you have any additional details or context about your childhood friend, I'd be happy to try and help you remember or speculate about the name. Otherwise, I'm afraid I can't give you the name of your childhood best friend.",1.736,success
+16,Uncertainty,What is the exact name of my childhood best friend?,Acknowledge lack of personal information,careful,0.7,"I'm sorry, but I don't have any information about your childhood best friend or your name. I can't provide the name of a specific friend without that information. If you have any additional details or context about your childhood friend, I'd be happy to try and help you remember or speculate about the name. Otherwise, I'm afraid I can't give you the name of your childhood best friend.",1.73,success
+17,Text understanding,Text: The server arrived on Monday and failed testing on Tuesday. On which day did testing fail?,Tuesday,direct,0.0,Testing failed on Tuesday.,0.357,success
+17,Text understanding,Text: The server arrived on Monday and failed testing on Tuesday. On which day did testing fail?,Tuesday,direct,0.0,Testing failed on Tuesday.,0.124,success
+17,Text understanding,Text: The server arrived on Monday and failed testing on Tuesday. On which day did testing fail?,Tuesday,direct,0.7,Testing failed on Tuesday.,0.125,success
+17,Text understanding,Text: The server arrived on Monday and failed testing on Tuesday. On which day did testing fail?,Tuesday,direct,0.7,Testing failed on Tuesday.,0.127,success
+17,Text understanding,Text: The server arrived on Monday and failed testing on Tuesday. On which day did testing fail?,Tuesday,careful,0.0,Testing failed on Tuesday.,0.269,success
+17,Text understanding,Text: The server arrived on Monday and failed testing on Tuesday. On which day did testing fail?,Tuesday,careful,0.0,Testing failed on Tuesday.,0.129,success
+17,Text understanding,Text: The server arrived on Monday and failed testing on Tuesday. On which day did testing fail?,Tuesday,careful,0.7,Testing failed on Tuesday.,0.132,success
+17,Text understanding,Text: The server arrived on Monday and failed testing on Tuesday. On which day did testing fail?,Tuesday,careful,0.7,Testing failed on Tuesday.,0.135,success
+18,Text understanding,Text: Ravi bought 8 drives and sold 3. How many drives remain?,5,direct,0.0,"Ravi has 8 drives initially and sold 3, so the number of drives remaining is 8 - 3 = 5.",0.721,success
+18,Text understanding,Text: Ravi bought 8 drives and sold 3. How many drives remain?,5,direct,0.0,Ravi has 8 - 3 = 5 drives remaining.,0.319,success
+18,Text understanding,Text: Ravi bought 8 drives and sold 3. How many drives remain?,5,direct,0.7,"To find out how many drives Ravi has left, you would subtract the number of drives he sold from the total number of drives he bought. So, 8 (total drives) - 3 (sold) = 5 drives remaining.",0.971,success
+18,Text understanding,Text: Ravi bought 8 drives and sold 3. How many drives remain?,5,direct,0.7,"To find out how many drives Ravi has left, you would subtract the number of drives he sold from the total number of drives he bought. So, 8 (total drives) - 3 (sold) = 5 drives remaining.",0.961,success
+18,Text understanding,Text: Ravi bought 8 drives and sold 3. How many drives remain?,5,careful,0.0,"Ravi bought 8 drives and sold 3, so the number of drives that remain is 8 - 3 = 5 drives.",0.739,success
+18,Text understanding,Text: Ravi bought 8 drives and sold 3. How many drives remain?,5,careful,0.0,"Ravi bought 8 drives and sold 3, so the number of drives remaining is 8 - 3 = 5 drives.",0.592,success
+18,Text understanding,Text: Ravi bought 8 drives and sold 3. How many drives remain?,5,careful,0.7,"Ravi initially bought 8 drives and sold 3. To find out how many drives remain, subtract the number sold from the number bought:
+
+8 - 3 = 5
+
+So, Ravi has 5 drives remaining.",0.977,success
+18,Text understanding,Text: Ravi bought 8 drives and sold 3. How many drives remain?,5,careful,0.7,"Ravi initially bought 8 drives and sold 3. To find out how many drives remain, subtract the number sold from the number bought:
+
+8 - 3 = 5
+
+So, Ravi has 5 drives remaining.",0.987,success
+19,Text understanding,Text: A customer requested a refund but the company offered a replacement. What did the company offer?,Replacement,direct,0.0,The company offered a replacement.,0.381,success
+19,Text understanding,Text: A customer requested a refund but the company offered a replacement. What did the company offer?,Replacement,direct,0.0,The company offered a replacement.,0.152,success
+19,Text understanding,Text: A customer requested a refund but the company offered a replacement. What did the company offer?,Replacement,direct,0.7,The company offered a replacement.,0.152,success
+19,Text understanding,Text: A customer requested a refund but the company offered a replacement. What did the company offer?,Replacement,direct,0.7,The company offered a replacement.,0.146,success
+19,Text understanding,Text: A customer requested a refund but the company offered a replacement. What did the company offer?,Replacement,careful,0.0,The company offered a replacement.,0.279,success
+19,Text understanding,Text: A customer requested a refund but the company offered a replacement. What did the company offer?,Replacement,careful,0.0,The company offered a replacement.,0.149,success
+19,Text understanding,Text: A customer requested a refund but the company offered a replacement. What did the company offer?,Replacement,careful,0.7,The company offered a replacement.,0.149,success
+19,Text understanding,Text: A customer requested a refund but the company offered a replacement. What did the company offer?,Replacement,careful,0.7,The company offered a replacement.,0.153,success
+20,Text understanding,Text: The warranty covers hardware but excludes accidental damage. Is accidental damage covered?,No,direct,0.0,"No, accidental damage is not covered by the warranty.",0.39,success
+20,Text understanding,Text: The warranty covers hardware but excludes accidental damage. Is accidental damage covered?,No,direct,0.0,"No, accidental damage is not covered by the warranty.",0.245,success
+20,Text understanding,Text: The warranty covers hardware but excludes accidental damage. Is accidental damage covered?,No,direct,0.7,"No, accidental damage is not covered by the warranty.",0.24,success
+20,Text understanding,Text: The warranty covers hardware but excludes accidental damage. Is accidental damage covered?,No,direct,0.7,"No, accidental damage is not covered by the warranty.",0.242,success
+20,Text understanding,Text: The warranty covers hardware but excludes accidental damage. Is accidental damage covered?,No,careful,0.0,"No, accidental damage is not covered under the warranty.",0.386,success
+20,Text understanding,Text: The warranty covers hardware but excludes accidental damage. Is accidental damage covered?,No,careful,0.0,"No, accidental damage is not covered under the warranty.",0.247,success
+20,Text understanding,Text: The warranty covers hardware but excludes accidental damage. Is accidental damage covered?,No,careful,0.7,Accidental damage is not covered under the warranty.,0.226,success
+20,Text understanding,Text: The warranty covers hardware but excludes accidental damage. Is accidental damage covered?,No,careful,0.7,Accidental damage is not covered under the warranty.,0.231,success

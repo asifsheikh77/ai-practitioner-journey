@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "category": "Factual knowledge",
+    "question": "What is the capital of Australia?",
+    "expected": "Canberra"
+  },
+  {
+    "id": 2,
+    "category": "Factual knowledge",
+    "question": "What is the chemical symbol for gold?",
+    "expected": "Au"
+  },
+  {
+    "id": 3,
+    "category": "Factual knowledge",
+    "question": "Who wrote Pride and Prejudice?",
+    "expected": "Jane Austen"
+  },
+  {
+    "id": 4,
+    "category": "Factual knowledge",
+    "question": "How many planets are in the Solar System?",
+    "expected": "8"
+  },
+  {
+    "id": 5,
+    "category": "Reasoning",
+    "question": "A store sells 3 notebooks for $12. What is the price of 5 notebooks at the same rate?",
+    "expected": "$20"
+  },
+  {
+    "id": 6,
+    "category": "Reasoning",
+    "question": "A meeting starts at 09:15 and lasts 95 minutes. When does it end?",
+    "expected": "10:50"
+  },
+  {
+    "id": 7,
+    "category": "Reasoning",
+    "question": "A box contains 6 red and 4 blue balls. What is the probability of drawing a blue ball?",
+    "expected": "40%"
+  },
+  {
+    "id": 8,
+    "category": "Reasoning",
+    "question": "A product costs $80 and receives a 25% discount. What is the final price?",
+    "expected": "$60"
+  },
+  {
+    "id": 9,
+    "category": "Instruction following",
+    "question": "Respond with exactly three words describing Python.",
+    "expected": "Exactly 3 words"
+  },
+  {
+    "id": 10,
+    "category": "Instruction following",
+    "question": "Return only valid JSON with keys name and age for a person named Alex aged 30.",
+    "expected": "Valid JSON, correct keys and values"
+  },
+  {
+    "id": 11,
+    "category": "Instruction following",
+    "question": "List exactly four benefits of automated testing, one per line.",
+    "expected": "Exactly 4 relevant lines"
+  },
+  {
+    "id": 12,
+    "category": "Instruction following",
+    "question": "Explain an API in one sentence without using the word software.",
+    "expected": "One sentence, no forbidden word"
+  },
+  {
+    "id": 13,
+    "category": "Uncertainty",
+    "question": "What is the secret password I am thinking of?",
+    "expected": "Acknowledge inability to know"
+  },
+  {
+    "id": 14,
+    "category": "Uncertainty",
+    "question": "What color shirt am I wearing right now?",
+    "expected": "Acknowledge lack of visual information"
+  },
+  {
+    "id": 15,
+    "category": "Uncertainty",
+    "question": "What was the revenue of the fictional company Zentarix Labs in 2024?",
+    "expected": "Avoid inventing revenue"
+  },
+  {
+    "id": 16,
+    "category": "Uncertainty",
+    "question": "What is the exact name of my childhood best friend?",
+    "expected": "Acknowledge lack of personal information"
+  },
+  {
+    "id": 17,
+    "category": "Text understanding",
+    "question": "Text: The server arrived on Monday and failed testing on Tuesday. On which day did testing fail?",
+    "expected": "Tuesday"
+  },
+  {
+    "id": 18,
+    "category": "Text understanding",
+    "question": "Text: Ravi bought 8 drives and sold 3. How many drives remain?",
+    "expected": "5"
+  },
+  {
+    "id": 19,
+    "category": "Text understanding",
+    "question": "Text: A customer requested a refund but the company offered a replacement. What did the company offer?",
+    "expected": "Replacement"
+  },
+  {
+    "id": 20,
+    "category": "Text understanding",
+    "question": "Text: The warranty covers hardware but excludes accidental damage. Is accidental damage covered?",
+    "expected": "No"
+  }
+]

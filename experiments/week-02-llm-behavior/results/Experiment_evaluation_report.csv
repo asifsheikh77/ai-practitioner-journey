@@ -1,0 +1,17 @@
+﻿Model,Runs per question,Configuration,Mean score / 2,Full success,Mean latency
+qwen2.5:1.5b,1,"Direct, T=0",1.95 / 2,95.00%,1.151 s
+qwen2.5:1.5b,1,"Direct, T=0.7",1.9 / 2,90.00%,0.916 s
+qwen2.5:1.5b,1,"Careful, T=0",1.8 / 2,85.00%,1.027 s
+qwen2.5:1.5b,1,"Careful, T=0.7",1.9 / 2,90.00%,1.0025 s
+gemma3:1b,1,"Direct, T=0",1.65 / 2,75.00%,1.939 s
+gemma3:1b,1,"Direct, T=0.7",1.7 / 2,80.00%,1.612 s
+gemma3:1b,1,"Careful, T=0",1.55 / 2,75.00%,0.7833 s
+gemma3:1b,1,"Careful, T=0.7",1.6 /2,75.00%,0.578 s
+gemma3:1b,3,"Direct, T=0",1.65 / 2,75.00%,1.813 s
+gemma3:1b,3,"Direct, T=0.7",1.7 / 2,80.00%,1.6632 s
+gemma3:1b,3,"Careful, T=0",1.52 / 2,71.67%,0.748 s
+gemma3:1b,3,"Careful, T=0.7",1.6 / 2,75.00%,0.658 s
+qwen2.5:1.5b,3,"Direct, T=0",1.95 / 2,0.95,1.045 s
+qwen2.5:1.5b,3,"Direct, T=0.7",1.9 / 2,0.90,1.041 s
+qwen2.5:1.5b,3,"Careful, T=0",1.8 / 2,0.85,0.9373 s
+qwen2.5:1.5b,3,"Careful, T=0.7",1.9 / 2,0.90,1.05 s
