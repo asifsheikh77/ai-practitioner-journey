@@ -88,11 +88,18 @@ def chunk_text(
 
         # Retain context from the previous chunk.
         # The overlap is approximate and may start mid-word.
-        previous_tail = (
-            current[-overlap_chars:].strip()
-            if overlap_chars and current
-            else ""
-        )
+        previous_tail = ""
+
+        if overlap_chars and current:
+            start = max(0, len(current) - overlap_chars)
+
+            # Move forward to the next word boundary.
+            if start > 0 and not current[start - 1].isspace():
+                next_space = current.find(" ", start)
+                if next_space != -1:
+                    start = next_space + 1
+
+            previous_tail = current[start:].strip()
 
         candidate = (
             f"{previous_tail}\n\n{unit}"
