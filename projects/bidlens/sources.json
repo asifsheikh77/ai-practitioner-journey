@@ -1,0 +1,15 @@
+
+{
+  "documents": [
+    {
+      "document_id": "usao_it_managed_services",
+      "title": "USAO Co-Managed IT Services RFP",
+      "issuer": "University of Science and Arts of Oklahoma",
+      "source_url": "https://usao.edu/about/images-docs/documents/rfp-co-managed-it.pdf",
+      "local_path": "data/raw/usao_it_managed_services.pdf",
+      "document_type": "RFP",
+      "status": "selected",
+      "reuse_review": "pending"
+    }
+  ]
+}
