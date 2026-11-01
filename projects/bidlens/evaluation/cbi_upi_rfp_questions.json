@@ -1,0 +1,325 @@
+[
+  {
+    "id": "Q001",
+    "document_id": "cbi_upi_rfp",
+    "category": "eligibility",
+    "question": "What minimum annual turnover must a bidder demonstrate?",
+    "answerability": "answerable",
+    "relevant_chunk_ids": ["cbi_upi_rfp:p0012:c001"],
+    "source_pages_to_review": [
+      12
+    ],
+    "expected_answer_notes": "INR 20 crore per annum in each of FY 2021-22, 2022-23, 2023-24, for the individual company.",
+    "label_status": "verified"
+  },
+  {
+    "id": "Q002",
+    "document_id": "cbi_upi_rfp",
+    "category": "eligibility",
+    "question": "What prior UPI implementation experience must the bidder demonstrate?",
+    "answerability": "answerable",
+    "relevant_chunk_ids": ["cbi_upi_rfp:p0012:c002"],
+    "source_pages_to_review": [
+      12,
+      14
+    ],
+    "expected_answer_notes": "Proposed UPI solution running at two SCBs; one averaging at least 1 crore daily financial and nonfinancial transactions from Oct 2023 to Sep 2024. SCB exclusions are clarified on page 14.",
+    "label_status": "verified"
+  },
+  {
+    "id": "Q003",
+    "document_id": "cbi_upi_rfp",
+    "category": "eligibility",
+    "question": "What operating profitability and net-worth criteria must the bidder meet?",
+    "answerability": "answerable",
+    "relevant_chunk_ids": ["cbi_upi_rfp:p0012:c002"],
+    "source_pages_to_review": [
+      12
+    ],
+    "expected_answer_notes": "Operating profit in at least two of the last three stated FYs; positive net worth in all three.",
+    "label_status": "verified"
+  },
+  {
+    "id": "Q004",
+    "document_id": "cbi_upi_rfp",
+    "category": "bid_security",
+    "question": "What is the required earnest money deposit, and which bidders may qualify for an exemption?",
+    "answerability": "answerable",
+    "relevant_chunk_ids": ["cbi_upi_rfp:p0010:c002",
+                            "cbi_upi_rfp:p0011:c002",
+                            "cbi_upi_rfp:p0014:c002"],
+    "source_pages_to_review": [
+      10,
+      11,
+      14
+    ],
+    "expected_answer_notes": "EMD INR 1.5 crore; eligible micro and small enterprises may obtain exemption on valid MSME certificate.",
+    "label_status": "verified"
+  },
+  {
+    "id": "Q005",
+    "document_id": "cbi_upi_rfp",
+    "category": "evaluation",
+    "question": "How are technical bids evaluated, and what minimum technical score is required to qualify?",
+    "answerability": "answerable",
+    "relevant_chunk_ids": ["cbi_upi_rfp:p0048:c001",
+                            "cbi_upi_rfp:p0048:c002",
+                            "cbi_upi_rfp:p0048:c003"],
+    "source_pages_to_review": [
+      48,
+      49,
+      50,
+      51
+    ],
+    "expected_answer_notes": "Technical evaluation criteria and qualifying threshold; verify exact scoring in pages 48-51.",
+    "label_status": "verified"
+  },
+  {
+    "id": "Q006",
+    "document_id": "cbi_upi_rfp",
+    "category": "infrastructure",
+    "question": "What infrastructure and deployment responsibilities does the bidder have for the UPI solution?",
+    "answerability": "answerable",
+    "relevant_chunk_ids": ["cbi_upi_rfp:p0019:c002"],
+    "source_pages_to_review": [
+      19,
+      20,
+      21,
+      22,
+      145,
+      146
+    ],
+    "expected_answer_notes": "Infrastructure requirements in scope section and Annexure 30; enumerate from evidence.",
+    "label_status": "verified"
+  },
+  {
+    "id": "Q007",
+    "document_id": "cbi_upi_rfp",
+    "category": "migration",
+    "question": "What migration responsibilities does the selected bidder have for the existing UPI switch?",
+    "answerability": "answerable",
+    "relevant_chunk_ids": ["cbi_upi_rfp:p0022:c003",
+                            "cbi_upi_rfp:p0022:c004",
+                            "cbi_upi_rfp:p0022:c005",
+                            "cbi_upi_rfp:p0023:c001",
+                            "cbi_upi_rfp:p0023:c002",
+                            "cbi_upi_rfp:p0023:c003",
+                            "cbi_upi_rfp:p0024:c001"],
+    "source_pages_to_review": [
+      22,
+      23,
+      24
+    ],
+    "expected_answer_notes": "Migration of data from existing UPI switch; enumerate stated deliverables and responsibilities.",
+    "label_status": "verified"
+  },
+  {
+    "id": "Q008",
+    "document_id": "cbi_upi_rfp",
+    "category": "disaster_recovery",
+    "question": "What disaster recovery mechanism and continuity capabilities must the UPI solution provide?",
+    "answerability": "answerable",
+    "relevant_chunk_ids": ["cbi_upi_rfp:p0031:c004"],
+    "source_pages_to_review": [
+      31
+    ],
+    "expected_answer_notes": "Section 7.11 Disaster Recovery Mechanism; use exact conditions.",
+    "label_status": "verified"
+  },
+  {
+    "id": "Q009",
+    "document_id": "cbi_upi_rfp",
+    "category": "sizing",
+    "question": "What infrastructure sizing information must bidders provide or justify?",
+    "answerability": "answerable",
+    "relevant_chunk_ids": ["cbi_upi_rfp:p0145:c001",
+                            "cbi_upi_rfp:p0146:c001",
+                            "cbi_upi_rfp:p0146:c002"],
+    "source_pages_to_review": [
+      145,
+      146
+    ],
+    "expected_answer_notes": "Annexure 30 infrastructure sizing requirements; cite individual sizing criteria.",
+    "label_status": "verified"
+  },
+  {
+    "id": "Q010",
+    "document_id": "cbi_upi_rfp",
+    "category": "functional",
+    "question": "What UPI transaction and application capabilities are required of the proposed solution?",
+    "answerability": "answerable",
+    "relevant_chunk_ids": ["cbi_upi_rfp:p0115:c001",
+                            "cbi_upi_rfp:p0115:c002",
+                            "cbi_upi_rfp:p0116:c001",
+                            "cbi_upi_rfp:p0116:c002",
+                            "cbi_upi_rfp:p0117:c001"],
+    "source_pages_to_review": [
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      115,
+      116,
+      117
+    ],
+    "expected_answer_notes": "Section 7.12 and Annexure 13-B functional requirements; give supported examples.",
+    "label_status": "verified"
+  },
+  {
+    "id": "Q011",
+    "document_id": "cbi_upi_rfp",
+    "category": "reconciliation",
+    "question": "What reconciliation and settlement capabilities must the UPI solution support?",
+    "answerability": "answerable",
+    "relevant_chunk_ids": ["cbi_upi_rfp:p0037:c003",
+                            "cbi_upi_rfp:p0038:c001"],
+    "source_pages_to_review": [
+      37,
+      38
+    ],
+    "expected_answer_notes": "Section 7.13 Reconciliation and Settlement.",
+    "label_status": "verified"
+  },
+  {
+    "id": "Q012",
+    "document_id": "cbi_upi_rfp",
+    "category": "reporting",
+    "question": "What management information and reporting capabilities are required?",
+    "answerability": "answerable",
+    "relevant_chunk_ids": ["cbi_upi_rfp:p0038:c002",
+                            "cbi_upi_rfp:p0038:c003"],
+    "source_pages_to_review": [
+      38
+    ],
+    "expected_answer_notes": "Section 7.14 Management Information System.",
+    "label_status": "verified"
+  },
+  {
+    "id": "Q013",
+    "document_id": "cbi_upi_rfp",
+    "category": "testing_training",
+    "question": "What are the bidder’s obligations for user acceptance testing and knowledge transfer?",
+    "answerability": "answerable",
+    "relevant_chunk_ids": ["cbi_upi_rfp:p0038:c003",
+                            "cbi_upi_rfp:p0039:c001",
+                            "cbi_upi_rfp:p0039:c002",
+                            "cbi_upi_rfp:p0039:c003",
+                            "cbi_upi_rfp:p0039:c004",
+                            "cbi_upi_rfp:p0040:c003",
+                            "cbi_upi_rfp:p0040:c004",
+                            "cbi_upi_rfp:p0041:c001",
+                            "cbi_upi_rfp:p0041:c002",
+                            "cbi_upi_rfp:p0041:c003"],
+    "source_pages_to_review": [
+      38,
+      39,
+      40,
+      41,
+      42
+    ],
+    "expected_answer_notes": "Sections 7.15 and 7.17 UAT and mandatory training/knowledge transfer.",
+    "label_status": "verified"
+  },
+  {
+    "id": "Q014",
+    "document_id": "cbi_upi_rfp",
+    "category": "sla",
+    "question": "What service availability and support SLA obligations apply to the UPI switch?",
+    "answerability": "answerable",
+    "relevant_chunk_ids": ["cbi_upi_rfp:p0055:c002",
+                            "cbi_upi_rfp:p0055:c003",
+                            "cbi_upi_rfp:p0056:c001",
+                            "cbi_upi_rfp:p0056:c002",
+                            "cbi_upi_rfp:p0056:c003"],
+    "source_pages_to_review": [
+      55,
+      56,
+      57,
+      58
+    ],
+    "expected_answer_notes": "Section 18 SLA for UPI switch and onsite support; extract exact thresholds and penalties.",
+    "label_status": "verified"
+  },
+  {
+    "id": "Q015",
+    "document_id": "cbi_upi_rfp",
+    "category": "security",
+    "question": "What information security and privacy safeguards must the bidder comply with?",
+    "answerability": "answerable",
+    "relevant_chunk_ids": ["cbi_upi_rfp:p0067:c001",
+                            "cbi_upi_rfp:p0071:c001",
+                            "cbi_upi_rfp:p0071:c002",
+                            "cbi_upi_rfp:p0071:c003"],
+    "source_pages_to_review": [
+      67,
+      68,
+      71,
+      144,
+      147
+    ],
+    "expected_answer_notes": "Sections 32 and 35 and Annexures 29 and 31.",
+    "label_status": "verified"
+  },
+  {
+    "id": "Q016",
+    "document_id": "cbi_upi_rfp",
+    "category": "contract",
+    "question": "What is the contract period, and what extension provisions apply?",
+    "answerability": "answerable",
+    "relevant_chunk_ids": ["cbi_upi_rfp:p0058:c003",
+                            "cbi_upi_rfp:p0139:c001"],
+    "source_pages_to_review": [
+      58,
+      139
+    ],
+    "expected_answer_notes": "Section 19 Contract Period and Annexure 24 seven-year roadmap; verify extension conditions.",
+    "label_status": "verified"
+  },
+  {
+    "id": "Q017",
+    "document_id": "cbi_upi_rfp",
+    "category": "unanswerable",
+    "question": "Which cloud provider—AWS, Azure, or Google Cloud—was ultimately selected for the production deployment?",
+    "answerability": "unanswerable",
+    "relevant_chunk_ids": [],
+    "source_pages_to_review": [],
+    "expected_answer_notes": null,
+    "label_status": "absence_not_audited"
+  },
+  {
+    "id": "Q018",
+    "document_id": "cbi_upi_rfp",
+    "category": "unanswerable",
+    "question": "What was the exact final contract price paid to the winning bidder?",
+    "answerability": "unanswerable",
+    "relevant_chunk_ids": [],
+    "source_pages_to_review": [],
+    "expected_answer_notes": null,
+    "label_status": "absence_not_audited"
+  },
+  {
+    "id": "Q019",
+    "document_id": "cbi_upi_rfp",
+    "category": "unanswerable",
+    "question": "Which company ultimately won this tender?",
+    "answerability": "unanswerable",
+    "relevant_chunk_ids": [],
+    "source_pages_to_review": [],
+    "expected_answer_notes": null,
+    "label_status": "absence_not_audited"
+  },
+  {
+    "id": "Q020",
+    "document_id": "cbi_upi_rfp",
+    "category": "unanswerable",
+    "question": "What uptime percentage did the deployed UPI system actually achieve during its first year in production?",
+    "answerability": "unanswerable",
+    "relevant_chunk_ids": [],
+    "source_pages_to_review": [],
+    "expected_answer_notes": null,
+    "label_status": "absence_not_audited"
+  }
+]
