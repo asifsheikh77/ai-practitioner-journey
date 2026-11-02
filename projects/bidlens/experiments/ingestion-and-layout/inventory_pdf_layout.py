@@ -1,6 +1,6 @@
 """Read-only layout/table inventory for BidLens PDFs (PyMuPDF).
 
-Usage: python scripts/inventory_pdf_layout.py --pdf data/raw/cbi_upi_rfp.pdf
+Usage: python experiments/ingestion-and-layout/inventory_pdf_layout.py --pdf data/raw/cbi_upi_rfp.pdf
 """
 from __future__ import annotations
 

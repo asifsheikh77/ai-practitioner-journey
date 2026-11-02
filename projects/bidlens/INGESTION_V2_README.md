@@ -5,7 +5,8 @@ This package is the **user's supplied BidLens project** with new V2 ingestion sc
 ## Run (PowerShell, from BidLens root)
 
 ```powershell
-python -m pip install "pymupdf>=1.23" pytest
+python -m pip install -r requirements.txt
+python -m pip install -e .
 python scripts/ingest_rfp_v2.py `
   --pdf data/raw/cbi_upi_rfp.pdf `
   --output data/processed/cbi_upi_rfp_v2.jsonl `
@@ -13,7 +14,7 @@ python scripts/ingest_rfp_v2.py `
 python -m pytest tests/test_ingestion_v2_pipeline.py -q
 ```
 
-The original PDF is **not bundled** in this ZIP. Place your `cbi_upi_rfp.pdf` at `data/raw/cbi_upi_rfp.pdf` (or change `--pdf`). The pre-generated V2 dataset and quality report **are bundled**.
+The original PDF and processed datasets are **not tracked in this repository**. Place your `cbi_upi_rfp.pdf` at `data/raw/cbi_upi_rfp.pdf` (or change `--pdf`). Generate the V2 dataset locally or supply an existing local copy. The historical quality report is tracked at `evaluation/results/ingestion_v2_report.json`; use a separate report destination when reproducing the pipeline to preserve that result.
 
 ## Integrated pipeline
 
