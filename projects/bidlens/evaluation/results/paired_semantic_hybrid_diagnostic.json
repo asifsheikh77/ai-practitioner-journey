@@ -1,0 +1,150 @@
+{
+  "warning": "PROVISIONAL mapped-support hit rates; NOT certified Recall@k or MRR.",
+  "model": "sentence-transformers/all-MiniLM-L6-v2",
+  "methods": {
+    "semantic": {
+      "v1": {
+        "metrics": {
+          "top_5": {
+            "facet_hit_rate": 0.40476190476190477,
+            "complete_question_rate": 0.1875
+          },
+          "top_10": {
+            "facet_hit_rate": 0.5,
+            "complete_question_rate": 0.25
+          },
+          "top_20": {
+            "facet_hit_rate": 0.6428571428571429,
+            "complete_question_rate": 0.5
+          },
+          "top_50": {
+            "facet_hit_rate": 0.7380952380952381,
+            "complete_question_rate": 0.5
+          },
+          "tokens_1000": {
+            "facet_hit_rate": 0.42857142857142855,
+            "complete_question_rate": 0.1875
+          },
+          "tokens_2000": {
+            "facet_hit_rate": 0.5952380952380952,
+            "complete_question_rate": 0.4375
+          },
+          "tokens_4000": {
+            "facet_hit_rate": 0.6666666666666666,
+            "complete_question_rate": 0.5
+          }
+        },
+        "elapsed_seconds": 10.46
+      },
+      "v2": {
+        "metrics": {
+          "top_5": {
+            "facet_hit_rate": 0.47619047619047616,
+            "complete_question_rate": 0.3125
+          },
+          "top_10": {
+            "facet_hit_rate": 0.5952380952380952,
+            "complete_question_rate": 0.4375
+          },
+          "top_20": {
+            "facet_hit_rate": 0.6428571428571429,
+            "complete_question_rate": 0.4375
+          },
+          "top_50": {
+            "facet_hit_rate": 0.7142857142857143,
+            "complete_question_rate": 0.4375
+          },
+          "tokens_1000": {
+            "facet_hit_rate": 0.6428571428571429,
+            "complete_question_rate": 0.4375
+          },
+          "tokens_2000": {
+            "facet_hit_rate": 0.6428571428571429,
+            "complete_question_rate": 0.4375
+          },
+          "tokens_4000": {
+            "facet_hit_rate": 0.6904761904761905,
+            "complete_question_rate": 0.4375
+          }
+        },
+        "elapsed_seconds": 10.95
+      }
+    },
+    "hybrid": {
+      "v1": {
+        "metrics": {
+          "top_5": {
+            "facet_hit_rate": 0.5476190476190477,
+            "complete_question_rate": 0.3125
+          },
+          "top_10": {
+            "facet_hit_rate": 0.6428571428571429,
+            "complete_question_rate": 0.4375
+          },
+          "top_20": {
+            "facet_hit_rate": 0.7619047619047619,
+            "complete_question_rate": 0.625
+          },
+          "top_50": {
+            "facet_hit_rate": 0.8333333333333334,
+            "complete_question_rate": 0.6875
+          },
+          "tokens_1000": {
+            "facet_hit_rate": 0.5714285714285714,
+            "complete_question_rate": 0.375
+          },
+          "tokens_2000": {
+            "facet_hit_rate": 0.6904761904761905,
+            "complete_question_rate": 0.5
+          },
+          "tokens_4000": {
+            "facet_hit_rate": 0.7619047619047619,
+            "complete_question_rate": 0.625
+          }
+        },
+        "elapsed_seconds": 0.12
+      },
+      "v2": {
+        "metrics": {
+          "top_5": {
+            "facet_hit_rate": 0.4523809523809524,
+            "complete_question_rate": 0.3125
+          },
+          "top_10": {
+            "facet_hit_rate": 0.6428571428571429,
+            "complete_question_rate": 0.375
+          },
+          "top_20": {
+            "facet_hit_rate": 0.6904761904761905,
+            "complete_question_rate": 0.5
+          },
+          "top_50": {
+            "facet_hit_rate": 0.8095238095238095,
+            "complete_question_rate": 0.625
+          },
+          "tokens_1000": {
+            "facet_hit_rate": 0.6666666666666666,
+            "complete_question_rate": 0.4375
+          },
+          "tokens_2000": {
+            "facet_hit_rate": 0.6904761904761905,
+            "complete_question_rate": 0.5
+          },
+          "tokens_4000": {
+            "facet_hit_rate": 0.7857142857142857,
+            "complete_question_rate": 0.625
+          }
+        },
+        "elapsed_seconds": 0.15
+      }
+    }
+  },
+  "corpora": {
+    "v1": {
+      "searchable_records": 443
+    },
+    "v2": {
+      "searchable_records": 1154
+    }
+  }
+}

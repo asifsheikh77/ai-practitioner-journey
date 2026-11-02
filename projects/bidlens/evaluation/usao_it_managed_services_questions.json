@@ -1,0 +1,38 @@
+
+[
+  {
+    "id": "Q001",
+    "question": "What references must the MSP provide?",
+    "relevant_chunk_ids": ["usao_it_managed_services:p0007:c001"],
+    "notes": "Review the source PDF and identify all relevant chunks."
+  },
+  {
+    "id": "Q002",
+    "question": "What services must the managed service provider deliver?",
+    "relevant_chunk_ids": ["usao_it_managed_services:p0009:c003"],
+    "notes": "Identify the actual scope-of-services passages."
+  },
+  {
+    "id": "Q003",
+    "question": "What are the proposal submission requirements?",
+    "relevant_chunk_ids": ["usao_it_managed_services:p0003:c001",
+                            "usao_it_managed_services:p0003:c002"],
+    "notes": "Identify submission instructions and required documents."
+  },
+  {
+    "id": "Q004",
+    "question": "What responsibilities does the MSP have for security?",
+    "relevant_chunk_ids": ["usao_it_managed_services:p0009:c001",
+                            "usao_it_managed_services:p0009:c002",
+                            "usao_it_managed_services:p0009:c003"],
+    "notes": "Identify security obligations in the source document."
+  },
+  {
+    "id": "Q005",
+    "question": "What reporting or support obligations are specified?",
+    "relevant_chunk_ids": ["usao_it_managed_services:p0009:c001",
+                            "usao_it_managed_services:p0009:c002",
+                            "usao_it_managed_services:p0009:c003"],
+    "notes": "Identify reporting and support requirements."
+  }
+]

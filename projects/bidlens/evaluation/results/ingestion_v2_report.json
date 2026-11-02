@@ -1,0 +1,2684 @@
+{
+  "document_id": "cbi_upi_rfp",
+  "pages": 147,
+  "detected_tables": 61,
+  "raw_records": 1165,
+  "output_records": 1170,
+  "by_kind": {
+    "narrative": 605,
+    "table_row": 553,
+    "eligibility": 12
+  },
+  "searchable_records": 1154,
+  "recovered_first_rows": 5,
+  "checks": {
+    "unique_ids": true,
+    "eligibility_1_to_12": true,
+    "criterion_6_transaction_threshold": true,
+    "criterion_6_supporting_document": true,
+    "page_13_narrative": true,
+    "source_text_unchanged": true,
+    "no_v1_ids": true
+  },
+  "extraction_issues": [
+    {
+      "page": 42,
+      "table": 1,
+      "issue": "merged_cells_or_nulls"
+    },
+    {
+      "page": 53,
+      "table": 1,
+      "issue": "merged_cells_or_nulls"
+    },
+    {
+      "page": 53,
+      "table": 1,
+      "row": 7,
+      "issue": "empty_row"
+    },
+    {
+      "page": 58,
+      "table": 1,
+      "issue": "merged_cells_or_nulls"
+    },
+    {
+      "page": 77,
+      "table": 1,
+      "issue": "merged_cells_or_nulls"
+    },
+    {
+      "page": 77,
+      "table": 1,
+      "row": 2,
+      "issue": "empty_row"
+    },
+    {
+      "page": 78,
+      "table": 1,
+      "issue": "merged_cells_or_nulls"
+    },
+    {
+      "page": 78,
+      "table": 1,
+      "row": 2,
+      "issue": "empty_row"
+    },
+    {
+      "page": 82,
+      "table": 1,
+      "issue": "wide_table_manual_review",
+      "columns": 13
+    },
+    {
+      "page": 82,
+      "table": 1,
+      "issue": "merged_cells_or_nulls"
+    },
+    {
+      "page": 82,
+      "table": 2,
+      "issue": "wide_table_manual_review",
+      "columns": 13
+    },
+    {
+      "page": 82,
+      "table": 2,
+      "issue": "merged_cells_or_nulls"
+    },
+    {
+      "page": 83,
+      "table": 1,
+      "issue": "wide_table_manual_review",
+      "columns": 13
+    },
+    {
+      "page": 83,
+      "table": 1,
+      "issue": "merged_cells_or_nulls"
+    },
+    {
+      "page": 83,
+      "table": 3,
+      "issue": "wide_table_manual_review",
+      "columns": 12
+    },
+    {
+      "page": 83,
+      "table": 3,
+      "issue": "merged_cells_or_nulls"
+    },
+    {
+      "page": 84,
+      "table": 1,
+      "issue": "wide_table_manual_review",
+      "columns": 12
+    },
+    {
+      "page": 84,
+      "table": 1,
+      "issue": "merged_cells_or_nulls"
+    },
+    {
+      "page": 85,
+      "table": 1,
+      "issue": "wide_table_manual_review",
+      "columns": 13
+    },
+    {
+      "page": 85,
+      "table": 1,
+      "issue": "merged_cells_or_nulls"
+    },
+    {
+      "page": 86,
+      "table": 1,
+      "issue": "wide_table_manual_review",
+      "columns": 13
+    },
+    {
+      "page": 86,
+      "table": 1,
+      "issue": "merged_cells_or_nulls"
+    },
+    {
+      "page": 88,
+      "table": 1,
+      "issue": "wide_table_manual_review",
+      "columns": 9
+    },
+    {
+      "page": 88,
+      "table": 1,
+      "issue": "merged_cells_or_nulls"
+    },
+    {
+      "page": 89,
+      "table": 1,
+      "issue": "wide_table_manual_review",
+      "columns": 9
+    },
+    {
+      "page": 89,
+      "table": 1,
+      "issue": "merged_cells_or_nulls"
+    },
+    {
+      "page": 109,
+      "table": 1,
+      "issue": "merged_cells_or_nulls"
+    },
+    {
+      "page": 118,
+      "table": 1,
+      "issue": "wide_table_manual_review",
+      "columns": 9
+    },
+    {
+      "page": 118,
+      "table": 1,
+      "issue": "merged_cells_or_nulls"
+    },
+    {
+      "page": 119,
+      "table": 1,
+      "row": 1,
+      "issue": "empty_row"
+    },
+    {
+      "page": 126,
+      "table": 1,
+      "issue": "merged_cells_or_nulls"
+    },
+    {
+      "page": 127,
+      "table": 1,
+      "issue": "merged_cells_or_nulls"
+    },
+    {
+      "page": 128,
+      "table": 1,
+      "issue": "merged_cells_or_nulls"
+    },
+    {
+      "page": 138,
+      "table": 1,
+      "row": 1,
+      "issue": "empty_row"
+    },
+    {
+      "page": 138,
+      "table": 1,
+      "row": 2,
+      "issue": "empty_row"
+    },
+    {
+      "page": 138,
+      "table": 1,
+      "row": 3,
+      "issue": "empty_row"
+    },
+    {
+      "page": 140,
+      "table": 1,
+      "row": 1,
+      "issue": "empty_row"
+    },
+    {
+      "page": 140,
+      "table": 1,
+      "row": 2,
+      "issue": "empty_row"
+    },
+    {
+      "page": 140,
+      "table": 1,
+      "row": 3,
+      "issue": "empty_row"
+    },
+    {
+      "page": 142,
+      "table": 1,
+      "issue": "merged_cells_or_nulls"
+    },
+    {
+      "page": 142,
+      "table": 1,
+      "row": 5,
+      "issue": "empty_row"
+    },
+    {
+      "page": 142,
+      "table": 1,
+      "row": 6,
+      "issue": "empty_row"
+    },
+    {
+      "page": 142,
+      "table": 1,
+      "row": 7,
+      "issue": "empty_row"
+    },
+    {
+      "page": 145,
+      "table": 1,
+      "issue": "wide_table_manual_review",
+      "columns": 14
+    },
+    {
+      "page": 145,
+      "table": 1,
+      "issue": "merged_cells_or_nulls"
+    },
+    {
+      "page": 146,
+      "table": 1,
+      "row": 1,
+      "issue": "empty_row"
+    },
+    {
+      "page": 146,
+      "table": 1,
+      "row": 2,
+      "issue": "empty_row"
+    },
+    {
+      "page": 146,
+      "table": 1,
+      "row": 3,
+      "issue": "empty_row"
+    }
+  ],
+  "cleanup_report": {
+    "record_count": 1165,
+    "by_kind": {
+      "narrative": 605,
+      "table_row": 548,
+      "eligibility": 12
+    },
+    "record_roles": {
+      "narrative": 605,
+      "evidence_candidate": 532,
+      "eligibility_requirement": 12,
+      "column_header_continuation": 10,
+      "section_heading": 6
+    },
+    "findings_count": 372,
+    "findings_by_type": {
+      "blank_or_merged_header": 163,
+      "single_cell_row_review": 33,
+      "column_header_continuation": 10,
+      "wide_table_needs_hierarchy_review": 78,
+      "section_heading": 6,
+      "data_row_misidentified_as_header": 77,
+      "first_data_row_missing_from_extraction": 5
+    },
+    "findings": [
+      {
+        "id": "cbi_upi_rfp:p0011:t01:r001",
+        "page": 11,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0042:t01:r001",
+        "page": 42,
+        "type": "single_cell_row_review",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0042:t01:r006",
+        "page": 42,
+        "type": "single_cell_row_review",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0053:t01:r001",
+        "page": 53,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0053:t01:r002",
+        "page": 53,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0053:t01:r003",
+        "page": 53,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0053:t01:r004",
+        "page": 53,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0053:t01:r005",
+        "page": 53,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0053:t01:r006",
+        "page": 53,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0053:t01:r008",
+        "page": 53,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0053:t01:r009",
+        "page": 53,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0053:t01:r010",
+        "page": 53,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0053:t01:r011",
+        "page": 53,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0053:t01:r012",
+        "page": 53,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0053:t01:r013",
+        "page": 53,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0058:t01:r001",
+        "page": 58,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0058:t01:r001",
+        "page": 58,
+        "type": "single_cell_row_review",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0058:t01:r002",
+        "page": 58,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0058:t01:r003",
+        "page": 58,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0058:t01:r004",
+        "page": 58,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0058:t01:r005",
+        "page": 58,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0077:t01:r001",
+        "page": 77,
+        "type": "single_cell_row_review",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0078:t01:r001",
+        "page": 78,
+        "type": "single_cell_row_review",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0080:t01:r008",
+        "page": 80,
+        "type": "single_cell_row_review",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0080:t01:r009",
+        "page": 80,
+        "type": "single_cell_row_review",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0081:t01:r002",
+        "page": 81,
+        "type": "single_cell_row_review",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0081:t01:r003",
+        "page": 81,
+        "type": "single_cell_row_review",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0081:t01:r004",
+        "page": 81,
+        "type": "single_cell_row_review",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0082:t01:r001",
+        "page": 82,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0082:t01:r001",
+        "page": 82,
+        "type": "column_header_continuation",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0082:t01:r001",
+        "page": 82,
+        "type": "wide_table_needs_hierarchy_review",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0082:t01:r002",
+        "page": 82,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0082:t01:r002",
+        "page": 82,
+        "type": "wide_table_needs_hierarchy_review",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0082:t01:r003",
+        "page": 82,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0082:t01:r003",
+        "page": 82,
+        "type": "wide_table_needs_hierarchy_review",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0082:t01:r004",
+        "page": 82,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0082:t01:r004",
+        "page": 82,
+        "type": "wide_table_needs_hierarchy_review",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0082:t01:r005",
+        "page": 82,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0082:t01:r005",
+        "page": 82,
+        "type": "wide_table_needs_hierarchy_review",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0082:t01:r006",
+        "page": 82,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0082:t01:r006",
+        "page": 82,
+        "type": "wide_table_needs_hierarchy_review",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0082:t01:r007",
+        "page": 82,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0082:t01:r007",
+        "page": 82,
+        "type": "wide_table_needs_hierarchy_review",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0082:t02:r001",
+        "page": 82,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0082:t02:r001",
+        "page": 82,
+        "type": "column_header_continuation",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0082:t02:r001",
+        "page": 82,
+        "type": "wide_table_needs_hierarchy_review",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0082:t02:r002",
+        "page": 82,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0082:t02:r002",
+        "page": 82,
+        "type": "wide_table_needs_hierarchy_review",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0082:t02:r003",
+        "page": 82,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0082:t02:r003",
+        "page": 82,
+        "type": "wide_table_needs_hierarchy_review",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0082:t02:r004",
+        "page": 82,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0082:t02:r004",
+        "page": 82,
+        "type": "wide_table_needs_hierarchy_review",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0082:t02:r005",
+        "page": 82,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0082:t02:r005",
+        "page": 82,
+        "type": "wide_table_needs_hierarchy_review",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0083:t01:r001",
+        "page": 83,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0083:t01:r001",
+        "page": 83,
+        "type": "column_header_continuation",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0083:t01:r001",
+        "page": 83,
+        "type": "wide_table_needs_hierarchy_review",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0083:t01:r002",
+        "page": 83,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0083:t01:r002",
+        "page": 83,
+        "type": "wide_table_needs_hierarchy_review",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0083:t01:r003",
+        "page": 83,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0083:t01:r003",
+        "page": 83,
+        "type": "wide_table_needs_hierarchy_review",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0083:t02:r005",
+        "page": 83,
+        "type": "single_cell_row_review",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0083:t02:r006",
+        "page": 83,
+        "type": "single_cell_row_review",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0083:t02:r007",
+        "page": 83,
+        "type": "single_cell_row_review",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0083:t03:r001",
+        "page": 83,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0083:t03:r001",
+        "page": 83,
+        "type": "column_header_continuation",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0083:t03:r001",
+        "page": 83,
+        "type": "wide_table_needs_hierarchy_review",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0083:t03:r002",
+        "page": 83,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0083:t03:r002",
+        "page": 83,
+        "type": "wide_table_needs_hierarchy_review",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0083:t03:r003",
+        "page": 83,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0083:t03:r003",
+        "page": 83,
+        "type": "wide_table_needs_hierarchy_review",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0084:t01:r001",
+        "page": 84,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0084:t01:r001",
+        "page": 84,
+        "type": "column_header_continuation",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0084:t01:r001",
+        "page": 84,
+        "type": "wide_table_needs_hierarchy_review",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0084:t01:r002",
+        "page": 84,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0084:t01:r002",
+        "page": 84,
+        "type": "wide_table_needs_hierarchy_review",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0084:t01:r003",
+        "page": 84,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0084:t01:r003",
+        "page": 84,
+        "type": "wide_table_needs_hierarchy_review",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0084:t01:r004",
+        "page": 84,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0084:t01:r004",
+        "page": 84,
+        "type": "wide_table_needs_hierarchy_review",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0084:t01:r005",
+        "page": 84,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0084:t01:r005",
+        "page": 84,
+        "type": "wide_table_needs_hierarchy_review",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0084:t01:r006",
+        "page": 84,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0084:t01:r006",
+        "page": 84,
+        "type": "wide_table_needs_hierarchy_review",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0084:t01:r007",
+        "page": 84,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0084:t01:r007",
+        "page": 84,
+        "type": "wide_table_needs_hierarchy_review",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0084:t01:r008",
+        "page": 84,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0084:t01:r008",
+        "page": 84,
+        "type": "wide_table_needs_hierarchy_review",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0084:t01:r009",
+        "page": 84,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0084:t01:r009",
+        "page": 84,
+        "type": "wide_table_needs_hierarchy_review",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0084:t01:r010",
+        "page": 84,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0084:t01:r010",
+        "page": 84,
+        "type": "wide_table_needs_hierarchy_review",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0084:t01:r011",
+        "page": 84,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0084:t01:r011",
+        "page": 84,
+        "type": "wide_table_needs_hierarchy_review",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0084:t01:r012",
+        "page": 84,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0084:t01:r012",
+        "page": 84,
+        "type": "wide_table_needs_hierarchy_review",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0085:t01:r001",
+        "page": 85,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0085:t01:r001",
+        "page": 85,
+        "type": "column_header_continuation",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0085:t01:r001",
+        "page": 85,
+        "type": "wide_table_needs_hierarchy_review",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0085:t01:r002",
+        "page": 85,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0085:t01:r002",
+        "page": 85,
+        "type": "wide_table_needs_hierarchy_review",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0085:t01:r003",
+        "page": 85,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0085:t01:r003",
+        "page": 85,
+        "type": "wide_table_needs_hierarchy_review",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0085:t01:r004",
+        "page": 85,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0085:t01:r004",
+        "page": 85,
+        "type": "wide_table_needs_hierarchy_review",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0085:t01:r005",
+        "page": 85,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0085:t01:r005",
+        "page": 85,
+        "type": "wide_table_needs_hierarchy_review",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0085:t01:r006",
+        "page": 85,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0085:t01:r006",
+        "page": 85,
+        "type": "wide_table_needs_hierarchy_review",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0085:t01:r007",
+        "page": 85,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0085:t01:r007",
+        "page": 85,
+        "type": "wide_table_needs_hierarchy_review",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0085:t01:r008",
+        "page": 85,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0085:t01:r008",
+        "page": 85,
+        "type": "wide_table_needs_hierarchy_review",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0086:t01:r001",
+        "page": 86,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0086:t01:r001",
+        "page": 86,
+        "type": "column_header_continuation",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0086:t01:r001",
+        "page": 86,
+        "type": "wide_table_needs_hierarchy_review",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0086:t01:r002",
+        "page": 86,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0086:t01:r002",
+        "page": 86,
+        "type": "wide_table_needs_hierarchy_review",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0086:t01:r003",
+        "page": 86,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0086:t01:r003",
+        "page": 86,
+        "type": "wide_table_needs_hierarchy_review",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0086:t01:r004",
+        "page": 86,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0086:t01:r004",
+        "page": 86,
+        "type": "wide_table_needs_hierarchy_review",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0086:t01:r005",
+        "page": 86,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0086:t01:r005",
+        "page": 86,
+        "type": "wide_table_needs_hierarchy_review",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0086:t01:r006",
+        "page": 86,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0086:t01:r006",
+        "page": 86,
+        "type": "wide_table_needs_hierarchy_review",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0086:t01:r007",
+        "page": 86,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0086:t01:r007",
+        "page": 86,
+        "type": "wide_table_needs_hierarchy_review",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0086:t01:r008",
+        "page": 86,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0086:t01:r008",
+        "page": 86,
+        "type": "wide_table_needs_hierarchy_review",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0088:t01:r001",
+        "page": 88,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0088:t01:r001",
+        "page": 88,
+        "type": "wide_table_needs_hierarchy_review",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0088:t01:r002",
+        "page": 88,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0088:t01:r002",
+        "page": 88,
+        "type": "wide_table_needs_hierarchy_review",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0088:t01:r003",
+        "page": 88,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0088:t01:r003",
+        "page": 88,
+        "type": "wide_table_needs_hierarchy_review",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0088:t01:r004",
+        "page": 88,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0088:t01:r004",
+        "page": 88,
+        "type": "wide_table_needs_hierarchy_review",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0088:t01:r005",
+        "page": 88,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0088:t01:r005",
+        "page": 88,
+        "type": "wide_table_needs_hierarchy_review",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0088:t01:r006",
+        "page": 88,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0088:t01:r006",
+        "page": 88,
+        "type": "wide_table_needs_hierarchy_review",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0088:t01:r007",
+        "page": 88,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0088:t01:r007",
+        "page": 88,
+        "type": "wide_table_needs_hierarchy_review",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0088:t01:r008",
+        "page": 88,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0088:t01:r008",
+        "page": 88,
+        "type": "wide_table_needs_hierarchy_review",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0088:t01:r009",
+        "page": 88,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0088:t01:r009",
+        "page": 88,
+        "type": "wide_table_needs_hierarchy_review",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0088:t01:r010",
+        "page": 88,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0088:t01:r010",
+        "page": 88,
+        "type": "wide_table_needs_hierarchy_review",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0088:t01:r011",
+        "page": 88,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0088:t01:r011",
+        "page": 88,
+        "type": "wide_table_needs_hierarchy_review",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0088:t01:r012",
+        "page": 88,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0088:t01:r012",
+        "page": 88,
+        "type": "wide_table_needs_hierarchy_review",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0088:t01:r013",
+        "page": 88,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0088:t01:r013",
+        "page": 88,
+        "type": "wide_table_needs_hierarchy_review",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0088:t01:r014",
+        "page": 88,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0088:t01:r014",
+        "page": 88,
+        "type": "wide_table_needs_hierarchy_review",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0088:t01:r015",
+        "page": 88,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0088:t01:r015",
+        "page": 88,
+        "type": "wide_table_needs_hierarchy_review",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0088:t01:r016",
+        "page": 88,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0088:t01:r016",
+        "page": 88,
+        "type": "wide_table_needs_hierarchy_review",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0089:t01:r001",
+        "page": 89,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0089:t01:r001",
+        "page": 89,
+        "type": "single_cell_row_review",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0089:t01:r001",
+        "page": 89,
+        "type": "wide_table_needs_hierarchy_review",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0089:t01:r002",
+        "page": 89,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0089:t01:r002",
+        "page": 89,
+        "type": "single_cell_row_review",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0089:t01:r002",
+        "page": 89,
+        "type": "wide_table_needs_hierarchy_review",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0108:t02:r001",
+        "page": 108,
+        "type": "section_heading",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0109:t01:r001",
+        "page": 109,
+        "type": "data_row_misidentified_as_header",
+        "severity": "high"
+      },
+      {
+        "id": "cbi_upi_rfp:p0109:t01:r001",
+        "page": 109,
+        "type": "first_data_row_missing_from_extraction",
+        "severity": "high"
+      },
+      {
+        "id": "cbi_upi_rfp:p0109:t01:r002",
+        "page": 109,
+        "type": "data_row_misidentified_as_header",
+        "severity": "high"
+      },
+      {
+        "id": "cbi_upi_rfp:p0109:t01:r003",
+        "page": 109,
+        "type": "data_row_misidentified_as_header",
+        "severity": "high"
+      },
+      {
+        "id": "cbi_upi_rfp:p0109:t01:r004",
+        "page": 109,
+        "type": "data_row_misidentified_as_header",
+        "severity": "high"
+      },
+      {
+        "id": "cbi_upi_rfp:p0109:t01:r005",
+        "page": 109,
+        "type": "data_row_misidentified_as_header",
+        "severity": "high"
+      },
+      {
+        "id": "cbi_upi_rfp:p0109:t01:r006",
+        "page": 109,
+        "type": "data_row_misidentified_as_header",
+        "severity": "high"
+      },
+      {
+        "id": "cbi_upi_rfp:p0109:t01:r007",
+        "page": 109,
+        "type": "data_row_misidentified_as_header",
+        "severity": "high"
+      },
+      {
+        "id": "cbi_upi_rfp:p0109:t01:r008",
+        "page": 109,
+        "type": "data_row_misidentified_as_header",
+        "severity": "high"
+      },
+      {
+        "id": "cbi_upi_rfp:p0109:t01:r009",
+        "page": 109,
+        "type": "data_row_misidentified_as_header",
+        "severity": "high"
+      },
+      {
+        "id": "cbi_upi_rfp:p0109:t01:r010",
+        "page": 109,
+        "type": "data_row_misidentified_as_header",
+        "severity": "high"
+      },
+      {
+        "id": "cbi_upi_rfp:p0109:t01:r011",
+        "page": 109,
+        "type": "data_row_misidentified_as_header",
+        "severity": "high"
+      },
+      {
+        "id": "cbi_upi_rfp:p0109:t01:r012",
+        "page": 109,
+        "type": "data_row_misidentified_as_header",
+        "severity": "high"
+      },
+      {
+        "id": "cbi_upi_rfp:p0109:t01:r013",
+        "page": 109,
+        "type": "data_row_misidentified_as_header",
+        "severity": "high"
+      },
+      {
+        "id": "cbi_upi_rfp:p0109:t01:r014",
+        "page": 109,
+        "type": "data_row_misidentified_as_header",
+        "severity": "high"
+      },
+      {
+        "id": "cbi_upi_rfp:p0109:t01:r015",
+        "page": 109,
+        "type": "data_row_misidentified_as_header",
+        "severity": "high"
+      },
+      {
+        "id": "cbi_upi_rfp:p0109:t01:r016",
+        "page": 109,
+        "type": "data_row_misidentified_as_header",
+        "severity": "high"
+      },
+      {
+        "id": "cbi_upi_rfp:p0109:t01:r017",
+        "page": 109,
+        "type": "data_row_misidentified_as_header",
+        "severity": "high"
+      },
+      {
+        "id": "cbi_upi_rfp:p0109:t01:r018",
+        "page": 109,
+        "type": "data_row_misidentified_as_header",
+        "severity": "high"
+      },
+      {
+        "id": "cbi_upi_rfp:p0109:t01:r019",
+        "page": 109,
+        "type": "data_row_misidentified_as_header",
+        "severity": "high"
+      },
+      {
+        "id": "cbi_upi_rfp:p0109:t01:r020",
+        "page": 109,
+        "type": "data_row_misidentified_as_header",
+        "severity": "high"
+      },
+      {
+        "id": "cbi_upi_rfp:p0109:t01:r021",
+        "page": 109,
+        "type": "data_row_misidentified_as_header",
+        "severity": "high"
+      },
+      {
+        "id": "cbi_upi_rfp:p0109:t01:r022",
+        "page": 109,
+        "type": "data_row_misidentified_as_header",
+        "severity": "high"
+      },
+      {
+        "id": "cbi_upi_rfp:p0110:t01:r001",
+        "page": 110,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0110:t01:r002",
+        "page": 110,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0110:t01:r003",
+        "page": 110,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0110:t01:r004",
+        "page": 110,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0110:t01:r005",
+        "page": 110,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0110:t01:r006",
+        "page": 110,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0110:t01:r007",
+        "page": 110,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0110:t01:r008",
+        "page": 110,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0110:t01:r009",
+        "page": 110,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0110:t01:r010",
+        "page": 110,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0110:t01:r011",
+        "page": 110,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0110:t01:r012",
+        "page": 110,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0110:t01:r013",
+        "page": 110,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0110:t01:r014",
+        "page": 110,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0110:t01:r015",
+        "page": 110,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0110:t01:r015",
+        "page": 110,
+        "type": "section_heading",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0110:t01:r016",
+        "page": 110,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0110:t01:r017",
+        "page": 110,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0110:t01:r018",
+        "page": 110,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0110:t01:r019",
+        "page": 110,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0110:t01:r020",
+        "page": 110,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0110:t01:r021",
+        "page": 110,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0111:t01:r001",
+        "page": 111,
+        "type": "data_row_misidentified_as_header",
+        "severity": "high"
+      },
+      {
+        "id": "cbi_upi_rfp:p0111:t01:r001",
+        "page": 111,
+        "type": "first_data_row_missing_from_extraction",
+        "severity": "high"
+      },
+      {
+        "id": "cbi_upi_rfp:p0111:t01:r001",
+        "page": 111,
+        "type": "section_heading",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0111:t01:r002",
+        "page": 111,
+        "type": "data_row_misidentified_as_header",
+        "severity": "high"
+      },
+      {
+        "id": "cbi_upi_rfp:p0111:t01:r003",
+        "page": 111,
+        "type": "data_row_misidentified_as_header",
+        "severity": "high"
+      },
+      {
+        "id": "cbi_upi_rfp:p0111:t01:r004",
+        "page": 111,
+        "type": "data_row_misidentified_as_header",
+        "severity": "high"
+      },
+      {
+        "id": "cbi_upi_rfp:p0111:t01:r005",
+        "page": 111,
+        "type": "data_row_misidentified_as_header",
+        "severity": "high"
+      },
+      {
+        "id": "cbi_upi_rfp:p0111:t01:r005",
+        "page": 111,
+        "type": "section_heading",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0111:t01:r006",
+        "page": 111,
+        "type": "data_row_misidentified_as_header",
+        "severity": "high"
+      },
+      {
+        "id": "cbi_upi_rfp:p0111:t01:r007",
+        "page": 111,
+        "type": "data_row_misidentified_as_header",
+        "severity": "high"
+      },
+      {
+        "id": "cbi_upi_rfp:p0111:t01:r008",
+        "page": 111,
+        "type": "data_row_misidentified_as_header",
+        "severity": "high"
+      },
+      {
+        "id": "cbi_upi_rfp:p0111:t01:r009",
+        "page": 111,
+        "type": "data_row_misidentified_as_header",
+        "severity": "high"
+      },
+      {
+        "id": "cbi_upi_rfp:p0111:t01:r010",
+        "page": 111,
+        "type": "data_row_misidentified_as_header",
+        "severity": "high"
+      },
+      {
+        "id": "cbi_upi_rfp:p0111:t01:r011",
+        "page": 111,
+        "type": "data_row_misidentified_as_header",
+        "severity": "high"
+      },
+      {
+        "id": "cbi_upi_rfp:p0111:t01:r012",
+        "page": 111,
+        "type": "data_row_misidentified_as_header",
+        "severity": "high"
+      },
+      {
+        "id": "cbi_upi_rfp:p0111:t01:r013",
+        "page": 111,
+        "type": "data_row_misidentified_as_header",
+        "severity": "high"
+      },
+      {
+        "id": "cbi_upi_rfp:p0111:t01:r014",
+        "page": 111,
+        "type": "data_row_misidentified_as_header",
+        "severity": "high"
+      },
+      {
+        "id": "cbi_upi_rfp:p0111:t01:r015",
+        "page": 111,
+        "type": "data_row_misidentified_as_header",
+        "severity": "high"
+      },
+      {
+        "id": "cbi_upi_rfp:p0111:t01:r016",
+        "page": 111,
+        "type": "data_row_misidentified_as_header",
+        "severity": "high"
+      },
+      {
+        "id": "cbi_upi_rfp:p0111:t01:r017",
+        "page": 111,
+        "type": "data_row_misidentified_as_header",
+        "severity": "high"
+      },
+      {
+        "id": "cbi_upi_rfp:p0111:t01:r018",
+        "page": 111,
+        "type": "data_row_misidentified_as_header",
+        "severity": "high"
+      },
+      {
+        "id": "cbi_upi_rfp:p0112:t01:r001",
+        "page": 112,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0112:t01:r002",
+        "page": 112,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0112:t01:r003",
+        "page": 112,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0112:t01:r004",
+        "page": 112,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0112:t01:r005",
+        "page": 112,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0112:t01:r006",
+        "page": 112,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0112:t01:r007",
+        "page": 112,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0112:t01:r008",
+        "page": 112,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0112:t01:r009",
+        "page": 112,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0112:t01:r009",
+        "page": 112,
+        "type": "section_heading",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0112:t01:r010",
+        "page": 112,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0112:t01:r011",
+        "page": 112,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0112:t01:r012",
+        "page": 112,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0112:t01:r013",
+        "page": 112,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0112:t01:r014",
+        "page": 112,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0112:t01:r015",
+        "page": 112,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0112:t01:r016",
+        "page": 112,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0113:t01:r001",
+        "page": 113,
+        "type": "data_row_misidentified_as_header",
+        "severity": "high"
+      },
+      {
+        "id": "cbi_upi_rfp:p0113:t01:r001",
+        "page": 113,
+        "type": "first_data_row_missing_from_extraction",
+        "severity": "high"
+      },
+      {
+        "id": "cbi_upi_rfp:p0113:t01:r002",
+        "page": 113,
+        "type": "data_row_misidentified_as_header",
+        "severity": "high"
+      },
+      {
+        "id": "cbi_upi_rfp:p0113:t01:r003",
+        "page": 113,
+        "type": "data_row_misidentified_as_header",
+        "severity": "high"
+      },
+      {
+        "id": "cbi_upi_rfp:p0113:t01:r004",
+        "page": 113,
+        "type": "data_row_misidentified_as_header",
+        "severity": "high"
+      },
+      {
+        "id": "cbi_upi_rfp:p0113:t01:r005",
+        "page": 113,
+        "type": "data_row_misidentified_as_header",
+        "severity": "high"
+      },
+      {
+        "id": "cbi_upi_rfp:p0113:t01:r006",
+        "page": 113,
+        "type": "data_row_misidentified_as_header",
+        "severity": "high"
+      },
+      {
+        "id": "cbi_upi_rfp:p0113:t01:r007",
+        "page": 113,
+        "type": "data_row_misidentified_as_header",
+        "severity": "high"
+      },
+      {
+        "id": "cbi_upi_rfp:p0113:t01:r008",
+        "page": 113,
+        "type": "data_row_misidentified_as_header",
+        "severity": "high"
+      },
+      {
+        "id": "cbi_upi_rfp:p0113:t01:r009",
+        "page": 113,
+        "type": "data_row_misidentified_as_header",
+        "severity": "high"
+      },
+      {
+        "id": "cbi_upi_rfp:p0113:t01:r010",
+        "page": 113,
+        "type": "data_row_misidentified_as_header",
+        "severity": "high"
+      },
+      {
+        "id": "cbi_upi_rfp:p0113:t01:r011",
+        "page": 113,
+        "type": "data_row_misidentified_as_header",
+        "severity": "high"
+      },
+      {
+        "id": "cbi_upi_rfp:p0113:t01:r012",
+        "page": 113,
+        "type": "data_row_misidentified_as_header",
+        "severity": "high"
+      },
+      {
+        "id": "cbi_upi_rfp:p0113:t01:r012",
+        "page": 113,
+        "type": "section_heading",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0113:t01:r013",
+        "page": 113,
+        "type": "data_row_misidentified_as_header",
+        "severity": "high"
+      },
+      {
+        "id": "cbi_upi_rfp:p0113:t01:r014",
+        "page": 113,
+        "type": "data_row_misidentified_as_header",
+        "severity": "high"
+      },
+      {
+        "id": "cbi_upi_rfp:p0113:t01:r015",
+        "page": 113,
+        "type": "data_row_misidentified_as_header",
+        "severity": "high"
+      },
+      {
+        "id": "cbi_upi_rfp:p0113:t01:r016",
+        "page": 113,
+        "type": "data_row_misidentified_as_header",
+        "severity": "high"
+      },
+      {
+        "id": "cbi_upi_rfp:p0113:t01:r017",
+        "page": 113,
+        "type": "data_row_misidentified_as_header",
+        "severity": "high"
+      },
+      {
+        "id": "cbi_upi_rfp:p0113:t01:r018",
+        "page": 113,
+        "type": "data_row_misidentified_as_header",
+        "severity": "high"
+      },
+      {
+        "id": "cbi_upi_rfp:p0113:t01:r019",
+        "page": 113,
+        "type": "data_row_misidentified_as_header",
+        "severity": "high"
+      },
+      {
+        "id": "cbi_upi_rfp:p0114:t01:r001",
+        "page": 114,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0114:t01:r002",
+        "page": 114,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0114:t01:r003",
+        "page": 114,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0114:t01:r004",
+        "page": 114,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0114:t01:r005",
+        "page": 114,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0114:t01:r006",
+        "page": 114,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0114:t01:r007",
+        "page": 114,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0114:t01:r008",
+        "page": 114,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0114:t01:r009",
+        "page": 114,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0116:t01:r001",
+        "page": 116,
+        "type": "data_row_misidentified_as_header",
+        "severity": "high"
+      },
+      {
+        "id": "cbi_upi_rfp:p0116:t01:r001",
+        "page": 116,
+        "type": "first_data_row_missing_from_extraction",
+        "severity": "high"
+      },
+      {
+        "id": "cbi_upi_rfp:p0116:t01:r002",
+        "page": 116,
+        "type": "data_row_misidentified_as_header",
+        "severity": "high"
+      },
+      {
+        "id": "cbi_upi_rfp:p0116:t01:r003",
+        "page": 116,
+        "type": "data_row_misidentified_as_header",
+        "severity": "high"
+      },
+      {
+        "id": "cbi_upi_rfp:p0116:t01:r004",
+        "page": 116,
+        "type": "data_row_misidentified_as_header",
+        "severity": "high"
+      },
+      {
+        "id": "cbi_upi_rfp:p0116:t01:r005",
+        "page": 116,
+        "type": "data_row_misidentified_as_header",
+        "severity": "high"
+      },
+      {
+        "id": "cbi_upi_rfp:p0116:t01:r006",
+        "page": 116,
+        "type": "data_row_misidentified_as_header",
+        "severity": "high"
+      },
+      {
+        "id": "cbi_upi_rfp:p0116:t01:r007",
+        "page": 116,
+        "type": "data_row_misidentified_as_header",
+        "severity": "high"
+      },
+      {
+        "id": "cbi_upi_rfp:p0116:t01:r008",
+        "page": 116,
+        "type": "data_row_misidentified_as_header",
+        "severity": "high"
+      },
+      {
+        "id": "cbi_upi_rfp:p0116:t01:r009",
+        "page": 116,
+        "type": "data_row_misidentified_as_header",
+        "severity": "high"
+      },
+      {
+        "id": "cbi_upi_rfp:p0116:t01:r010",
+        "page": 116,
+        "type": "data_row_misidentified_as_header",
+        "severity": "high"
+      },
+      {
+        "id": "cbi_upi_rfp:p0116:t01:r011",
+        "page": 116,
+        "type": "data_row_misidentified_as_header",
+        "severity": "high"
+      },
+      {
+        "id": "cbi_upi_rfp:p0116:t01:r012",
+        "page": 116,
+        "type": "data_row_misidentified_as_header",
+        "severity": "high"
+      },
+      {
+        "id": "cbi_upi_rfp:p0116:t01:r013",
+        "page": 116,
+        "type": "data_row_misidentified_as_header",
+        "severity": "high"
+      },
+      {
+        "id": "cbi_upi_rfp:p0116:t01:r014",
+        "page": 116,
+        "type": "data_row_misidentified_as_header",
+        "severity": "high"
+      },
+      {
+        "id": "cbi_upi_rfp:p0116:t01:r015",
+        "page": 116,
+        "type": "data_row_misidentified_as_header",
+        "severity": "high"
+      },
+      {
+        "id": "cbi_upi_rfp:p0116:t01:r016",
+        "page": 116,
+        "type": "data_row_misidentified_as_header",
+        "severity": "high"
+      },
+      {
+        "id": "cbi_upi_rfp:p0116:t01:r017",
+        "page": 116,
+        "type": "data_row_misidentified_as_header",
+        "severity": "high"
+      },
+      {
+        "id": "cbi_upi_rfp:p0117:t01:r001",
+        "page": 117,
+        "type": "data_row_misidentified_as_header",
+        "severity": "high"
+      },
+      {
+        "id": "cbi_upi_rfp:p0117:t01:r001",
+        "page": 117,
+        "type": "first_data_row_missing_from_extraction",
+        "severity": "high"
+      },
+      {
+        "id": "cbi_upi_rfp:p0118:t01:r001",
+        "page": 118,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0118:t01:r001",
+        "page": 118,
+        "type": "wide_table_needs_hierarchy_review",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0118:t01:r002",
+        "page": 118,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0118:t01:r002",
+        "page": 118,
+        "type": "wide_table_needs_hierarchy_review",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0118:t01:r003",
+        "page": 118,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0118:t01:r003",
+        "page": 118,
+        "type": "wide_table_needs_hierarchy_review",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0118:t01:r004",
+        "page": 118,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0118:t01:r004",
+        "page": 118,
+        "type": "wide_table_needs_hierarchy_review",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0118:t01:r005",
+        "page": 118,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0118:t01:r005",
+        "page": 118,
+        "type": "wide_table_needs_hierarchy_review",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0118:t01:r006",
+        "page": 118,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0118:t01:r006",
+        "page": 118,
+        "type": "wide_table_needs_hierarchy_review",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0118:t01:r007",
+        "page": 118,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0118:t01:r007",
+        "page": 118,
+        "type": "wide_table_needs_hierarchy_review",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0118:t01:r008",
+        "page": 118,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0118:t01:r008",
+        "page": 118,
+        "type": "wide_table_needs_hierarchy_review",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0118:t01:r009",
+        "page": 118,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0118:t01:r009",
+        "page": 118,
+        "type": "wide_table_needs_hierarchy_review",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0125:t01:r001",
+        "page": 125,
+        "type": "single_cell_row_review",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0125:t01:r002",
+        "page": 125,
+        "type": "single_cell_row_review",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0125:t01:r003",
+        "page": 125,
+        "type": "single_cell_row_review",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0125:t01:r004",
+        "page": 125,
+        "type": "single_cell_row_review",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0125:t01:r005",
+        "page": 125,
+        "type": "single_cell_row_review",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0125:t01:r006",
+        "page": 125,
+        "type": "single_cell_row_review",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0125:t01:r007",
+        "page": 125,
+        "type": "single_cell_row_review",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0125:t01:r008",
+        "page": 125,
+        "type": "single_cell_row_review",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0125:t01:r009",
+        "page": 125,
+        "type": "single_cell_row_review",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0126:t01:r001",
+        "page": 126,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0126:t01:r001",
+        "page": 126,
+        "type": "column_header_continuation",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0126:t01:r001",
+        "page": 126,
+        "type": "single_cell_row_review",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0126:t01:r002",
+        "page": 126,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0126:t01:r003",
+        "page": 126,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0126:t01:r004",
+        "page": 126,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0126:t01:r005",
+        "page": 126,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0126:t01:r006",
+        "page": 126,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0126:t01:r007",
+        "page": 126,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0127:t01:r001",
+        "page": 127,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0127:t01:r001",
+        "page": 127,
+        "type": "column_header_continuation",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0127:t01:r001",
+        "page": 127,
+        "type": "single_cell_row_review",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0127:t01:r002",
+        "page": 127,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0127:t01:r002",
+        "page": 127,
+        "type": "single_cell_row_review",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0127:t01:r003",
+        "page": 127,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0127:t01:r004",
+        "page": 127,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0127:t01:r005",
+        "page": 127,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0127:t01:r006",
+        "page": 127,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0127:t01:r007",
+        "page": 127,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0127:t01:r008",
+        "page": 127,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0128:t01:r001",
+        "page": 128,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0128:t01:r001",
+        "page": 128,
+        "type": "column_header_continuation",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0128:t01:r001",
+        "page": 128,
+        "type": "single_cell_row_review",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0128:t01:r002",
+        "page": 128,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0142:t01:r001",
+        "page": 142,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0142:t01:r002",
+        "page": 142,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0142:t01:r003",
+        "page": 142,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0142:t01:r004",
+        "page": 142,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0142:t01:r004",
+        "page": 142,
+        "type": "single_cell_row_review",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0145:t01:r001",
+        "page": 145,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0145:t01:r001",
+        "page": 145,
+        "type": "wide_table_needs_hierarchy_review",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0145:t01:r002",
+        "page": 145,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0145:t01:r002",
+        "page": 145,
+        "type": "single_cell_row_review",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0145:t01:r002",
+        "page": 145,
+        "type": "wide_table_needs_hierarchy_review",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0145:t01:r003",
+        "page": 145,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0145:t01:r003",
+        "page": 145,
+        "type": "single_cell_row_review",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0145:t01:r003",
+        "page": 145,
+        "type": "wide_table_needs_hierarchy_review",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0145:t01:r004",
+        "page": 145,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0145:t01:r004",
+        "page": 145,
+        "type": "single_cell_row_review",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0145:t01:r004",
+        "page": 145,
+        "type": "wide_table_needs_hierarchy_review",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0145:t01:r005",
+        "page": 145,
+        "type": "blank_or_merged_header",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0145:t01:r005",
+        "page": 145,
+        "type": "single_cell_row_review",
+        "severity": "medium"
+      },
+      {
+        "id": "cbi_upi_rfp:p0145:t01:r005",
+        "page": 145,
+        "type": "wide_table_needs_hierarchy_review",
+        "severity": "medium"
+      }
+    ]
+  },
+  "enrichment_report": {
+    "input_records": 1170,
+    "output_records": 1170,
+    "counts": {
+      "pricing_header_rows": 7,
+      "pricing_rows_labeled": 37,
+      "spec_rows_normalized": 128,
+      "spec_unnumbered_review": 2,
+      "page_boundary_review": 6
+    },
+    "findings": [
+      {
+        "chunk_id": "cbi_upi_rfp:p0083:t02:r001",
+        "page": 83,
+        "type": "pricing_hierarchy_unresolved"
+      },
+      {
+        "chunk_id": "cbi_upi_rfp:p0083:t02:r002",
+        "page": 83,
+        "type": "pricing_hierarchy_unresolved"
+      },
+      {
+        "chunk_id": "cbi_upi_rfp:p0083:t02:r003",
+        "page": 83,
+        "type": "pricing_hierarchy_unresolved"
+      },
+      {
+        "chunk_id": "cbi_upi_rfp:p0083:t02:r004",
+        "page": 83,
+        "type": "pricing_hierarchy_unresolved"
+      },
+      {
+        "chunk_id": "cbi_upi_rfp:p0083:t02:r005",
+        "page": 83,
+        "type": "pricing_hierarchy_unresolved"
+      },
+      {
+        "chunk_id": "cbi_upi_rfp:p0083:t02:r006",
+        "page": 83,
+        "type": "pricing_hierarchy_unresolved"
+      },
+      {
+        "chunk_id": "cbi_upi_rfp:p0083:t02:r007",
+        "page": 83,
+        "type": "pricing_hierarchy_unresolved"
+      },
+      {
+        "chunk_id": "cbi_upi_rfp:p0083:t03:r002",
+        "page": 83,
+        "type": "pricing_hierarchy_unresolved"
+      },
+      {
+        "chunk_id": "cbi_upi_rfp:p0083:t03:r003",
+        "page": 83,
+        "type": "pricing_hierarchy_unresolved"
+      },
+      {
+        "chunk_id": "cbi_upi_rfp:p0109:t01:r003",
+        "page": 109,
+        "type": "unnumbered_spec_row"
+      },
+      {
+        "chunk_id": "cbi_upi_rfp:p0109:t01:r005",
+        "page": 109,
+        "type": "unnumbered_spec_row"
+      },
+      {
+        "chunk_id": "cbi_upi_rfp:p0109:t01:r001",
+        "page": 109,
+        "type": "page_boundary_continuation_review",
+        "raw_header": [
+          "12.",
+          "Application/Solution architecture has the Capability to be configured in active‐active mode in both DC and DRC."
+        ]
+      },
+      {
+        "chunk_id": "cbi_upi_rfp:p0110:t01:r001",
+        "page": 110,
+        "type": "page_boundary_continuation_review",
+        "raw_header": [
+          "",
+          "recovery process in the event of transaction or process failure"
+        ]
+      },
+      {
+        "chunk_id": "cbi_upi_rfp:p0111:t01:r001",
+        "page": 111,
+        "type": "page_boundary_continuation_review",
+        "raw_header": [
+          "7.",
+          "Load/Stress/Performance reports are available for prescribed combination of OS, DB, Middleware & etc."
+        ]
+      },
+      {
+        "chunk_id": "cbi_upi_rfp:p0113:t01:r001",
+        "page": 113,
+        "type": "page_boundary_continuation_review",
+        "raw_header": [
+          "8.",
+          "Interface protocols are supported e.g. ISO, XML etc. as required by NPCI."
+        ]
+      },
+      {
+        "chunk_id": "cbi_upi_rfp:p0114:t01:r001",
+        "page": 114,
+        "type": "page_boundary_continuation_review",
+        "raw_header": [
+          "",
+          "process interface, Internet server application process interface, etc."
+        ]
+      },
+      {
+        "chunk_id": "cbi_upi_rfp:p0117:t01:r001",
+        "page": 117,
+        "type": "page_boundary_continuation_review",
+        "raw_header": [
+          "6",
+          "Pre-built query feature for non- Programmers"
+        ]
+      }
+    ],
+    "limitations": [
+      "Cross-page text is flagged, not merged",
+      "Pricing header hierarchy inferred only when Year1–Year7 are explicit",
+      "No retrieval benchmark executed"
+    ]
+  },
+  "limitations": [
+    "Multi-page continuation candidates are flagged, not joined.",
+    "Multi-level merged table headings remain uncertain.",
+    "Source-text coverage has not been exhaustively verified.",
+    "Original V1 benchmark gold chunk IDs do not apply to V2."
+  ]
+}

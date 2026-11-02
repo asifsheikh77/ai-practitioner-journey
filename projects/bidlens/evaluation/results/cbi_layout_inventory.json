@@ -1,0 +1,6206 @@
+{
+  "pdf": "data\\raw\\cbi_upi_rfp.pdf",
+  "pages": [
+    {
+      "page_number": 1,
+      "text_chars": 359,
+      "text_blocks": 13,
+      "tables": [],
+      "warnings": []
+    },
+    {
+      "page_number": 2,
+      "text_chars": 2889,
+      "text_blocks": 35,
+      "tables": [],
+      "warnings": []
+    },
+    {
+      "page_number": 3,
+      "text_chars": 3185,
+      "text_blocks": 30,
+      "tables": [],
+      "warnings": []
+    },
+    {
+      "page_number": 4,
+      "text_chars": 2814,
+      "text_blocks": 34,
+      "tables": [],
+      "warnings": []
+    },
+    {
+      "page_number": 5,
+      "text_chars": 2668,
+      "text_blocks": 32,
+      "tables": [],
+      "warnings": []
+    },
+    {
+      "page_number": 6,
+      "text_chars": 1316,
+      "text_blocks": 32,
+      "tables": [
+        {
+          "table_index": 1,
+          "bbox": [
+            78.26,
+            114.9,
+            540.47,
+            758.94
+          ],
+          "row_count": 28,
+          "column_count": 2,
+          "empty_cells": 0,
+          "rows": [
+            [
+              "AM",
+              "Approach and Methodology"
+            ],
+            [
+              "AMC",
+              "Annual Maintenance contract"
+            ],
+            [
+              "APIs",
+              "Application Programming Interface"
+            ],
+            [
+              "APT",
+              "Advanced Persistent Threat"
+            ],
+            [
+              "ATM",
+              "Automated Teller Machine"
+            ],
+            [
+              "ATS",
+              "Annual Technical Support"
+            ],
+            [
+              "Bank",
+              "Central Bank of India"
+            ],
+            [
+              "BC",
+              "Business Continuity"
+            ],
+            [
+              "BOM",
+              "Bill of Material"
+            ],
+            [
+              "BRS",
+              "Business Requirement Specification"
+            ],
+            [
+              "CB",
+              "Commercial Bid"
+            ],
+            [
+              "CBI",
+              "Central Bank of India"
+            ],
+            [
+              "CBS",
+              "Core Banking Solution"
+            ],
+            [
+              "CD",
+              "Compact Disk"
+            ],
+            [
+              "CMS",
+              "Card Management System"
+            ],
+            [
+              "CPC",
+              "Common Point of Compromise"
+            ],
+            [
+              "CPU",
+              "Central Processing Unit"
+            ],
+            [
+              "DB",
+              "Database"
+            ],
+            [
+              "DC",
+              "Data Centre"
+            ],
+            [
+              "DLA",
+              "Device Level audit"
+            ],
+            [
+              "DR",
+              "Disaster Recovery"
+            ],
+            [
+              "DRC/ DRS",
+              "Disaster Recovery Centre/ Site"
+            ],
+            [
+              "EFRMS",
+              "Enterprise Fraud Risk Management System"
+            ],
+            [
+              "EMD",
+              "Earnest Money Deposit"
+            ],
+            [
+              "FI",
+              "Financial Inclusion"
+            ],
+            [
+              "FM",
+              "Facility Management"
+            ],
+            [
+              "FR",
+              "Functional Requirements"
+            ],
+            [
+              "FY",
+              "Financial year"
+            ]
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "page_number": 7,
+      "text_chars": 1467,
+      "text_blocks": 32,
+      "tables": [
+        {
+          "table_index": 1,
+          "bbox": [
+            78.26,
+            88.48,
+            540.47,
+            755.46
+          ],
+          "row_count": 29,
+          "column_count": 2,
+          "empty_cells": 0,
+          "rows": [
+            [
+              "GOI",
+              "Government of India"
+            ],
+            [
+              "GSI",
+              "Global system integrator"
+            ],
+            [
+              "GST",
+              "Goods & Service Tax"
+            ],
+            [
+              "GUI",
+              "Graphical User Interface"
+            ],
+            [
+              "HA",
+              "High Availability"
+            ],
+            [
+              "HLD",
+              "High Level Design Document"
+            ],
+            [
+              "HRMS",
+              "Human Resource Management System"
+            ],
+            [
+              "IRM",
+              "Integrated Risk Management"
+            ],
+            [
+              "IS",
+              "Information Security"
+            ],
+            [
+              "ISO",
+              "International Organization for Standardization"
+            ],
+            [
+              "IT",
+              "Information Technology"
+            ],
+            [
+              "LLD",
+              "Low Level Design Document"
+            ],
+            [
+              "LLP",
+              "Limited Liability Partnership"
+            ],
+            [
+              "MAF",
+              "Manufacturer Authorization Form"
+            ],
+            [
+              "MO",
+              "Management Organization"
+            ],
+            [
+              "MQ",
+              "Messaging & Queuing"
+            ],
+            [
+              "MS SQL",
+              "Microsoft Structured Query Language"
+            ],
+            [
+              "MSME",
+              "Micro, Small & Medium Enterprise"
+            ],
+            [
+              "NBFC",
+              "Non-Banking Financial Company"
+            ],
+            [
+              "NDA",
+              "Non-Disclosure Agreement"
+            ],
+            [
+              "NEFT",
+              "National Electronic Funds Transfer"
+            ],
+            [
+              "NPCI",
+              "National Payment Corporation of India"
+            ],
+            [
+              "NS",
+              "Near Site to DC"
+            ],
+            [
+              "NTSL",
+              "Net Settlement Report"
+            ],
+            [
+              "NUUP",
+              "National Unified USSD [Unstructured Supplementary Services Data] Platform"
+            ],
+            [
+              "OEM",
+              "Original equipment manufacturer"
+            ],
+            [
+              "OEM",
+              "Original Equipment Manufacturer"
+            ],
+            [
+              "OPD",
+              "Original Platform Developer"
+            ],
+            [
+              "OS",
+              "Operating System"
+            ]
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "page_number": 8,
+      "text_chars": 1489,
+      "text_blocks": 31,
+      "tables": [
+        {
+          "table_index": 1,
+          "bbox": [
+            78.26,
+            88.48,
+            540.47,
+            761.46
+          ],
+          "row_count": 28,
+          "column_count": 2,
+          "empty_cells": 0,
+          "rows": [
+            [
+              "OSD",
+              "Original Software Developer"
+            ],
+            [
+              "PD & BP",
+              "Project Demonstration & Bid Presentation"
+            ],
+            [
+              "PBG",
+              "Performance Bank Guarantee"
+            ],
+            [
+              "PO",
+              "Purchase Order"
+            ],
+            [
+              "PoP",
+              "Point of Presence"
+            ],
+            [
+              "POS",
+              "Pont of Sale"
+            ],
+            [
+              "PSE",
+              "Public Sector Enterprise"
+            ],
+            [
+              "PSP",
+              "Payment System Player"
+            ],
+            [
+              "PSU",
+              "Public Sector Undertaking"
+            ],
+            [
+              "QR code",
+              "Quick Response Code"
+            ],
+            [
+              "RAM",
+              "Random Access Memory"
+            ],
+            [
+              "RBI",
+              "Reserve Bank of India"
+            ],
+            [
+              "RCA",
+              "Root cause analysis"
+            ],
+            [
+              "RFP",
+              "Request for Proposal"
+            ],
+            [
+              "RFP",
+              "Tender no. GEM/2024/B/5670501 for Supply, Implementation, Migration and\nMaintenance of Unified Payment Interface (UPI) Solution (Application & Software)\nfor Central Bank of India"
+            ],
+            [
+              "RPO",
+              "Recovery point objective"
+            ],
+            [
+              "RRB",
+              "Regional Rural Bank"
+            ],
+            [
+              "RTGS",
+              "Real Time Gross Settlement"
+            ],
+            [
+              "RTO",
+              "Recovery Time objective"
+            ],
+            [
+              "SAN",
+              "Storage Area Network"
+            ],
+            [
+              "SAS",
+              "Serial attached SCSI"
+            ],
+            [
+              "SCB",
+              "Scheduled Commercial Bank"
+            ],
+            [
+              "SDKs",
+              "Software Development Kits"
+            ],
+            [
+              "SDR",
+              "Single Data Repository"
+            ],
+            [
+              "SEBI",
+              "Securities Exchange Board of India"
+            ],
+            [
+              "SI",
+              "System Integrator"
+            ],
+            [
+              "SIEM",
+              "Security Information & Event Management"
+            ],
+            [
+              "SLA",
+              "Service Level Agreement"
+            ]
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "page_number": 9,
+      "text_chars": 893,
+      "text_blocks": 21,
+      "tables": [
+        {
+          "table_index": 1,
+          "bbox": [
+            78.25,
+            88.48,
+            540.47,
+            479.55
+          ],
+          "row_count": 17,
+          "column_count": 2,
+          "empty_cells": 0,
+          "rows": [
+            [
+              "SOP",
+              "Standard Operating Procedures"
+            ],
+            [
+              "SPOC",
+              "Single Point of Contact"
+            ],
+            [
+              "SRS",
+              "System Requirement Specification"
+            ],
+            [
+              "SSD",
+              "Solid state drive"
+            ],
+            [
+              "T&D",
+              "Training and Development"
+            ],
+            [
+              "TB",
+              "Technical Bid"
+            ],
+            [
+              "TCO",
+              "Total Cost of Ownership"
+            ],
+            [
+              "TPS",
+              "Transactions Per Second"
+            ],
+            [
+              "TR",
+              "Technical Requirements"
+            ],
+            [
+              "UAT",
+              "User Acceptance Testing"
+            ],
+            [
+              "UI /UX",
+              "User Interface / User Experience"
+            ],
+            [
+              "UPI",
+              "Unified Payment Interface"
+            ],
+            [
+              "USSD",
+              "Unstructured Supplementary Services Data"
+            ],
+            [
+              "VA",
+              "Vulnerability Assessment"
+            ],
+            [
+              "VPA",
+              "Virtual Payment address"
+            ],
+            [
+              "XML",
+              "Extensible Mark-up language"
+            ],
+            [
+              "CORS",
+              "Cross-origin Resource Sharing"
+            ]
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "page_number": 10,
+      "text_chars": 3138,
+      "text_blocks": 18,
+      "tables": [
+        {
+          "table_index": 1,
+          "bbox": [
+            78.24,
+            240.18,
+            529.2,
+            758.1
+          ],
+          "row_count": 9,
+          "column_count": 2,
+          "empty_cells": 0,
+          "rows": [
+            [
+              "Tender Reference Number",
+              "GEM/2024/B/5670501"
+            ],
+            [
+              "Date of RFP Issue",
+              "06/12/2024"
+            ],
+            [
+              "Bid Security (EMD)",
+              "An amount of ₹ 1,50,00,000/- (₹ One Crore Fifty\nLakhs only) in the form of Bank Guarantee issued\nby a scheduled bank other than Central Bank of\nIndia for the entire period of Bid validity plus 3\nmonths or by means of banker’s cheque/\nAccount Payee Demand Draft /RTGS/NEFT in the\naccount no.- 3287810289 of Central Bank of\nIndia (IFSC Code – CBIN0283154) with narration\nTender ref no GEM/2024/B/5670501 in favour\nof “Central Bank Of India” and payable at\nMumbai/Navi Mumbai."
+            ],
+            [
+              "e-mail IDs for sending queries and Last Date for\nsubmission of queries",
+              "smitupi@centralbank.co.in,\nsmitupiproject@centralbank.co.in,\nsmitpurchase@centralbank.co.in,\ncmitadc@centralbank.co.in,\nQueries to be submitted Latest by 13/12/2024."
+            ],
+            [
+              "Date and time for Pre-Bid Meeting,",
+              "Date-17/12/2024 Time- 15:00 hrs"
+            ],
+            [
+              "Last Date and Time submission of Bids\nMode of bid submission",
+              "16/01/2025 up to 15:00 hrs.\nGovernment-e-Marketplace (GeM)"
+            ],
+            [
+              "Time & Date of Opening of technical bids",
+              "16/01/2025 up to 15:30 hrs."
+            ],
+            [
+              "Response Types",
+              "1.Bid Security/EMD\n2.Commercial Bid"
+            ],
+            [
+              "Address for Communication",
+              "General Manager-IT\nCentral Bank of India\nDepartment Of IT (DIT),\nPlot no-26, Sector-11,\nCBD Belapur, Navi Mumbai- 400614"
+            ]
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "page_number": 11,
+      "text_chars": 3324,
+      "text_blocks": 16,
+      "tables": [
+        {
+          "table_index": 1,
+          "bbox": [
+            78.18,
+            88.48,
+            529.26,
+            184.66
+          ],
+          "row_count": 2,
+          "column_count": 2,
+          "empty_cells": 1,
+          "rows": [
+            [
+              "",
+              "Mail address:\nsmitpurchase@centralbank.co.in\ncmitadc@centralbank.co.in\nsmitupi@centralbank.co.in\nsmitupiproject@centralbank.co.in"
+            ],
+            [
+              "Contact Telephone Numbers",
+              "022- 27582434, 67123669, 67123670"
+            ]
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "page_number": 12,
+      "text_chars": 3053,
+      "text_blocks": 29,
+      "tables": [
+        {
+          "table_index": 1,
+          "bbox": [
+            78.24,
+            134.73,
+            545.44,
+            696.51
+          ],
+          "row_count": 8,
+          "column_count": 4,
+          "empty_cells": 7,
+          "rows": [
+            [
+              "#",
+              "Eligibility of the Bidder",
+              "Documents to be submitted",
+              "Compliance\n(Y/N)"
+            ],
+            [
+              "1.",
+              "Bidder should be a Registered company under\nIndian Companies Act. 1956/2013 or\nLLP/Partnership firm and should have been in\nexistence for a minimum period of 5 years in\nIndia, as on date of submission of RFP.",
+              "Copy of the Certificate of Incorporation\nissued by Registrar of\nCompanies/Registrar of firms and full\naddress of the registered office of the\nbidder",
+              ""
+            ],
+            [
+              "2.",
+              "Bidder should be registered under G.S.T. and/or\ntax registration in state where bidder has a\nregistered office",
+              "Proof of registration with GSTIN",
+              ""
+            ],
+            [
+              "3.",
+              "The bidder must have an annual turnover in\nIndia of INR 20 crores per annum in the last\nthree financial years (i.e. 2021-22, 2022-23 and\n2023-24) as per the audited balance sheet\navailable at the time of submission of tender, of\nindividual company and not as group of\ncompanies",
+              "Copy of audited Balance Sheet and\nCertificate of the Chartered Accountant\nfor preceding three FY.",
+              ""
+            ],
+            [
+              "4.",
+              "The bidder should have made operating profits\nin at least two financial years out of last three\nfinancial years (i.e. 2021-22, 2022-23 and 2023-\n24).",
+              "Copy of audited Balance Sheet and\nCertificate of the Chartered Accountant\nfor preceding three FY.",
+              ""
+            ],
+            [
+              "5.",
+              "The bidder should have a positive net worth in\nlast three financial years (i.e. 2021-22, 2022-23\nand 2023-24).",
+              "Certificate of the Chartered Accountant\nfor preceding three FY.",
+              ""
+            ],
+            [
+              "6.",
+              "The Bidder should have implemented the\nproposed UPI solution which should be running\npresently in at least two Scheduled Commercial\nBanks (SCB), out of which one Bank should\nhave minimum average 1 Crore transactions\n(including financial and non-financial) per day\nduring last one year from October-23 to\nSeptember-24.",
+              "Credential letter along with Proof of\ntransaction",
+              ""
+            ],
+            [
+              "7.",
+              "At the time of bidding, the Bidder should not\nhave been blacklisted/ debarred by any Govt. /\nIBA/ RBI/ PSU /PSE/ or Banks, Financial\ninstitutes for any reason or non-implementation/\ndelivery of the order. Self-declaration to that\neffect should be submitted along with the\ntechnical bid.",
+              "Submit the undertaking on Company’s\nletter head",
+              ""
+            ]
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "page_number": 13,
+      "text_chars": 3586,
+      "text_blocks": 29,
+      "tables": [
+        {
+          "table_index": 1,
+          "bbox": [
+            78.23,
+            88.52,
+            545.4,
+            555.48
+          ],
+          "row_count": 6,
+          "column_count": 4,
+          "empty_cells": 5,
+          "rows": [
+            [
+              "#",
+              "Eligibility of the Bidder",
+              "Documents to be submitted",
+              "Compliance\n(Y/N)"
+            ],
+            [
+              "8.",
+              "At the time of bidding, there should not have\nbeen any pending litigation or any legal dispute\nin the last five years, before any court of law\nbetween the Bidder / OEM and the Bank\nregarding supply of goods/ services",
+              "Submit the undertaking self-declaration\non Company’s letter head",
+              ""
+            ],
+            [
+              "9.",
+              "Bidder/OEM should not have\n• NPA with any Bank /financial institutions\nin India\n• Any case pending or otherwise, with any\norganization across the globe which affects\nthe credibility of the Bidder in the opinion\nof Central Bank of India to service the needs\nof the Bank",
+              "Submit self-declaration on Company’s\nletter head.",
+              ""
+            ],
+            [
+              "10.",
+              "Bidder/ OEMs should have service/ support\ninfrastructure at Mumbai/ Hyderabad and should\nbe able to provide efficient and effective\nsupport.",
+              "Submit the undertaking self-declaration\non Bidder’s and OEM’s letter head",
+              ""
+            ],
+            [
+              "11.",
+              "If the bidder is from a country which shares a\nland border with India, the bidder should be\nregistered with the Competent Authority",
+              "Certified copy of the registration\ncertificate",
+              ""
+            ],
+            [
+              "12.",
+              "The Bidder or Its Technology Partner should not\nbe owned or controlled by any Director, officer\nor employee of Central Bank of India or by\nrelated party having the same meaning as\nassigned under section 2(76) of the companies\nact or relative having same meaning as assigned\nsection 2(77) of companies act 2013 read with\nrule 4 of the companies (specification of\ndefinition details) rules 2014.",
+              "Undertaking to be given by the Bidder\nat time of submission\nCompliance certificate given by\nsuccessful bidder on company's letter\nhead (Enclosed as Annexure 31) after\nsigning agreement",
+              ""
+            ]
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "page_number": 14,
+      "text_chars": 3882,
+      "text_blocks": 13,
+      "tables": [],
+      "warnings": []
+    },
+    {
+      "page_number": 15,
+      "text_chars": 3169,
+      "text_blocks": 20,
+      "tables": [],
+      "warnings": []
+    },
+    {
+      "page_number": 16,
+      "text_chars": 4068,
+      "text_blocks": 4,
+      "tables": [],
+      "warnings": []
+    },
+    {
+      "page_number": 17,
+      "text_chars": 2079,
+      "text_blocks": 8,
+      "tables": [],
+      "warnings": []
+    },
+    {
+      "page_number": 18,
+      "text_chars": 3470,
+      "text_blocks": 10,
+      "tables": [],
+      "warnings": []
+    },
+    {
+      "page_number": 19,
+      "text_chars": 3393,
+      "text_blocks": 13,
+      "tables": [],
+      "warnings": []
+    },
+    {
+      "page_number": 20,
+      "text_chars": 3186,
+      "text_blocks": 15,
+      "tables": [],
+      "warnings": []
+    },
+    {
+      "page_number": 21,
+      "text_chars": 3179,
+      "text_blocks": 20,
+      "tables": [
+        {
+          "table_index": 1,
+          "bbox": [
+            141.96,
+            182.37,
+            481.8,
+            356.74
+          ],
+          "row_count": 9,
+          "column_count": 4,
+          "empty_cells": 0,
+          "rows": [
+            [
+              "Month on Month",
+              "Financial\nTransactions\n(In Million)",
+              "Non-Financial\nTransactions\n(In Million)",
+              "Total\nTransactions\n(In Million)"
+            ],
+            [
+              "Sep-24",
+              "340",
+              "135",
+              "475"
+            ],
+            [
+              "Sep-25",
+              "442",
+              "176",
+              "618"
+            ],
+            [
+              "Sep-26",
+              "575",
+              "228",
+              "803"
+            ],
+            [
+              "Sep-27",
+              "747",
+              "297",
+              "1044"
+            ],
+            [
+              "Dec-28",
+              "971",
+              "386",
+              "1357"
+            ],
+            [
+              "Dec-29",
+              "1262",
+              "501",
+              "1764"
+            ],
+            [
+              "Dec-30",
+              "1641",
+              "652",
+              "2293"
+            ],
+            [
+              "Dec-31",
+              "2133",
+              "847",
+              "2981"
+            ]
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "page_number": 22,
+      "text_chars": 3632,
+      "text_blocks": 20,
+      "tables": [],
+      "warnings": []
+    },
+    {
+      "page_number": 23,
+      "text_chars": 3157,
+      "text_blocks": 16,
+      "tables": [],
+      "warnings": []
+    },
+    {
+      "page_number": 24,
+      "text_chars": 3539,
+      "text_blocks": 17,
+      "tables": [],
+      "warnings": []
+    },
+    {
+      "page_number": 25,
+      "text_chars": 4229,
+      "text_blocks": 7,
+      "tables": [],
+      "warnings": []
+    },
+    {
+      "page_number": 26,
+      "text_chars": 3727,
+      "text_blocks": 7,
+      "tables": [
+        {
+          "table_index": 1,
+          "bbox": [
+            97.8,
+            474.76,
+            565.2,
+            639.82
+          ],
+          "row_count": 11,
+          "column_count": 6,
+          "empty_cells": 23,
+          "rows": [
+            [
+              "SN",
+              "Role",
+              "L3",
+              "L2",
+              "L1",
+              "Remarks"
+            ],
+            [
+              "1",
+              "Project Manager",
+              "1",
+              "",
+              "",
+              "(For Overall Project Supervision)"
+            ],
+            [
+              "2",
+              "UPI Monitoring & Application Support",
+              "",
+              "",
+              "8",
+              "Min 2 in Day Shift & 1 in Night Shifts"
+            ],
+            [
+              "3",
+              "Middleware Tech Lead",
+              "",
+              "1",
+              "",
+              ""
+            ],
+            [
+              "4",
+              "Middleware Development",
+              "",
+              "3",
+              "",
+              ""
+            ],
+            [
+              "5",
+              "App Development (Android/iOS)",
+              "",
+              "2",
+              "",
+              "(1-Android & 1- iOS)"
+            ],
+            [
+              "6",
+              "App Tech Lead",
+              "",
+              "1",
+              "",
+              ""
+            ],
+            [
+              "7",
+              "Quality Control (Android/iOS)",
+              "",
+              "2",
+              "",
+              "(1-Android & 1- iOS)"
+            ],
+            [
+              "8",
+              "DBA Support",
+              "",
+              "5",
+              "",
+              ""
+            ],
+            [
+              "9",
+              "Hardware Resources at DC/DR",
+              "",
+              "3",
+              "9",
+              ""
+            ],
+            [
+              "",
+              "Total",
+              "1",
+              "17",
+              "17",
+              "35"
+            ]
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "page_number": 27,
+      "text_chars": 3897,
+      "text_blocks": 7,
+      "tables": [],
+      "warnings": []
+    },
+    {
+      "page_number": 28,
+      "text_chars": 4255,
+      "text_blocks": 11,
+      "tables": [],
+      "warnings": []
+    },
+    {
+      "page_number": 29,
+      "text_chars": 3791,
+      "text_blocks": 7,
+      "tables": [],
+      "warnings": []
+    },
+    {
+      "page_number": 30,
+      "text_chars": 3267,
+      "text_blocks": 10,
+      "tables": [],
+      "warnings": []
+    },
+    {
+      "page_number": 31,
+      "text_chars": 3769,
+      "text_blocks": 8,
+      "tables": [],
+      "warnings": []
+    },
+    {
+      "page_number": 32,
+      "text_chars": 3450,
+      "text_blocks": 4,
+      "tables": [],
+      "warnings": []
+    },
+    {
+      "page_number": 33,
+      "text_chars": 3148,
+      "text_blocks": 4,
+      "tables": [],
+      "warnings": []
+    },
+    {
+      "page_number": 34,
+      "text_chars": 2770,
+      "text_blocks": 6,
+      "tables": [],
+      "warnings": []
+    },
+    {
+      "page_number": 35,
+      "text_chars": 3414,
+      "text_blocks": 13,
+      "tables": [],
+      "warnings": []
+    },
+    {
+      "page_number": 36,
+      "text_chars": 3597,
+      "text_blocks": 34,
+      "tables": [],
+      "warnings": []
+    },
+    {
+      "page_number": 37,
+      "text_chars": 2808,
+      "text_blocks": 11,
+      "tables": [],
+      "warnings": []
+    },
+    {
+      "page_number": 38,
+      "text_chars": 2917,
+      "text_blocks": 11,
+      "tables": [],
+      "warnings": []
+    },
+    {
+      "page_number": 39,
+      "text_chars": 3556,
+      "text_blocks": 13,
+      "tables": [
+        {
+          "table_index": 1,
+          "bbox": [
+            78.28,
+            99.48,
+            510.92,
+            608.31
+          ],
+          "row_count": 9,
+          "column_count": 2,
+          "empty_cells": 0,
+          "rows": [
+            [
+              "Stage",
+              "Deliverables"
+            ],
+            [
+              "Project\nPreparation",
+              "• Project Kick-Off\n• Project Charter and Project Plan\n• Resource Deployment Plan"
+            ],
+            [
+              "Business\nDesign",
+              "• As-is report & Identification of major / minor design consideration\n• To-Be report and Gap Assessment report\n• Workshop for business blueprint, gaps and way forward"
+            ],
+            [
+              "Configuration &\nCustomization",
+              "• Configuration document consisting of system setting and parameters\ncustomization-design, development and technical documents"
+            ],
+            [
+              "Integration",
+              "• Integration with Bank’s existing solution(s)/interfaces/NPCI\netc."
+            ],
+            [
+              "UAT signoff in\ntest environment",
+              "• Demonstration of all the functionalities/ requirements as depicted in\nthe scope of work along with all required customizations including\ninterface with Bank’s existing\nInfrastructure\n• Any necessary additional stress testing to be arranged by bidder\n• Resolving of UAT issues and signoff"
+            ],
+            [
+              "Technical\nDocumentation",
+              "• The document which needs to be delivered by the vendor to the Bank\nfor every software/module including any third-party software before\nsoftware/service become operational includes user manuals,\ninstallation manuals, operation manuals, design documents, process\ndocuments, technical manuals, functional specification, software\nrequirement specification, system configuration documents,\nsystem/database administrative documents,\ndebugging/diagnostics documents, test procedures and results etc.\n• Necessary periodic updation/review (at least once in a quarter) of all\nthe documents above must be carried out by the vendor and submitted\nto the bank.\n• Go-Live Payment will be linked to acceptance of Documents by the\nBANK"
+            ],
+            [
+              "Training",
+              "• Training should be given by OEM\n• Core team training plan (functional & technical)\n• Training manuals for core team training (functional & technical)\n• End-user training manuals"
+            ],
+            [
+              "Go Live",
+              "• Go-live for all functionalities/ requirements as stated in the scope of\nwork for the bidder"
+            ]
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "page_number": 40,
+      "text_chars": 3722,
+      "text_blocks": 8,
+      "tables": [],
+      "warnings": []
+    },
+    {
+      "page_number": 41,
+      "text_chars": 2638,
+      "text_blocks": 26,
+      "tables": [],
+      "warnings": []
+    },
+    {
+      "page_number": 42,
+      "text_chars": 3577,
+      "text_blocks": 19,
+      "tables": [
+        {
+          "table_index": 1,
+          "bbox": [
+            83.89,
+            248.13,
+            554.28,
+            508.92
+          ],
+          "row_count": 13,
+          "column_count": 4,
+          "empty_cells": 6,
+          "rows": [
+            [
+              "S.\nNo.",
+              "Activity",
+              "Time\nPeriod for\nCompletion",
+              "Time period\nfrom\nProject PO"
+            ],
+            [
+              "Phase I (Temporary Setup will be provided by Bank)",
+              null,
+              null,
+              null
+            ],
+            [
+              "1",
+              "Project Kick off Meeting",
+              "1 Weeks",
+              "1 Weeks"
+            ],
+            [
+              "2",
+              "Study of the existing system and GAP Analysis",
+              "2 Weeks",
+              "3 weeks"
+            ],
+            [
+              "3",
+              "Requirement Analysis and Submission of SRS",
+              "10 weeks",
+              "13 weeks"
+            ],
+            [
+              "4",
+              "Software Delivery, Installation and Development of Application and\ncustomization",
+              "10 weeks",
+              "23 weeks"
+            ],
+            [
+              "Phase II (After provision of Infrastructure by Bank)",
+              null,
+              null,
+              null
+            ],
+            [
+              "1",
+              "Deployment of application on new setup",
+              "4 weeks",
+              "4 weeks"
+            ],
+            [
+              "2",
+              "NPCI UPI Certification",
+              "16 Weeks",
+              "20weeks"
+            ],
+            [
+              "3",
+              "UAT (testing & sign-off)",
+              "8 Weeks",
+              "28 weeks"
+            ],
+            [
+              "4",
+              "Migration of existing UPI Data",
+              "4 weeks",
+              "32 weeks"
+            ],
+            [
+              "5",
+              "Production movement and Pilot/ Closed User Group\nimplementation followed by complete Go-live",
+              "6 weeks",
+              "38 weeks"
+            ],
+            [
+              "6",
+              "Project Signoff",
+              "2 weeks",
+              "40 weeks"
+            ]
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "page_number": 43,
+      "text_chars": 3902,
+      "text_blocks": 16,
+      "tables": [],
+      "warnings": []
+    },
+    {
+      "page_number": 44,
+      "text_chars": 3406,
+      "text_blocks": 15,
+      "tables": [],
+      "warnings": []
+    },
+    {
+      "page_number": 45,
+      "text_chars": 3488,
+      "text_blocks": 18,
+      "tables": [],
+      "warnings": []
+    },
+    {
+      "page_number": 46,
+      "text_chars": 3702,
+      "text_blocks": 13,
+      "tables": [],
+      "warnings": []
+    },
+    {
+      "page_number": 47,
+      "text_chars": 3482,
+      "text_blocks": 13,
+      "tables": [],
+      "warnings": []
+    },
+    {
+      "page_number": 48,
+      "text_chars": 3374,
+      "text_blocks": 22,
+      "tables": [
+        {
+          "table_index": 1,
+          "bbox": [
+            113.39,
+            286.79,
+            489.25,
+            393.83
+          ],
+          "row_count": 7,
+          "column_count": 3,
+          "empty_cells": 1,
+          "rows": [
+            [
+              "SN",
+              "Criteria",
+              "Max Score"
+            ],
+            [
+              "1",
+              "Credentials",
+              "50"
+            ],
+            [
+              "2",
+              "Technical Specification",
+              "50"
+            ],
+            [
+              "3",
+              "Functional Specification",
+              "50"
+            ],
+            [
+              "4",
+              "Presentation",
+              "50"
+            ],
+            [
+              "5",
+              "Demonstration of technical & functional capabilities",
+              "50"
+            ],
+            [
+              "",
+              "Total",
+              "250"
+            ]
+          ]
+        },
+        {
+          "table_index": 2,
+          "bbox": [
+            78.47,
+            582.63,
+            524.65,
+            756.98
+          ],
+          "row_count": 7,
+          "column_count": 2,
+          "empty_cells": 0,
+          "rows": [
+            [
+              "Evaluation criteria",
+              "Max Marks"
+            ],
+            [
+              "Number of Public Sector Banks & Private Sector Bank (Having more than 2000\nbranches) where UPI solution is implemented and running for last one year.",
+              "20(a)"
+            ],
+            [
+              "Number of Other Schedule Commercial Banks/Co-operative Banks/RRBs where UPI\nsolution is implemented and running for last one year",
+              "10(b)"
+            ],
+            [
+              "Number of Schedule Commercial Banks where UPI solution migrated from OPEX to\nCAPEX model and presently running with same solution.",
+              "05(c)"
+            ],
+            [
+              "Number of Schedule Commercial Banks where UPI solution migrated from\ndifferent solution and presently running with same solution.",
+              "05(c)"
+            ],
+            [
+              "UPI Transaction Volume Handled per day per bank for last one year.",
+              "10(d)"
+            ],
+            [
+              "Total Marks (For Credentials)",
+              "50"
+            ]
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "page_number": 49,
+      "text_chars": 2103,
+      "text_blocks": 24,
+      "tables": [
+        {
+          "table_index": 1,
+          "bbox": [
+            78.85,
+            120.3,
+            544.81,
+            168.22
+          ],
+          "row_count": 2,
+          "column_count": 2,
+          "empty_cells": 0,
+          "rows": [
+            [
+              "Evaluation criteria",
+              "Max Marks"
+            ],
+            [
+              "Successful implementation",
+              "Five (5) marks for each Bank"
+            ]
+          ]
+        },
+        {
+          "table_index": 2,
+          "bbox": [
+            78.85,
+            214.5,
+            544.81,
+            262.42
+          ],
+          "row_count": 2,
+          "column_count": 2,
+          "empty_cells": 0,
+          "rows": [
+            [
+              "Evaluation criteria",
+              "Max Marks"
+            ],
+            [
+              "Successful implementation",
+              "Two (2) marks for each Bank"
+            ]
+          ]
+        },
+        {
+          "table_index": 3,
+          "bbox": [
+            78.85,
+            308.73,
+            544.81,
+            371.53
+          ],
+          "row_count": 2,
+          "column_count": 2,
+          "empty_cells": 0,
+          "rows": [
+            [
+              "Evaluation criteria",
+              "Max Marks"
+            ],
+            [
+              "Successful Migration",
+              "Two (2) marks for each Bank with\nMaximum five (5) marks."
+            ]
+          ]
+        },
+        {
+          "table_index": 4,
+          "bbox": [
+            78.85,
+            412.05,
+            544.81,
+            473.19
+          ],
+          "row_count": 3,
+          "column_count": 2,
+          "empty_cells": 0,
+          "rows": [
+            [
+              "Evaluation criteria",
+              "Marks"
+            ],
+            [
+              "1 Crore up to 3 Crore per day",
+              "Five (5) Marks for each Bank"
+            ],
+            [
+              "Above 3 Crore per day",
+              "Ten (10) Marks for each Bank"
+            ]
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "page_number": 50,
+      "text_chars": 3079,
+      "text_blocks": 20,
+      "tables": [],
+      "warnings": []
+    },
+    {
+      "page_number": 51,
+      "text_chars": 3563,
+      "text_blocks": 18,
+      "tables": [],
+      "warnings": []
+    },
+    {
+      "page_number": 52,
+      "text_chars": 3608,
+      "text_blocks": 11,
+      "tables": [],
+      "warnings": []
+    },
+    {
+      "page_number": 53,
+      "text_chars": 3901,
+      "text_blocks": 25,
+      "tables": [
+        {
+          "table_index": 1,
+          "bbox": [
+            78.49,
+            88.71,
+            571.46,
+            475.49
+          ],
+          "row_count": 14,
+          "column_count": 4,
+          "empty_cells": 15,
+          "rows": [
+            [
+              "",
+              "Sr No",
+              "Mile-Stone",
+              "Payment to be\nmade"
+            ],
+            [
+              "Licence Cost",
+              "1",
+              "Software delivery",
+              "10%"
+            ],
+            [
+              null,
+              "2a",
+              "Installation in the temporary\ninfrastructure provided by Bank",
+              "5%"
+            ],
+            [
+              null,
+              "2b",
+              "Installation & commissioning on\nthe Production setup",
+              "25%"
+            ],
+            [
+              null,
+              "3",
+              "Customization & Data Migration",
+              "20%"
+            ],
+            [
+              null,
+              "4",
+              "Final Implementation, Go-Live &\ncertification",
+              "30%"
+            ],
+            [
+              null,
+              "5",
+              "Post Go-live (After 3 months)",
+              "10%"
+            ],
+            [
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "implementation Cost",
+              "1a",
+              "Installation & commissioning in the\ntemporary infrastructure",
+              "10%"
+            ],
+            [
+              null,
+              "1b",
+              "Final Implementation, Go-Live &\ncertification",
+              "70%"
+            ],
+            [
+              null,
+              "2",
+              "Post Go-live (After 3 months)",
+              "20%"
+            ],
+            [
+              "ATS",
+              "",
+              "ATS will be paid in advance post\nwarranty",
+              "Annually"
+            ],
+            [
+              "Onsite Support Charges",
+              "",
+              "will be paid at the end of each\nquarter",
+              "Quarterly"
+            ],
+            [
+              "Other Costs",
+              "",
+              "Will be paid in arrears post\ncompletion of activity",
+              "In Arrears"
+            ]
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "page_number": 54,
+      "text_chars": 3267,
+      "text_blocks": 4,
+      "tables": [],
+      "warnings": []
+    },
+    {
+      "page_number": 55,
+      "text_chars": 2916,
+      "text_blocks": 18,
+      "tables": [
+        {
+          "table_index": 1,
+          "bbox": [
+            78.47,
+            577.31,
+            525.13,
+            689.1
+          ],
+          "row_count": 7,
+          "column_count": 2,
+          "empty_cells": 0,
+          "rows": [
+            [
+              "Uptime Percentage",
+              "Penalty Details"
+            ],
+            [
+              "100% => A >= 99.99 %",
+              "No Penalty"
+            ],
+            [
+              "99.99% > A >= 99.90 %",
+              "10% of cost of Monthly billing"
+            ],
+            [
+              "99.90% > A >= 99.75 %",
+              "20% of cost of Monthly billing"
+            ],
+            [
+              "99.75 % > A >=99.5%",
+              "30% of cost of Monthly billing"
+            ],
+            [
+              "99.5% > A > =99%",
+              "40% of cost of Monthly billing"
+            ],
+            [
+              "99 % >A",
+              "Minimum 40% of cost of Monthly billing & 5% for\nevery incremental increase in 0.1% downtime"
+            ]
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "page_number": 56,
+      "text_chars": 3397,
+      "text_blocks": 20,
+      "tables": [
+        {
+          "table_index": 1,
+          "bbox": [
+            78.47,
+            328.17,
+            525.13,
+            464.65
+          ],
+          "row_count": 7,
+          "column_count": 2,
+          "empty_cells": 0,
+          "rows": [
+            [
+              "Technical Transaction\nSuccess Percentage",
+              "Penalty Details"
+            ],
+            [
+              "100% => A >= 99.95 %",
+              "No Penalty"
+            ],
+            [
+              "99.95% > A >= 99.90 %",
+              "2% of cost of Monthly billing"
+            ],
+            [
+              "99.90% > A >= 99.75 %",
+              "5% of cost of Monthly billing"
+            ],
+            [
+              "99.75 % > A >=99.5%",
+              "10% of cost of Monthly billing"
+            ],
+            [
+              "99.5% > A > =99%",
+              "20% of cost of Monthly billing"
+            ],
+            [
+              "99 % >A",
+              "Minimum 20% of cost of Monthly billing & 5% for every\nincremental increase in 0.1% downtime with maximum\ncap of 40% of Monthly billing"
+            ]
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "page_number": 57,
+      "text_chars": 3575,
+      "text_blocks": 22,
+      "tables": [],
+      "warnings": []
+    },
+    {
+      "page_number": 58,
+      "text_chars": 2782,
+      "text_blocks": 25,
+      "tables": [
+        {
+          "table_index": 1,
+          "bbox": [
+            78.26,
+            369.15,
+            545.37,
+            521.07
+          ],
+          "row_count": 6,
+          "column_count": 4,
+          "empty_cells": 13,
+          "rows": [
+            [
+              "",
+              "Incident to be reported within",
+              "",
+              "Escalation Hierarchy"
+            ],
+            [
+              null,
+              "(if unresolved)",
+              null,
+              null
+            ],
+            [
+              "15 min",
+              null,
+              null,
+              "Senior Manager-IT of the Bank"
+            ],
+            [
+              "1 hour",
+              null,
+              null,
+              "Chief Manager –IT"
+            ],
+            [
+              "2 hours",
+              null,
+              null,
+              "Assistant General Manager (IT) / Deputy General\nManager (IT)"
+            ],
+            [
+              "> 4 hours",
+              null,
+              null,
+              "General Manager (IT)"
+            ]
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "page_number": 59,
+      "text_chars": 3999,
+      "text_blocks": 11,
+      "tables": [],
+      "warnings": []
+    },
+    {
+      "page_number": 60,
+      "text_chars": 3780,
+      "text_blocks": 13,
+      "tables": [],
+      "warnings": []
+    },
+    {
+      "page_number": 61,
+      "text_chars": 3529,
+      "text_blocks": 17,
+      "tables": [],
+      "warnings": []
+    },
+    {
+      "page_number": 62,
+      "text_chars": 3598,
+      "text_blocks": 16,
+      "tables": [],
+      "warnings": []
+    },
+    {
+      "page_number": 63,
+      "text_chars": 4047,
+      "text_blocks": 14,
+      "tables": [],
+      "warnings": []
+    },
+    {
+      "page_number": 64,
+      "text_chars": 3903,
+      "text_blocks": 9,
+      "tables": [],
+      "warnings": []
+    },
+    {
+      "page_number": 65,
+      "text_chars": 4187,
+      "text_blocks": 11,
+      "tables": [],
+      "warnings": []
+    },
+    {
+      "page_number": 66,
+      "text_chars": 3952,
+      "text_blocks": 15,
+      "tables": [],
+      "warnings": []
+    },
+    {
+      "page_number": 67,
+      "text_chars": 4551,
+      "text_blocks": 8,
+      "tables": [],
+      "warnings": []
+    },
+    {
+      "page_number": 68,
+      "text_chars": 3877,
+      "text_blocks": 15,
+      "tables": [],
+      "warnings": []
+    },
+    {
+      "page_number": 69,
+      "text_chars": 3522,
+      "text_blocks": 13,
+      "tables": [],
+      "warnings": []
+    },
+    {
+      "page_number": 70,
+      "text_chars": 3681,
+      "text_blocks": 12,
+      "tables": [],
+      "warnings": []
+    },
+    {
+      "page_number": 71,
+      "text_chars": 3724,
+      "text_blocks": 15,
+      "tables": [],
+      "warnings": []
+    },
+    {
+      "page_number": 72,
+      "text_chars": 3291,
+      "text_blocks": 15,
+      "tables": [],
+      "warnings": []
+    },
+    {
+      "page_number": 73,
+      "text_chars": 2794,
+      "text_blocks": 19,
+      "tables": [],
+      "warnings": []
+    },
+    {
+      "page_number": 74,
+      "text_chars": 2667,
+      "text_blocks": 21,
+      "tables": [],
+      "warnings": []
+    },
+    {
+      "page_number": 75,
+      "text_chars": 2560,
+      "text_blocks": 21,
+      "tables": [],
+      "warnings": []
+    },
+    {
+      "page_number": 76,
+      "text_chars": 1451,
+      "text_blocks": 11,
+      "tables": [],
+      "warnings": []
+    },
+    {
+      "page_number": 77,
+      "text_chars": 2594,
+      "text_blocks": 12,
+      "tables": [
+        {
+          "table_index": 1,
+          "bbox": [
+            78.28,
+            112.46,
+            545.56,
+            755.92
+          ],
+          "row_count": 38,
+          "column_count": 3,
+          "empty_cells": 40,
+          "rows": [
+            [
+              "#",
+              "Particulars",
+              "Bidders Remark"
+            ],
+            [
+              null,
+              null,
+              "Yes/No"
+            ],
+            [
+              "",
+              "",
+              null
+            ],
+            [
+              "1",
+              "Certificate of incorporation",
+              ""
+            ],
+            [
+              "2",
+              "Audited Balance sheets of last three years 2021-22, 2022-23 and 2023-24",
+              ""
+            ],
+            [
+              "3",
+              "CA certificate for three years average turnover for financial years 2021-22,\n2022-23 and 2023-24",
+              ""
+            ],
+            [
+              "4",
+              "CA certificate for operating profit for last three financial years 2021-22,\n2022-23 and 2023-24",
+              ""
+            ],
+            [
+              "5",
+              "CA certificate for net worth for last three financial years i.e.\n2021-22, 2022-23 and 2023-24",
+              ""
+            ],
+            [
+              "6",
+              "Self-declaration by the Authorized Signatory for not have filed for\nbankruptcy in any country including India on company letter head",
+              ""
+            ],
+            [
+              "7",
+              "Self-declaration on Company’s letter head should not have been\nblacklisted/debarred/",
+              ""
+            ],
+            [
+              "8",
+              "Self-declaration on Company’s letter head Bidder/OEM should not\nhave any pending litigation or any dispute arises",
+              ""
+            ],
+            [
+              "9",
+              "Self-declaration on Company’s letter head • NPA • Any case\nPending (Annexure -16)",
+              ""
+            ],
+            [
+              "10",
+              "Annexure-1 Conformity Letter",
+              ""
+            ],
+            [
+              "11",
+              "Annexure-2 Masked Commercial Bid along with technical bid",
+              ""
+            ],
+            [
+              "12",
+              "Annexure-3 Bidder’s Information on company letter head",
+              ""
+            ],
+            [
+              "13",
+              "Annexure-4 Letter for Conformity of Product as per RFP",
+              ""
+            ],
+            [
+              "14",
+              "Annexure-5 Indemnity Deed",
+              ""
+            ],
+            [
+              "15",
+              "Annexure-6 Undertaking of Authenticity for Products Supplied Management",
+              ""
+            ],
+            [
+              "16",
+              "Annexure-7 Undertaking for acceptance of terms of RFP",
+              ""
+            ],
+            [
+              "17",
+              "Annexure-8 MAF on OEM letter head",
+              ""
+            ],
+            [
+              "18",
+              "Annexure-9 Integrity Pact",
+              ""
+            ],
+            [
+              "19",
+              "Annexure-10 Non-Disclosure Agreement",
+              ""
+            ],
+            [
+              "20",
+              "Annexure-11- Performance Bank Guarantee",
+              ""
+            ],
+            [
+              "21",
+              "Annexure 12- Pro forma for Bid Security(EMD)",
+              ""
+            ],
+            [
+              "22",
+              "Annexure 13-A Technical specifications",
+              ""
+            ],
+            [
+              "23",
+              "Annexure 13- B Functional specifications",
+              ""
+            ],
+            [
+              "24",
+              "Annexure 14- Bidders Particulars in Company Letter Head",
+              ""
+            ],
+            [
+              "25",
+              "Annexure 16- NPA Undertaking",
+              ""
+            ],
+            [
+              "26",
+              "Annexure 17- Land Border Sharing Undertaking",
+              ""
+            ],
+            [
+              "27",
+              "Annexure 18- Cover Letter",
+              ""
+            ],
+            [
+              "28",
+              "Annexure 19- Undertaking letter (Enterprise Licences for Databases / Data stores)",
+              ""
+            ],
+            [
+              "29",
+              "Annexure 21- Eligibility Criteria Compliance",
+              ""
+            ],
+            [
+              "30",
+              "Annexure 22- Guidelines on banning of Business Dealings",
+              ""
+            ],
+            [
+              "31",
+              "Annexure 23- List of Software Components",
+              ""
+            ],
+            [
+              "32",
+              "Annexure 24- Undertaking For 7 Year Roadmap",
+              ""
+            ],
+            [
+              "33",
+              "Annexure 25- Proposed Team Profile",
+              ""
+            ],
+            [
+              "34",
+              "Annexure 27- Details of past experiences of handling similar project",
+              ""
+            ],
+            [
+              "35",
+              "Annexure 28- Format for Local Content",
+              ""
+            ]
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "page_number": 78,
+      "text_chars": 508,
+      "text_blocks": 5,
+      "tables": [
+        {
+          "table_index": 1,
+          "bbox": [
+            78.35,
+            88.74,
+            545.32,
+            162.02
+          ],
+          "row_count": 6,
+          "column_count": 3,
+          "empty_cells": 8,
+          "rows": [
+            [
+              "#",
+              "Particulars",
+              "Bidders Remark"
+            ],
+            [
+              null,
+              null,
+              "Yes/No"
+            ],
+            [
+              "",
+              "",
+              null
+            ],
+            [
+              "36",
+              "Annexure 29- Undertaking Of Information Security",
+              ""
+            ],
+            [
+              "37",
+              "Annexure 30-Infrastructure Sizing Requirement",
+              ""
+            ],
+            [
+              "38",
+              "Annexure 31: Compliance Certificate with respect to RBI’s “Master Direction",
+              ""
+            ]
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "page_number": 79,
+      "text_chars": 1257,
+      "text_blocks": 18,
+      "tables": [],
+      "warnings": []
+    },
+    {
+      "page_number": 80,
+      "text_chars": 1361,
+      "text_blocks": 13,
+      "tables": [
+        {
+          "table_index": 1,
+          "bbox": [
+            72.46,
+            162.58,
+            667.44,
+            367.55
+          ],
+          "row_count": 10,
+          "column_count": 5,
+          "empty_cells": 29,
+          "rows": [
+            [
+              "Sr.\nNo",
+              "Requirement",
+              "Total Cost for\n7 years",
+              "GST",
+              "Total Cost for 7\nyears with GST"
+            ],
+            [
+              "1",
+              "Enterprise License* Cost for UPI switch",
+              "",
+              "",
+              ""
+            ],
+            [
+              "2",
+              "Database (If other than Oracle)**",
+              "",
+              "",
+              ""
+            ],
+            [
+              "3",
+              "License Cost of in-memory database",
+              "",
+              "",
+              ""
+            ],
+            [
+              "4",
+              "Implementation Cost including Certification Cost , Training Cost\nand any other cost #",
+              "",
+              "",
+              ""
+            ],
+            [
+              "5",
+              "Facility Management",
+              "",
+              "",
+              ""
+            ],
+            [
+              "6",
+              "ATS Cost of UPI Application & other Softwares",
+              "",
+              "",
+              ""
+            ],
+            [
+              "7",
+              "Any other Software required for operation of UPI switch ##",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "Total Cost (1 to 7)",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "TCO in Words",
+              "",
+              "",
+              ""
+            ]
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "page_number": 81,
+      "text_chars": 1312,
+      "text_blocks": 15,
+      "tables": [
+        {
+          "table_index": 1,
+          "bbox": [
+            78.69,
+            293.78,
+            582.46,
+            425.38
+          ],
+          "row_count": 5,
+          "column_count": 6,
+          "empty_cells": 19,
+          "rows": [
+            [
+              "SN",
+              "Requirement\nParticulars",
+              "Requirement\nDescription",
+              "Quantity",
+              "Product Cost (₹)",
+              "Total (₹)"
+            ],
+            [
+              "1",
+              "Enterprise\nLicense\nCost for UPI\nSwitch",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "Total Cost",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "GST",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "Total Cost with\nGST",
+              "",
+              "",
+              "",
+              ""
+            ]
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "page_number": 82,
+      "text_chars": 1639,
+      "text_blocks": 30,
+      "tables": [
+        {
+          "table_index": 1,
+          "bbox": [
+            78.69,
+            149.39,
+            715.33,
+            322.41
+          ],
+          "row_count": 8,
+          "column_count": 13,
+          "empty_cells": 75,
+          "rows": [
+            [
+              "SN",
+              "Requirement",
+              "Requirement\nDescription",
+              "Quantity",
+              "Product\nCost\n(Rs.)",
+              "Recurring Cost in ₹.",
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              "Total\n(₹)"
+            ],
+            [
+              null,
+              null,
+              null,
+              null,
+              null,
+              "Year1",
+              "Year2",
+              "Year3",
+              "Year4",
+              "Year5",
+              "Year6",
+              "Year7",
+              null
+            ],
+            [
+              "1",
+              "Database (If other\nthan Oracle)",
+              "",
+              "",
+              "",
+              "NA",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "2",
+              "Database (If other\nthan Oracle",
+              "",
+              "",
+              "",
+              "NA",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "3",
+              "Database (If other\nthan Oracle)",
+              "",
+              "",
+              "",
+              "NA",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "Total Cost",
+              "",
+              "",
+              "",
+              "NA",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "GST",
+              "",
+              "",
+              "",
+              "NA",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "Total Cost with\nGST",
+              "",
+              "",
+              "",
+              "NA",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          ]
+        },
+        {
+          "table_index": 2,
+          "bbox": [
+            78.69,
+            369.28,
+            731.29,
+            505.31
+          ],
+          "row_count": 6,
+          "column_count": 13,
+          "empty_cells": 53,
+          "rows": [
+            [
+              "SN",
+              "Requirement",
+              "Requir\nement\nDescri\nption",
+              "Quantity",
+              "Product\nCost (₹)",
+              "Recurring Cost in ₹",
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              "Total\n(₹)"
+            ],
+            [
+              null,
+              null,
+              null,
+              null,
+              null,
+              "Year1",
+              "Year2",
+              "Year3",
+              "Year4",
+              "Year5",
+              "Year6",
+              "Year7",
+              null
+            ],
+            [
+              "1",
+              "License Cost of in-\nmemory database",
+              "",
+              "",
+              "",
+              "NA",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "2",
+              "License Cost of in-\nmemory database",
+              "",
+              "",
+              "",
+              "NA",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "3",
+              "License Cost of in-\nmemory database",
+              "",
+              "",
+              "",
+              "NA",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "Total Cost",
+              "",
+              "",
+              "",
+              "NA",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "page_number": 83,
+      "text_chars": 1583,
+      "text_blocks": 20,
+      "tables": [
+        {
+          "table_index": 1,
+          "bbox": [
+            78.68,
+            110.99,
+            731.31,
+            188.47
+          ],
+          "row_count": 4,
+          "column_count": 13,
+          "empty_cells": 34,
+          "rows": [
+            [
+              "SN",
+              "Requirement",
+              "Requir\nement\nDescri\nption",
+              "Quantity",
+              "Product\nCost (₹)",
+              "Recurring Cost in ₹",
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              "Total\n(₹)"
+            ],
+            [
+              null,
+              null,
+              null,
+              null,
+              null,
+              "Year1",
+              "Year2",
+              "Year3",
+              "Year4",
+              "Year5",
+              "Year6",
+              "Year7",
+              null
+            ],
+            [
+              "",
+              "GST",
+              "",
+              "",
+              "",
+              "NA",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "Total Cost with GST",
+              "",
+              "",
+              "",
+              "NA",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          ]
+        },
+        {
+          "table_index": 2,
+          "bbox": [
+            78.68,
+            235.34,
+            589.53,
+            378.82
+          ],
+          "row_count": 8,
+          "column_count": 6,
+          "empty_cells": 31,
+          "rows": [
+            [
+              "SN",
+              "Requirement",
+              "Requirement\nDescription",
+              "Quantity",
+              "One Time\nCharges\n(₹)",
+              "Total (₹)"
+            ],
+            [
+              "1",
+              "Implementation Cost",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "2",
+              "Certification Cost",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "3",
+              "Training Cost",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "4",
+              "Any other Cost",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "Total Cost",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "GST",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "Total Cost with GST",
+              "",
+              "",
+              "",
+              ""
+            ]
+          ]
+        },
+        {
+          "table_index": 3,
+          "bbox": [
+            78.68,
+            403.0,
+            688.81,
+            508.19
+          ],
+          "row_count": 4,
+          "column_count": 12,
+          "empty_cells": 27,
+          "rows": [
+            [
+              "SN",
+              "Requirement",
+              "Requirement\nDescription",
+              "Quantity",
+              "Recurring Cost in ₹",
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              "Total\n(₹)"
+            ],
+            [
+              null,
+              null,
+              null,
+              null,
+              "Year1",
+              "Year2",
+              "Year3",
+              "Year4",
+              "Year5",
+              "Year6",
+              "Year7",
+              null
+            ],
+            [
+              "1",
+              "Project Manager\n(For Overall Project\nSupervision)",
+              "L3",
+              "1",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "2",
+              "UPI Monitoring &\nApplication Support",
+              "L1",
+              "8",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "page_number": 84,
+      "text_chars": 1227,
+      "text_blocks": 18,
+      "tables": [
+        {
+          "table_index": 1,
+          "bbox": [
+            78.7,
+            110.99,
+            688.8,
+            401.37
+          ],
+          "row_count": 13,
+          "column_count": 12,
+          "empty_cells": 102,
+          "rows": [
+            [
+              "SN",
+              "Requirement",
+              "Requirement\nDescription",
+              "Quantity",
+              "Recurring Cost in ₹",
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              "Total\n(₹)"
+            ],
+            [
+              null,
+              null,
+              null,
+              null,
+              "Year1",
+              "Year2",
+              "Year3",
+              "Year4",
+              "Year5",
+              "Year6",
+              "Year7",
+              null
+            ],
+            [
+              "3",
+              "Middleware Tech\nLead",
+              "L2",
+              "1",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "4",
+              "Middleware\nDevelopment",
+              "L2",
+              "3",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "5",
+              "App Development",
+              "L2",
+              "2",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "6",
+              "App Tech Lead",
+              "L2",
+              "1",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "7",
+              "Quality Control",
+              "L2",
+              "2",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "8",
+              "DBA",
+              "L2",
+              "5",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "9",
+              "Hardware Resources\nat DC/DR",
+              "L1",
+              "9",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "10",
+              "Hardware Resources\nat DC/DR",
+              "L2",
+              "3",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "Total Cost",
+              "XX",
+              "35",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "GST",
+              "XX",
+              "XX",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "Total Cost with\nGST",
+              "XX",
+              "XX",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "page_number": 85,
+      "text_chars": 1080,
+      "text_blocks": 12,
+      "tables": [
+        {
+          "table_index": 1,
+          "bbox": [
+            78.7,
+            139.55,
+            731.28,
+            372.57
+          ],
+          "row_count": 9,
+          "column_count": 13,
+          "empty_cells": 88,
+          "rows": [
+            [
+              "SN",
+              "Requirement",
+              "Requir\nement\nDescri\nption",
+              "Quantity",
+              "Product\nCost (₹)",
+              "Recurring Cost in ₹",
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              "Total\n(₹)"
+            ],
+            [
+              null,
+              null,
+              null,
+              null,
+              null,
+              "Year1",
+              "Year2",
+              "Year3",
+              "Year4",
+              "Year5",
+              "Year6",
+              "Year7",
+              null
+            ],
+            [
+              "1",
+              "ATS Cost of UPI\nApplication and other\nSoftware",
+              "",
+              "",
+              "",
+              "NA",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "2",
+              "ATS Cost of UPI\nApplication and other\nSoftware",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "3",
+              "ATS Cost of UPI\nApplication and other\nSoftware",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "4",
+              "ATS Cost of UPI\nApplication and other\nSoftware",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "Total Cost",
+              "",
+              "",
+              "",
+              "NA",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "GST",
+              "",
+              "",
+              "",
+              "NA",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "Total Cost with GST",
+              "",
+              "",
+              "",
+              "NA",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "page_number": 86,
+      "text_chars": 1933,
+      "text_blocks": 19,
+      "tables": [
+        {
+          "table_index": 1,
+          "bbox": [
+            78.7,
+            160.79,
+            731.28,
+            393.81
+          ],
+          "row_count": 9,
+          "column_count": 13,
+          "empty_cells": 85,
+          "rows": [
+            [
+              "SN",
+              "Requirement",
+              "Requir\nement\nDescri\nption",
+              "Quantity",
+              "Product\nCost (₹)",
+              "Recurring Cost in ₹",
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              "Total\n(₹)"
+            ],
+            [
+              null,
+              null,
+              null,
+              null,
+              null,
+              "Year1",
+              "Year2",
+              "Year3",
+              "Year4",
+              "Year5",
+              "Year6",
+              "Year7",
+              null
+            ],
+            [
+              "1",
+              "Any other Software\nrequired for operation of\nUPI switch",
+              "",
+              "",
+              "",
+              "NA",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "2",
+              "Any other Software\nrequired for operation of\nUPI switch",
+              "",
+              "",
+              "",
+              "NA",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "3",
+              "Any other Software\nrequired for operation of\nUPI switch",
+              "",
+              "",
+              "",
+              "NA",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "4",
+              "Any other Software\nrequired for operation of\nUPI switch",
+              "",
+              "",
+              "",
+              "NA",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "Total Cost",
+              "",
+              "",
+              "",
+              "NA",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "GST",
+              "",
+              "",
+              "",
+              "NA",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "Total Cost with GST",
+              "",
+              "",
+              "",
+              "NA",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "page_number": 87,
+      "text_chars": 2366,
+      "text_blocks": 5,
+      "tables": [],
+      "warnings": []
+    },
+    {
+      "page_number": 88,
+      "text_chars": 897,
+      "text_blocks": 32,
+      "tables": [
+        {
+          "table_index": 1,
+          "bbox": [
+            72.26,
+            102.14,
+            523.18,
+            610.81
+          ],
+          "row_count": 17,
+          "column_count": 9,
+          "empty_cells": 118,
+          "rows": [
+            [
+              "",
+              "#",
+              "",
+              "",
+              "Particulars",
+              "",
+              "",
+              "Details",
+              ""
+            ],
+            [
+              "1.",
+              null,
+              null,
+              "Name of bidder",
+              null,
+              null,
+              "",
+              null,
+              null
+            ],
+            [
+              "2.",
+              null,
+              null,
+              "Constitution",
+              null,
+              null,
+              "",
+              null,
+              null
+            ],
+            [
+              "3.",
+              null,
+              null,
+              "Address with Pin code",
+              null,
+              null,
+              "",
+              null,
+              null
+            ],
+            [
+              "4.",
+              null,
+              null,
+              "Authorized Person for bid",
+              null,
+              null,
+              "",
+              null,
+              null
+            ],
+            [
+              "5.",
+              null,
+              null,
+              "Contact Details (Mail id & Mob No)",
+              null,
+              null,
+              "",
+              null,
+              null
+            ],
+            [
+              "6.",
+              null,
+              null,
+              "Year of Incorporation",
+              null,
+              null,
+              "",
+              null,
+              null
+            ],
+            [
+              "7.",
+              null,
+              null,
+              "Number of years of experience in UPI solution",
+              null,
+              null,
+              "",
+              null,
+              null
+            ],
+            [
+              "8.",
+              null,
+              null,
+              "Turnover (In ₹)\n2021-22,\n2022-23\n2023-24",
+              null,
+              null,
+              "",
+              null,
+              null
+            ],
+            [
+              "9.",
+              null,
+              null,
+              "Profits (In ₹)\n2021-22,\n2022-23\n2023-24",
+              null,
+              null,
+              "",
+              null,
+              null
+            ],
+            [
+              "10.",
+              null,
+              null,
+              "Whether OEM or SI",
+              null,
+              null,
+              "",
+              null,
+              null
+            ],
+            [
+              "11.",
+              null,
+              null,
+              "Number of Support staff in India",
+              null,
+              null,
+              "",
+              null,
+              null
+            ],
+            [
+              "12.",
+              null,
+              null,
+              "Good and Service Tax Number",
+              null,
+              null,
+              "",
+              null,
+              null
+            ],
+            [
+              "13.",
+              null,
+              null,
+              "Income Tax Number",
+              null,
+              null,
+              "",
+              null,
+              null
+            ],
+            [
+              "14.",
+              null,
+              null,
+              "Name and Address of OEM",
+              null,
+              null,
+              "",
+              null,
+              null
+            ],
+            [
+              "15.",
+              null,
+              null,
+              "Brief Description of support facility available with\nthe bidder.",
+              null,
+              null,
+              "",
+              null,
+              null
+            ],
+            [
+              "16.",
+              null,
+              null,
+              "Whether all RFP terms & conditions complied with.",
+              null,
+              null,
+              "",
+              null,
+              null
+            ]
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "page_number": 89,
+      "text_chars": 1536,
+      "text_blocks": 23,
+      "tables": [
+        {
+          "table_index": 1,
+          "bbox": [
+            72.26,
+            443.81,
+            523.18,
+            512.77
+          ],
+          "row_count": 3,
+          "column_count": 9,
+          "empty_cells": 22,
+          "rows": [
+            [
+              "",
+              "Compliance",
+              "",
+              "",
+              "Compliance (Yes/ No)",
+              "",
+              "",
+              "Remarks",
+              ""
+            ],
+            [
+              "Terms & Conditions",
+              null,
+              null,
+              "",
+              null,
+              null,
+              "",
+              null,
+              null
+            ],
+            [
+              "Scope of Work",
+              null,
+              null,
+              "",
+              null,
+              null,
+              "",
+              null,
+              null
+            ]
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "page_number": 90,
+      "text_chars": 3391,
+      "text_blocks": 14,
+      "tables": [],
+      "warnings": []
+    },
+    {
+      "page_number": 91,
+      "text_chars": 4151,
+      "text_blocks": 13,
+      "tables": [],
+      "warnings": []
+    },
+    {
+      "page_number": 92,
+      "text_chars": 1205,
+      "text_blocks": 9,
+      "tables": [],
+      "warnings": []
+    },
+    {
+      "page_number": 93,
+      "text_chars": 1160,
+      "text_blocks": 17,
+      "tables": [],
+      "warnings": []
+    },
+    {
+      "page_number": 94,
+      "text_chars": 1321,
+      "text_blocks": 18,
+      "tables": [],
+      "warnings": []
+    },
+    {
+      "page_number": 95,
+      "text_chars": 1566,
+      "text_blocks": 21,
+      "tables": [],
+      "warnings": []
+    },
+    {
+      "page_number": 96,
+      "text_chars": 2898,
+      "text_blocks": 21,
+      "tables": [],
+      "warnings": []
+    },
+    {
+      "page_number": 97,
+      "text_chars": 3308,
+      "text_blocks": 15,
+      "tables": [],
+      "warnings": []
+    },
+    {
+      "page_number": 98,
+      "text_chars": 3159,
+      "text_blocks": 16,
+      "tables": [],
+      "warnings": []
+    },
+    {
+      "page_number": 99,
+      "text_chars": 3105,
+      "text_blocks": 18,
+      "tables": [],
+      "warnings": []
+    },
+    {
+      "page_number": 100,
+      "text_chars": 2015,
+      "text_blocks": 7,
+      "tables": [
+        {
+          "table_index": 1,
+          "bbox": [
+            72.25,
+            224.46,
+            523.2,
+            507.51
+          ],
+          "row_count": 15,
+          "column_count": 2,
+          "empty_cells": 0,
+          "rows": [
+            [
+              "Signed, Sealed and Delivered for the Principal",
+              "Signed, Sealed and Delivered for the Bidder"
+            ],
+            [
+              "Signature:\n___________________________",
+              "Signature:\n___________________________"
+            ],
+            [
+              "Name:\n______________________________",
+              "Name:\n______________________________"
+            ],
+            [
+              "Designation:\n_________________________",
+              "Designation:\n_________________________"
+            ],
+            [
+              "Address:\n____________________________",
+              "Address:\n____________________________"
+            ],
+            [
+              "Company:\n___________________________",
+              "Company:\n___________________________"
+            ],
+            [
+              "Date:\n_______________________________",
+              "Date:\n_______________________________"
+            ],
+            [
+              "Company Seal",
+              "Company Seal"
+            ],
+            [
+              "Witness I",
+              "Witness II"
+            ],
+            [
+              "Signature:\n___________________________",
+              "Signature:\n___________________________"
+            ],
+            [
+              "Name:\n______________________________",
+              "Name:\n______________________________"
+            ],
+            [
+              "Designation:\n_________________________",
+              "Designation:\n_________________________"
+            ],
+            [
+              "Address:\n____________________________",
+              "Address:\n____________________________"
+            ],
+            [
+              "Company:\n___________________________",
+              "Company:\n___________________________"
+            ],
+            [
+              "Date:\n_______________________________",
+              "Date:\n_______________________________"
+            ]
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "page_number": 101,
+      "text_chars": 2715,
+      "text_blocks": 18,
+      "tables": [],
+      "warnings": []
+    },
+    {
+      "page_number": 102,
+      "text_chars": 3422,
+      "text_blocks": 13,
+      "tables": [],
+      "warnings": []
+    },
+    {
+      "page_number": 103,
+      "text_chars": 3414,
+      "text_blocks": 16,
+      "tables": [],
+      "warnings": []
+    },
+    {
+      "page_number": 104,
+      "text_chars": 2625,
+      "text_blocks": 14,
+      "tables": [
+        {
+          "table_index": 1,
+          "bbox": [
+            72.25,
+            393.33,
+            523.2,
+            676.38
+          ],
+          "row_count": 15,
+          "column_count": 2,
+          "empty_cells": 0,
+          "rows": [
+            [
+              "Signed, Sealed and Delivered for the Principal",
+              "Signed, Sealed and Delivered for the Bidder"
+            ],
+            [
+              "Signature:\n___________________________",
+              "Signature:\n___________________________"
+            ],
+            [
+              "Name:\n______________________________",
+              "Name:\n______________________________"
+            ],
+            [
+              "Designation:\n_________________________",
+              "Designation:\n_________________________"
+            ],
+            [
+              "Address:\n____________________________",
+              "Address:\n____________________________"
+            ],
+            [
+              "Company:\n___________________________",
+              "Company:\n___________________________"
+            ],
+            [
+              "Date:\n_______________________________",
+              "Date:\n_______________________________"
+            ],
+            [
+              "Company Seal",
+              "Company Seal"
+            ],
+            [
+              "Witness I",
+              "Witness II"
+            ],
+            [
+              "Signature:\n___________________________",
+              "Signature:\n___________________________"
+            ],
+            [
+              "Name:\n______________________________",
+              "Name:\n______________________________"
+            ],
+            [
+              "Designation:\n_________________________",
+              "Designation:\n_________________________"
+            ],
+            [
+              "Address:\n____________________________",
+              "Address:\n____________________________"
+            ],
+            [
+              "Company:\n___________________________",
+              "Company:\n___________________________"
+            ],
+            [
+              "Date:\n_______________________________",
+              "Date:\n_______________________________"
+            ]
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "page_number": 105,
+      "text_chars": 3639,
+      "text_blocks": 12,
+      "tables": [],
+      "warnings": []
+    },
+    {
+      "page_number": 106,
+      "text_chars": 3467,
+      "text_blocks": 17,
+      "tables": [],
+      "warnings": []
+    },
+    {
+      "page_number": 107,
+      "text_chars": 2472,
+      "text_blocks": 16,
+      "tables": [],
+      "warnings": []
+    },
+    {
+      "page_number": 108,
+      "text_chars": 2530,
+      "text_blocks": 13,
+      "tables": [
+        {
+          "table_index": 1,
+          "bbox": [
+            72.22,
+            190.28,
+            523.23,
+            251.6
+          ],
+          "row_count": 4,
+          "column_count": 3,
+          "empty_cells": 0,
+          "rows": [
+            [
+              "Abbreviations",
+              "Full Form",
+              "Marks"
+            ],
+            [
+              "A",
+              "Available in the product without customization",
+              "1"
+            ],
+            [
+              "C",
+              "Will be provided with Customization",
+              "0.5"
+            ],
+            [
+              "N",
+              "Can Not be Provided",
+              "0"
+            ]
+          ]
+        },
+        {
+          "table_index": 2,
+          "bbox": [
+            83.17,
+            297.0,
+            513.48,
+            738.03
+          ],
+          "row_count": 13,
+          "column_count": 4,
+          "empty_cells": 24,
+          "rows": [
+            [
+              "S.\nNo.",
+              "Requirements",
+              "A/C/N",
+              "Remark"
+            ],
+            [
+              "A",
+              "Application Architecture",
+              "",
+              ""
+            ],
+            [
+              "1.",
+              "The architecture should support various banking delivery\nchannels (current & future) such as Mobile, ATM, Payment\nGateway, POS , QR Code , USSD, SMS, wearable etc.",
+              "",
+              ""
+            ],
+            [
+              "2.",
+              "The architecture should support online real time updation\nbetween the application & database",
+              "",
+              ""
+            ],
+            [
+              "3.",
+              "Integrity of the data should be maintained between the\napplication & database.",
+              "",
+              ""
+            ],
+            [
+              "4.",
+              "The architecture should have the ability to increase the\nnumber of concurrent instances to keep the application\nserver parameters below 70% utilization (CPU, Memory, Hard\ndisk, etc.)",
+              "",
+              ""
+            ],
+            [
+              "5.",
+              "Application should be based on micro services architecture",
+              "",
+              ""
+            ],
+            [
+              "6.",
+              "Auto scalability – Ability to automatically scale horizontally in\nthe event of spikes in volume, CPU, or memory utilization\ncrossing threshold values.",
+              "",
+              ""
+            ],
+            [
+              "7.",
+              "Application/Solution is platform agnostic – not dependent on a\nparticular hardware setup",
+              "",
+              ""
+            ],
+            [
+              "8.",
+              "Application/Solution is capable and being offered in such a\nmanner that includes installation either as a single instance\nor multi instance depending on Bank’s requirements",
+              "",
+              ""
+            ],
+            [
+              "9.",
+              "Capable of being implemented on a Centralized, localized\nand /or a hub and spoke model Implementation",
+              "",
+              ""
+            ],
+            [
+              "10.",
+              "Workflow based design for various applications\nand transaction originations & management",
+              "",
+              ""
+            ],
+            [
+              "11.",
+              "It should Support\n• Real time replication of data from\nProduction site to Near Site to DC.\n• Should meet the Bank’s RPO requirement for DR site.\n• Provide manual / automatic shift of the application to\nthe DR site",
+              "",
+              ""
+            ]
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "page_number": 109,
+      "text_chars": 2896,
+      "text_blocks": 7,
+      "tables": [
+        {
+          "table_index": 1,
+          "bbox": [
+            83.17,
+            110.97,
+            513.47,
+            747.38
+          ],
+          "row_count": 23,
+          "column_count": 4,
+          "empty_cells": 46,
+          "rows": [
+            [
+              "12.",
+              "Application/Solution architecture has the Capability to be\nconfigured in active‐active mode in both DC and DRC.",
+              "",
+              ""
+            ],
+            [
+              "13.",
+              "Application supports database and Server level Clustering",
+              "",
+              ""
+            ],
+            [
+              "14.",
+              "Cloud Ready (Capability to host and move on private or public\ncloud)",
+              "",
+              ""
+            ],
+            [
+              "-",
+              "The proposed solution should",
+              null,
+              null
+            ],
+            [
+              "15.",
+              "Should be designable with MACH (micro services, API, cloud\nnative and headless), scalable, plug and play, composable,\nmodular, independent and loosely coupled architecture",
+              "",
+              ""
+            ],
+            [
+              "-",
+              "The proposed solution should adhere to below design\nprinciples for micro services architecture",
+              "",
+              ""
+            ],
+            [
+              "16.",
+              "Each microservice should have independent development,\ntesting, integration, and support capability",
+              "",
+              ""
+            ],
+            [
+              "17.",
+              "Each microservice should have maximum reusability as well as\nseparation of concerns",
+              "",
+              ""
+            ],
+            [
+              "18.",
+              "Each microservices should offer isolation of environment,\nconfiguration variables, data etc., and allow communication\nonly though APIs",
+              "",
+              ""
+            ],
+            [
+              "19.",
+              "Replication of data across microservices should not happen",
+              "",
+              ""
+            ],
+            [
+              "20.",
+              "Each microservice should follow optimal design pattern per the\nbusiness use case",
+              "",
+              ""
+            ],
+            [
+              "21.",
+              "Each microservice should generate logs in a centralized\nrepository to be used for monitoring, and not store any log\nlocally",
+              "",
+              ""
+            ],
+            [
+              "22.",
+              "Each microservice should integrate with centralized monitoring\nand performance telemetry tools",
+              "",
+              ""
+            ],
+            [
+              "23.",
+              "Each microservice should be cloud native by design",
+              "",
+              ""
+            ],
+            [
+              "24.",
+              "Each microservice should allow deployment as‐is on premise,\nprivate cloud, or public cloud without design changes",
+              "",
+              ""
+            ],
+            [
+              "25.",
+              "Microservices should support service discovery, service‐mesh,\nand event streaming",
+              "",
+              ""
+            ],
+            [
+              "26.",
+              "The successful bidder should procure and provide any tools and\nlicenses required to support service discovery, service mesh,\nstreaming / messaging etc.",
+              "",
+              ""
+            ],
+            [
+              "27.",
+              "Leverage a container platform to build, host and run the\nmicroservices",
+              "",
+              ""
+            ],
+            [
+              "28.",
+              "Underlying container platform should be compatible with on‐\npremises, private cloud and public cloud installations",
+              "",
+              ""
+            ],
+            [
+              "29.",
+              "Single control plane should cover all possible deployments (on‐\npremises, private cloud, public cloud etc.), while control plane\nshould be deployed in on‐premises or private network only",
+              "",
+              ""
+            ],
+            [
+              "30.",
+              "The Application/Softwares should provide support to the\nunderlying container platform like RedHat OpenShift, Vmware\nTanzu, SUSErancher etc. and other required software (like\ncontrol plane, service mesh etc.)",
+              "",
+              ""
+            ],
+            [
+              "31.",
+              "Be architected to be fault tolerant and ensure cascading failures\ndo not occur",
+              "",
+              ""
+            ],
+            [
+              "32.",
+              "Support graceful exception handling, restart, self‐healing or",
+              "",
+              ""
+            ]
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "page_number": 110,
+      "text_chars": 2809,
+      "text_blocks": 6,
+      "tables": [
+        {
+          "table_index": 1,
+          "bbox": [
+            83.17,
+            110.97,
+            513.47,
+            734.07
+          ],
+          "row_count": 22,
+          "column_count": 4,
+          "empty_cells": 45,
+          "rows": [
+            [
+              "",
+              "recovery process in the event of transaction or process failure",
+              "",
+              ""
+            ],
+            [
+              "33.",
+              "Support native, hybrid‐web, and web apps",
+              "",
+              ""
+            ],
+            [
+              "34.",
+              "Ensure dynamic allocation of compute for load agnostic\nperformance experience to customers",
+              "",
+              ""
+            ],
+            [
+              "35.",
+              "Implement horizontal scalability at module/service level to\nhandle required transaction volumes and composable\narchitecture",
+              "",
+              ""
+            ],
+            [
+              "36.",
+              "Guarantee 99.99% availability for the proposed solution",
+              "",
+              ""
+            ],
+            [
+              "37.",
+              "Implement required integrations including core system\nintegrations, partner, fintech and ecosystem integrations",
+              "",
+              ""
+            ],
+            [
+              "38.",
+              "Implement caching across all digital channels appropriately,\nincluding static data caching, images, web assets (CSS, HTML,\nICO etc.)",
+              "",
+              ""
+            ],
+            [
+              "39.",
+              "Implement mature in‐memory caching capabilities with cache\nstore located nearest to the source of the provider in\ncompliance with data storage requirements",
+              "",
+              ""
+            ],
+            [
+              "40.",
+              "Implement configurable caching strategy based on type of data\nsources, consumers, data validity etc.",
+              "",
+              ""
+            ],
+            [
+              "41.",
+              "Implement capability to push notifications regarding new\nchanges over the air without frequent uploading on app store\nof various platforms",
+              "",
+              ""
+            ],
+            [
+              "42.",
+              "Implement highly scalable communication methods such as\nasynchronous APIs, event streaming and message queues\nwhere appropriate (e.g. user event‐based triggers, data\nstreaming pipelines, click‐streaming analytics, mission‐critical\napplications etc.",
+              "",
+              ""
+            ],
+            [
+              "43.",
+              "Implement standard optimization techniques (e.g. caching,\nparallel processing, support standard optimization techniques,\netc.)",
+              "",
+              ""
+            ],
+            [
+              "44.",
+              "Leverage modern DevSecOps practices for faster and secure\ndeployments of upgrades, patches and release management",
+              "",
+              ""
+            ],
+            [
+              "45.",
+              "Leverage automated testing and performance testing to\nimprove quality and speed of delivery",
+              "",
+              ""
+            ],
+            [
+              "46.",
+              "Ability to support for pooling multiple database connections\nwhen the load on the application increases",
+              "",
+              ""
+            ],
+            [
+              "B",
+              "Software",
+              "",
+              ""
+            ],
+            [
+              "1.",
+              "The Application should support IP V4 & V6 Hardware\nparameters (like CPU, Memory, hard‐disk, NIC, etc.) should not\ncross the 70% utilization levels at any point in time.",
+              "",
+              ""
+            ],
+            [
+              "2.",
+              "Should be able to support different protocols (TCP/IP, IPX, etc.)",
+              "",
+              ""
+            ],
+            [
+              "3.",
+              "Adequate staging procedures and test environments for\nstaging should be supported",
+              "",
+              ""
+            ],
+            [
+              "4.",
+              "Test software/application should be exactly same as production\nenvironment",
+              "",
+              ""
+            ],
+            [
+              "5.",
+              "Software Solutions should be scalable to support increased\nrequirements of the Bank",
+              "",
+              ""
+            ],
+            [
+              "6.",
+              "Solution/Application should be platform agnostic.",
+              "",
+              ""
+            ]
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "page_number": 111,
+      "text_chars": 2717,
+      "text_blocks": 8,
+      "tables": [
+        {
+          "table_index": 1,
+          "bbox": [
+            83.17,
+            110.97,
+            513.47,
+            746.9
+          ],
+          "row_count": 19,
+          "column_count": 4,
+          "empty_cells": 38,
+          "rows": [
+            [
+              "7.",
+              "Load/Stress/Performance reports are available for prescribed\ncombination of OS, DB, Middleware & etc.",
+              "",
+              ""
+            ],
+            [
+              "C",
+              "Availability Parameters",
+              "",
+              ""
+            ],
+            [
+              "1.",
+              "The solution should be available 24*7",
+              "",
+              ""
+            ],
+            [
+              "2.",
+              "Automatic notification/reporting of application unavailability\nthrough mails, SMSs, etc.",
+              "",
+              ""
+            ],
+            [
+              "3.",
+              "Automated Generation of Monthly availability report",
+              "",
+              ""
+            ],
+            [
+              "D",
+              "Security / Data Integrity",
+              "",
+              ""
+            ],
+            [
+              "1.",
+              "Integrity of data to be maintained at 100% of time",
+              "",
+              ""
+            ],
+            [
+              "2.",
+              "Latest Encryption as per RBIs Digital Payment security be\nused for data traveling between core banking solution and\ndelivery channels.\ni. Mention the encryption used in the Application /Solution.",
+              "",
+              ""
+            ],
+            [
+              "3.",
+              "Standards & Guidelines should be developed, implemented and\nfollowed for all IT assets",
+              "",
+              ""
+            ],
+            [
+              "4.",
+              "Data Integrity should be ensured using internationally\naccepted hashing algorithms such as MD5",
+              "",
+              ""
+            ],
+            [
+              "5.",
+              "System security is password controlled (for operating system,\ndatabase, application and terminal id) which complies with\nthe Bank’s security policy (e.g. minimum password length,\nno. of attempts for login’s, recycle of passwords etc.).",
+              "",
+              ""
+            ],
+            [
+              "6.",
+              "Sensitive data such as passwords and authentication\ncredentials shall not be logged in transaction or system\nactivity files",
+              "",
+              ""
+            ],
+            [
+              "7.",
+              "Successful and unsuccessful authentication attempts are\nlogged",
+              "",
+              ""
+            ],
+            [
+              "8.",
+              "Successful and unsuccessful authorization events are logged",
+              "",
+              ""
+            ],
+            [
+              "9.",
+              "An authenticated session, together with its encryption\nprotocol, should remain intact throughout the interaction\nwith the customer. In the event of interference, the\nDeveloper will ensure controls are in place to terminate the\nsession and reverse out the affected transactions. As an\nintegral part of the two‐factor authentication architecture,\nappropriate measures to minimize exposure to a middleman\nattack which is more commonly known as a man‐ in‐the‐\nmiddle attack (MITMA), man‐in‐the browser attack or man‐\nin‐the application attack, are implemented",
+              "",
+              ""
+            ],
+            [
+              "10.",
+              "Sensitive information that is passed in the cookies is\nencrypted.",
+              "",
+              ""
+            ],
+            [
+              "11.",
+              "The session identifier shall be random and unique.",
+              "",
+              ""
+            ],
+            [
+              "12.",
+              "The session shall expire after a pre‐ defined length of time.",
+              "",
+              ""
+            ],
+            [
+              "13.",
+              "The Service Provider shall create adequate controls ensuring\nthat, when exception or abnormal conditions occur, resulting\nerrors do not allow users to bypass security checks or obtain",
+              "",
+              ""
+            ]
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "page_number": 112,
+      "text_chars": 2554,
+      "text_blocks": 7,
+      "tables": [
+        {
+          "table_index": 1,
+          "bbox": [
+            83.17,
+            110.97,
+            513.47,
+            738.63
+          ],
+          "row_count": 17,
+          "column_count": 4,
+          "empty_cells": 35,
+          "rows": [
+            [
+              "",
+              "core dumps",
+              "",
+              ""
+            ],
+            [
+              "14.",
+              "The Service Provider shall only install or use cryptographic\nmodules based on authoritative standards and reputable\nprotocols. The Service Provider shall implement strong\ncryptography and end‐ to‐end application layer encryption to\nprotect customer PINs, user passwords and other sensitive\ndata in networks and storage. The Service Provider shall\nimplement or support encryption when client account and\ntransaction data is transmitted, transported, delivered or\ncouriered to external parties or other Locations",
+              "",
+              ""
+            ],
+            [
+              "15.",
+              "Security framework is supported in terms of authentication,\nmulti‐level authorization, auto log‐ off, password control,\nsingle sign‐ on audit",
+              "",
+              ""
+            ],
+            [
+              "16.",
+              "System allows administrators to implement access\nmanagement in a granular manner.",
+              "",
+              ""
+            ],
+            [
+              "17.",
+              "System provides comprehensive audit trail features to\nmonitor activity of specific programs and data files etc. The\nsystem should also provide on‐line access to audit trail\ninformation",
+              "",
+              ""
+            ],
+            [
+              "18.",
+              "Time/date stamp, user ID, & before and after any changes in\nthe system.",
+              "",
+              ""
+            ],
+            [
+              "19.",
+              "Activities executed by the Application system administrator",
+              "",
+              ""
+            ],
+            [
+              "20.",
+              "Segregation of duties is permitted (e.g. segregated function\nbetween system and application administration)",
+              "",
+              ""
+            ],
+            [
+              "21.",
+              "Ability to define groups so that access can be categorized",
+              "",
+              ""
+            ],
+            [
+              "E",
+              "Interfaces",
+              "",
+              ""
+            ],
+            [
+              "1.",
+              "The system should be able to interface with the core banking\nsystem or any existing or future back office system online and\nseamlessly.",
+              "",
+              ""
+            ],
+            [
+              "2.",
+              "All modules in the system are fully integrated and provide\nonline processing, real time updates and batch processing.",
+              "",
+              ""
+            ],
+            [
+              "3.",
+              "Solution is capable of being interfaced with multiple back\noffices simultaneously",
+              "",
+              ""
+            ],
+            [
+              "4.",
+              "Provision for an interface with the core banking solution,\ntreasury solution, card management systems, payment\nprocessing systems, online channel, front‐ end customer\nportals, etc.",
+              "",
+              ""
+            ],
+            [
+              "5.",
+              "Provide support to XML, CSV, TXT, ISO, JSON etc. standard\nmessaging protocols for interfacing.",
+              "",
+              ""
+            ],
+            [
+              "6.",
+              "Provide ability to define business rules for validation and\ntranslation of incoming messages",
+              "",
+              ""
+            ],
+            [
+              "7.",
+              "Ability to interface with email server. The system should\nsupport LDAP‐s.",
+              "",
+              ""
+            ]
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "page_number": 113,
+      "text_chars": 2485,
+      "text_blocks": 7,
+      "tables": [
+        {
+          "table_index": 1,
+          "bbox": [
+            83.17,
+            110.97,
+            513.47,
+            746.9
+          ],
+          "row_count": 20,
+          "column_count": 4,
+          "empty_cells": 40,
+          "rows": [
+            [
+              "8.",
+              "Interface protocols are supported e.g. ISO, XML etc. as\nrequired by NPCI.",
+              "",
+              ""
+            ],
+            [
+              "9.",
+              "Availability of application interface APIs on Unix and\nWindows platforms",
+              "",
+              ""
+            ],
+            [
+              "10.",
+              "Security features and consideration for the Interface ‐ end‐\nto‐ end encryption",
+              "",
+              ""
+            ],
+            [
+              "11.",
+              "Interface able to handle exceptions (e.g. will output to log\nfiles, retries) when unsuccessful. Able to handle continual\nprocessing or gracefully terminated.",
+              "",
+              ""
+            ],
+            [
+              "12.",
+              "Interfaces support for both on‐line and batch processing.",
+              "",
+              ""
+            ],
+            [
+              "13.",
+              "Starting & stopping the services/functionality through the\nadmin portal",
+              "",
+              ""
+            ],
+            [
+              "14.",
+              "Offer isolation to microservices layer from the public facing\nAPI gateway layer. Inter‐service communication should not\ntake traffic out of the layer in which the services are hosted",
+              "",
+              ""
+            ],
+            [
+              "15.",
+              "Provide open APIs for integrations and conform to RESTful\nspecifications",
+              "",
+              ""
+            ],
+            [
+              "16.",
+              "Ensure API caching is implemented wherever data refresh\nfrequency is low",
+              "",
+              ""
+            ],
+            [
+              "17.",
+              "Provide APIs (with detailed documentation) for all omni‐\nchannel digital banking platform capabilities to integrate with\nother systems",
+              "",
+              ""
+            ],
+            [
+              "18.",
+              "API specs should be maintained using industry standards such\nas Swagger/RAML and should be versioned along with the API’s\ncode or configuration",
+              "",
+              ""
+            ],
+            [
+              "19.",
+              "Support partner, fintech and ecosystem integrations through\nAPIs, including catalog of digital services and APIs, automation\nfeatures and accelerators for faster integration/onboarding,\nand other best in class open banking features",
+              "",
+              ""
+            ],
+            [
+              "F",
+              "Web Server",
+              "",
+              ""
+            ],
+            [
+              "1.",
+              "The application should have the ability to support Apache,\nNetscape enterprise, Commerce server, Microsoft IIS, etc. as\nweb servers",
+              "",
+              ""
+            ],
+            [
+              "2.",
+              "Should be able to install on UNIX flavors of Operating\nsystems.",
+              "",
+              ""
+            ],
+            [
+              "3.",
+              "The web server should scale to future bank requirements",
+              "",
+              ""
+            ],
+            [
+              "G",
+              "Application Server",
+              "",
+              ""
+            ],
+            [
+              "1.",
+              "The application should be able to support HTML, DHTML, etc.\n(Markup language)",
+              "",
+              ""
+            ],
+            [
+              "2.",
+              "Client‐side scripting/ programming languages like Java\nscripts, VB scripts, Java Applets, ActiveX, etc. should be\nsupported",
+              "",
+              ""
+            ],
+            [
+              "3.",
+              "The application should support the application layer\ntechnologies like Java, C++, Netscape server application",
+              "",
+              ""
+            ]
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "page_number": 114,
+      "text_chars": 933,
+      "text_blocks": 10,
+      "tables": [
+        {
+          "table_index": 1,
+          "bbox": [
+            83.18,
+            111.02,
+            513.46,
+            378.77
+          ],
+          "row_count": 10,
+          "column_count": 4,
+          "empty_cells": 21,
+          "rows": [
+            [
+              "",
+              "process interface, Internet server application process\ninterface, etc.",
+              "",
+              ""
+            ],
+            [
+              "4.",
+              "Database Connectivity support should at a minimum be\nODBC, JDBC, etc.",
+              "",
+              ""
+            ],
+            [
+              "5.",
+              "Queuing system for prioritizing messages to external\napplications. The system should ensure the commit of the\nmessage.",
+              "",
+              ""
+            ],
+            [
+              "6.",
+              "Provide support for store‐and‐forward mechanism in case of\na communication breakdown",
+              "",
+              ""
+            ],
+            [
+              "7.",
+              "Support standard queuing engines (IBM MQ, MSMQ, etc.)",
+              "",
+              ""
+            ],
+            [
+              "H",
+              "Archival, Purging and Restoration",
+              "",
+              ""
+            ],
+            [
+              "1.",
+              "Application should capable to archive and retrieval of history\ntransaction.",
+              "",
+              ""
+            ],
+            [
+              "2.",
+              "Application/Solution should be capable to purge data.",
+              "",
+              ""
+            ],
+            [
+              "3.",
+              "Integrity of data during archival & purging",
+              "",
+              ""
+            ],
+            [
+              "4.",
+              "Automated testing of backups",
+              "",
+              ""
+            ]
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "page_number": 115,
+      "text_chars": 1890,
+      "text_blocks": 17,
+      "tables": [
+        {
+          "table_index": 1,
+          "bbox": [
+            71.46,
+            214.04,
+            523.23,
+            275.36
+          ],
+          "row_count": 4,
+          "column_count": 3,
+          "empty_cells": 0,
+          "rows": [
+            [
+              "Abbreviations",
+              "Full Form",
+              "Marks"
+            ],
+            [
+              "A",
+              "Available in the product without customization",
+              "1"
+            ],
+            [
+              "C",
+              "Will be provided with Customization",
+              "0.5"
+            ],
+            [
+              "N",
+              "Can Not be Provided",
+              "0"
+            ]
+          ]
+        },
+        {
+          "table_index": 2,
+          "bbox": [
+            71.46,
+            298.33,
+            567.73,
+            725.42
+          ],
+          "row_count": 21,
+          "column_count": 5,
+          "empty_cells": 54,
+          "rows": [
+            [
+              "Sr.\nNo.",
+              "Functional Specification Description",
+              "Mandatory\n/ Desired",
+              "A/ C/N",
+              "Remark"
+            ],
+            [
+              "A",
+              "Experience of the Vendor related to",
+              "Mandatory",
+              "---",
+              "---"
+            ],
+            [
+              "1",
+              "Implementation of Admin Module",
+              "",
+              "",
+              ""
+            ],
+            [
+              "2",
+              "Implementation of Merchant Onboarding\nModule",
+              "",
+              "",
+              ""
+            ],
+            [
+              "3",
+              "Implementation of Complaint Module",
+              "",
+              "",
+              ""
+            ],
+            [
+              "4",
+              "Implementation of Bill Payment / Recharge\nfacility",
+              "",
+              "",
+              ""
+            ],
+            [
+              "5",
+              "Bulk Collection / Payment facility",
+              "",
+              "",
+              ""
+            ],
+            [
+              "6",
+              "Single Debit / Multiple Credit facility",
+              "",
+              "",
+              ""
+            ],
+            [
+              "7",
+              "Self-onboarding of Merchant",
+              "",
+              "",
+              ""
+            ],
+            [
+              "8",
+              "Recurring payment facility",
+              "",
+              "",
+              ""
+            ],
+            [
+              "9",
+              "App intent facility",
+              "",
+              "",
+              ""
+            ],
+            [
+              "10",
+              "Schedule Payment/Payment reminder facility",
+              "",
+              "",
+              ""
+            ],
+            [
+              "B",
+              "Experience of the vendor related to following type of\nMerchant integration –",
+              "Mandatory",
+              "---",
+              "---"
+            ],
+            [
+              "1",
+              "Offline Merchant Integration",
+              "",
+              "",
+              ""
+            ],
+            [
+              "2",
+              "Online Merchant Integration",
+              "",
+              "",
+              ""
+            ],
+            [
+              "3",
+              "Integration with the E-commerce portal",
+              "",
+              "",
+              ""
+            ],
+            [
+              "4",
+              "Deep integration with Merchant /Wallet Mobile\nApp",
+              "",
+              "",
+              ""
+            ],
+            [
+              "5",
+              "Integration with the chat platform",
+              "",
+              "",
+              ""
+            ],
+            [
+              "6",
+              "Integration with the Bank’s Mobile Banking\nService",
+              "",
+              "",
+              ""
+            ],
+            [
+              "7",
+              "Integration with POS/MPOS",
+              "",
+              "",
+              ""
+            ],
+            [
+              "8",
+              "Integration for providing POS facility using QR code",
+              "",
+              "",
+              ""
+            ]
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "page_number": 116,
+      "text_chars": 2206,
+      "text_blocks": 28,
+      "tables": [
+        {
+          "table_index": 1,
+          "bbox": [
+            71.29,
+            110.98,
+            567.73,
+            747.14
+          ],
+          "row_count": 18,
+          "column_count": 5,
+          "empty_cells": 38,
+          "rows": [
+            [
+              "C",
+              "Experience related to Merchant integration for\nfollowing type of transactions-",
+              "Mandatory",
+              "---",
+              "---"
+            ],
+            [
+              "1",
+              "P2B transaction",
+              "",
+              "",
+              ""
+            ],
+            [
+              "2",
+              "B2B transaction",
+              "",
+              "",
+              ""
+            ],
+            [
+              "3",
+              "P2G transaction",
+              "",
+              "",
+              ""
+            ],
+            [
+              "D",
+              "Audit Trail: Does the system provides comprehensive\naudit trail features such as:",
+              "",
+              "---",
+              "---"
+            ],
+            [
+              "1",
+              "Daily activities log are merged into the history log files",
+              "Mandatory",
+              "",
+              ""
+            ],
+            [
+              "2",
+              "Date, time and user-stamped transaction list are\ngenerated for different transactions",
+              "Mandatory",
+              "",
+              ""
+            ],
+            [
+              "3",
+              "Transaction screens display system information\nincluding Processing Date, Current Time, Current User",
+              "Mandatory",
+              "",
+              ""
+            ],
+            [
+              "4",
+              "Daily activity reports are provided to highlight all the\ntransactions being processed during the day",
+              "Mandatory",
+              "",
+              ""
+            ],
+            [
+              "5",
+              "Support for recording of Unsuccessful attempts to log-\nin to the system",
+              "Mandatory",
+              "",
+              ""
+            ],
+            [
+              "6",
+              "System to provide session log files. The user should be\nable to analyze the information (e.g., account id,\nsession time etc.)",
+              "Mandatory",
+              "",
+              ""
+            ],
+            [
+              "7",
+              "System should provide tracking of the client’s IP &\nNetwork Interface address",
+              "",
+              "",
+              ""
+            ],
+            [
+              "E",
+              "Reporting",
+              "",
+              "---",
+              "---"
+            ],
+            [
+              "1",
+              "Provide a full set of operational and audit trail reports\nfor each of the modules",
+              "Mandatory",
+              "",
+              ""
+            ],
+            [
+              "2",
+              "Periodical reports to appropriate authorities can be\ngenerated. The frequency and content of the reports\ncan be determined by the bank user.",
+              "Mandatory",
+              "",
+              ""
+            ],
+            [
+              "3",
+              "Generation / transmission of SMS/email alerts / advice\nat various stages of the transaction",
+              "",
+              "",
+              ""
+            ],
+            [
+              "4",
+              "Support for online access of reports",
+              "",
+              "",
+              ""
+            ],
+            [
+              "5",
+              "Ensure complete log of all successful/unsuccessful\nevents/accesses to the system/database by users,\nresources used and actions performed (including\nrecording all changed values where applicable)\nAutomatic report generation capability",
+              "Mandatory",
+              "",
+              ""
+            ]
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "page_number": 117,
+      "text_chars": 414,
+      "text_blocks": 12,
+      "tables": [
+        {
+          "table_index": 1,
+          "bbox": [
+            71.3,
+            111.02,
+            567.72,
+            160.34
+          ],
+          "row_count": 2,
+          "column_count": 5,
+          "empty_cells": 6,
+          "rows": [
+            [
+              "6",
+              "Pre-built query feature for non- Programmers",
+              "",
+              "",
+              ""
+            ],
+            [
+              "7",
+              "Reports related to reconciliation & settlement",
+              "",
+              "",
+              ""
+            ]
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "page_number": 118,
+      "text_chars": 821,
+      "text_blocks": 27,
+      "tables": [
+        {
+          "table_index": 1,
+          "bbox": [
+            72.26,
+            159.5,
+            523.18,
+            471.37
+          ],
+          "row_count": 10,
+          "column_count": 9,
+          "empty_cells": 68,
+          "rows": [
+            [
+              "",
+              "#",
+              "",
+              "",
+              "Particulars",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "1.",
+              null,
+              null,
+              "Name of the Bidder",
+              null,
+              null,
+              "",
+              null,
+              null
+            ],
+            [
+              "2.",
+              null,
+              null,
+              "Address with E mail id, Mobile no. and Pin code",
+              null,
+              null,
+              "",
+              null,
+              null
+            ],
+            [
+              "3.",
+              null,
+              null,
+              "GST Number",
+              null,
+              null,
+              "",
+              null,
+              null
+            ],
+            [
+              "4.",
+              null,
+              null,
+              "Bank Details",
+              null,
+              null,
+              "",
+              null,
+              null
+            ],
+            [
+              "5.",
+              null,
+              null,
+              "PAN Number",
+              null,
+              null,
+              "",
+              null,
+              null
+            ],
+            [
+              "6.",
+              null,
+              null,
+              "Name of Authorised Person\nMobile No:\nLandline No:",
+              null,
+              null,
+              "",
+              null,
+              null
+            ],
+            [
+              "7.",
+              null,
+              null,
+              "i. Email ID\nii. Alternative Email ID",
+              null,
+              null,
+              "",
+              null,
+              null
+            ],
+            [
+              "8.",
+              null,
+              null,
+              "Details of EMD",
+              null,
+              null,
+              "BG/UTR/Reference No. date & Amount",
+              null,
+              null
+            ],
+            [
+              "9.",
+              null,
+              null,
+              "Exemption Certificate details (if applicable). Eg:\nMSME/Udyog Aadhaar certificate etc.",
+              null,
+              null,
+              "Please upload copy of the same along\nwith details",
+              null,
+              null
+            ]
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "page_number": 119,
+      "text_chars": 1391,
+      "text_blocks": 16,
+      "tables": [
+        {
+          "table_index": 1,
+          "bbox": [
+            92.1,
+            461.53,
+            505.02,
+            517.79
+          ],
+          "row_count": 2,
+          "column_count": 5,
+          "empty_cells": 5,
+          "rows": [
+            [
+              "Sr. No.",
+              "Bidder Name",
+              "DD/BG Number",
+              "Drawn on Bank Name",
+              "Amount (₹)"
+            ],
+            [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "page_number": 120,
+      "text_chars": 1245,
+      "text_blocks": 24,
+      "tables": [],
+      "warnings": []
+    },
+    {
+      "page_number": 121,
+      "text_chars": 3008,
+      "text_blocks": 16,
+      "tables": [],
+      "warnings": []
+    },
+    {
+      "page_number": 122,
+      "text_chars": 2066,
+      "text_blocks": 15,
+      "tables": [],
+      "warnings": []
+    },
+    {
+      "page_number": 123,
+      "text_chars": 2314,
+      "text_blocks": 15,
+      "tables": [],
+      "warnings": []
+    },
+    {
+      "page_number": 124,
+      "text_chars": 1602,
+      "text_blocks": 18,
+      "tables": [],
+      "warnings": []
+    },
+    {
+      "page_number": 125,
+      "text_chars": 565,
+      "text_blocks": 24,
+      "tables": [
+        {
+          "table_index": 1,
+          "bbox": [
+            52.21,
+            143.63,
+            567.36,
+            393.45
+          ],
+          "row_count": 10,
+          "column_count": 5,
+          "empty_cells": 36,
+          "rows": [
+            [
+              "Sr. No.",
+              "Page #",
+              "Point /\nSection #",
+              "Query",
+              "Banks Response (Bidder Should not\nfill in this column)"
+            ],
+            [
+              "1",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "2",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "3",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "4",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "5",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "6",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "7",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "8",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "9",
+              "",
+              "",
+              "",
+              ""
+            ]
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "page_number": 126,
+      "text_chars": 3203,
+      "text_blocks": 27,
+      "tables": [
+        {
+          "table_index": 1,
+          "bbox": [
+            52.21,
+            243.51,
+            567.36,
+            708.75
+          ],
+          "row_count": 8,
+          "column_count": 6,
+          "empty_cells": 25,
+          "rows": [
+            [
+              "#",
+              "Eligibility of the Bidder",
+              "Documents to be submitted",
+              "",
+              "Compliance",
+              ""
+            ],
+            [
+              null,
+              null,
+              null,
+              null,
+              "(Y/N)",
+              null
+            ],
+            [
+              "1.",
+              "Bidder should be a Registered company under\nIndian Companies Act. 1956/2013 or\nLLP/Partnership firm and should have been in\nexistence for a minimum period of 5 years in\nIndia, as on date of submission of RFP.",
+              "Copy of the Certificate of Incorporation\nissued by Registrar of\nCompanies/Registrar of firms and full\naddress of the registered office of the\nbidder",
+              "",
+              null,
+              null
+            ],
+            [
+              "2.",
+              "Bidder should be registered under G.S.T and/or\ntax registration in state where bidder has a\nregistered office",
+              "Proof of registration with GSTIN",
+              "",
+              null,
+              null
+            ],
+            [
+              "3.",
+              "The bidder must have an annual turnover in\nIndia of INR 20 crores per annum in the last\nthree financial years (i.e. 2021-22, 2022-23 and\n2023-24) as per the audited balance sheet\navailable at the time of submission of tender, of\nindividual company and not as group of\ncompanies",
+              "Copy of audited Balance Sheet and\nCertificate of the Chartered Accountant\nfor preceding three FY.",
+              "",
+              null,
+              null
+            ],
+            [
+              "4.",
+              "The bidder should have made operating profits\nin at least two financial years out of last three\nfinancial years (i.e. 2021-22, 2022-23 and 2023-\n24).",
+              "Copy of audited Balance Sheet and\nCertificate of the Chartered Accountant\nfor preceding three FY.",
+              "",
+              null,
+              null
+            ],
+            [
+              "5.",
+              "The bidder should have a positive net worth in\nlast three financial years (i.e. 2021-22, 2022-23\nand 2023-24).",
+              "Certificate of the Chartered Accountant\nfor preceding three FY.",
+              "",
+              null,
+              null
+            ],
+            [
+              "6.",
+              "The Bidder should have implemented the\nproposed UPI solution which should be running\npresently in at least two Scheduled Commercial\nBanks (SCB), out of which one Bank should have",
+              "Credential letter Along with Proof of\ntransaction",
+              "",
+              null,
+              null
+            ]
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "page_number": 127,
+      "text_chars": 2674,
+      "text_blocks": 27,
+      "tables": [
+        {
+          "table_index": 1,
+          "bbox": [
+            52.21,
+            97.42,
+            567.36,
+            709.83
+          ],
+          "row_count": 9,
+          "column_count": 6,
+          "empty_cells": 30,
+          "rows": [
+            [
+              "#",
+              "Eligibility of the Bidder",
+              "Documents to be submitted",
+              "",
+              "Compliance",
+              ""
+            ],
+            [
+              null,
+              null,
+              null,
+              null,
+              "(Y/N)",
+              null
+            ],
+            [
+              "",
+              "minimum average 1 Crore transactions\n(including financial and non-financial) per day\nduring last one year from October-23 to\nSeptember-24.",
+              "",
+              "",
+              null,
+              null
+            ],
+            [
+              "7.",
+              "At the time of bidding, the Bidder should not\nhave been blacklisted/ debarred by any Govt. /\nIBA/RBI/PSU /PSE/ or Banks, Financial institutes\nfor any reason or non-implementation/ delivery\nof the order. Self-declaration to that effect\nshould be submitted along with the technical\nbid.",
+              "Submit the undertaking on Company’s\nletter head",
+              "",
+              null,
+              null
+            ],
+            [
+              "8.",
+              "At the time of bidding, there should not have\nbeen any pending litigation or any legal dispute\nin the last five years, before any court of law\nbetween the Bidder / OEM and the Bank\nregarding supply of goods/services.",
+              "Submit the undertaking self-\ndeclaration on Company’s letter head.",
+              "",
+              null,
+              null
+            ],
+            [
+              "9.",
+              "Bidder/OEM should not have\n• NPA with any Bank /financial institutions in\nIndia\n• Any case pending or otherwise, with any\norganization across the globe which affects\nthe credibility of the Bidder in the opinion of\nCentral Bank of India to service the needs of\nthe Bank",
+              "Submit self-declaration on Company’s\nletter head.",
+              "",
+              null,
+              null
+            ],
+            [
+              "10.",
+              "Bidder/ OEMs should have service/ support\ninfrastructure at Mumbai/ Hyderabad and\nshould be able to provide efficient and effective\nsupport.",
+              "Submit the undertaking self-\ndeclaration on Bidder’s and OEM’s\nletter head",
+              "",
+              null,
+              null
+            ],
+            [
+              "11.",
+              "If the bidder is from a country which shares a\nland border with India, the bidder should be\nregistered with the Competent Authority",
+              "Certified copy of the registration\ncertificate",
+              "",
+              null,
+              null
+            ],
+            [
+              "12.",
+              "The Bidder or Its Technology Partner should not\nbe owned or controlled by any Director, officer\nor employee of Central Bank of India or by\nrelated party having the same meaning as\nassigned under section 2(76) of the companies",
+              "Undertaking to be given by the Bidder\nat time of submission\ncompliance certificate given by\nsuccessful bidder on company's letter",
+              "",
+              null,
+              null
+            ]
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "page_number": 128,
+      "text_chars": 2751,
+      "text_blocks": 23,
+      "tables": [
+        {
+          "table_index": 1,
+          "bbox": [
+            52.23,
+            97.42,
+            567.36,
+            209.23
+          ],
+          "row_count": 3,
+          "column_count": 6,
+          "empty_cells": 11,
+          "rows": [
+            [
+              "#",
+              "Eligibility of the Bidder",
+              "Documents to be submitted",
+              "",
+              "Compliance",
+              ""
+            ],
+            [
+              null,
+              null,
+              null,
+              null,
+              "(Y/N)",
+              null
+            ],
+            [
+              "",
+              "act or relative having same meaning as assigned\nsection 2(77) of companies act 2013 read with\nrule 4 of the companies (specification of\ndefinition details) rules 2014.",
+              "head (Enclosed as Annexure 31) after\nsigning agreement",
+              "",
+              null,
+              null
+            ]
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "page_number": 129,
+      "text_chars": 3207,
+      "text_blocks": 6,
+      "tables": [],
+      "warnings": []
+    },
+    {
+      "page_number": 130,
+      "text_chars": 2495,
+      "text_blocks": 22,
+      "tables": [],
+      "warnings": []
+    },
+    {
+      "page_number": 131,
+      "text_chars": 2919,
+      "text_blocks": 21,
+      "tables": [],
+      "warnings": []
+    },
+    {
+      "page_number": 132,
+      "text_chars": 3630,
+      "text_blocks": 21,
+      "tables": [],
+      "warnings": []
+    },
+    {
+      "page_number": 133,
+      "text_chars": 3680,
+      "text_blocks": 16,
+      "tables": [],
+      "warnings": []
+    },
+    {
+      "page_number": 134,
+      "text_chars": 3053,
+      "text_blocks": 24,
+      "tables": [],
+      "warnings": []
+    },
+    {
+      "page_number": 135,
+      "text_chars": 3424,
+      "text_blocks": 19,
+      "tables": [],
+      "warnings": []
+    },
+    {
+      "page_number": 136,
+      "text_chars": 3085,
+      "text_blocks": 20,
+      "tables": [],
+      "warnings": []
+    },
+    {
+      "page_number": 137,
+      "text_chars": 619,
+      "text_blocks": 8,
+      "tables": [],
+      "warnings": []
+    },
+    {
+      "page_number": 138,
+      "text_chars": 1405,
+      "text_blocks": 20,
+      "tables": [
+        {
+          "table_index": 1,
+          "bbox": [
+            52.15,
+            398.65,
+            514.49,
+            534.23
+          ],
+          "row_count": 4,
+          "column_count": 5,
+          "empty_cells": 15,
+          "rows": [
+            [
+              "Sr. No.",
+              "Software / Tool or\nComponent Required",
+              "OEM\nName",
+              "Justification\n(Why\nSoftware\nis needed)",
+              "Licensing Metric for software\n(User\nBased/ Processor Based/ any\nother)"
+            ],
+            [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "page_number": 139,
+      "text_chars": 984,
+      "text_blocks": 15,
+      "tables": [],
+      "warnings": []
+    },
+    {
+      "page_number": 140,
+      "text_chars": 839,
+      "text_blocks": 18,
+      "tables": [
+        {
+          "table_index": 1,
+          "bbox": [
+            52.2,
+            140.66,
+            525.48,
+            327.17
+          ],
+          "row_count": 4,
+          "column_count": 7,
+          "empty_cells": 21,
+          "rows": [
+            [
+              "S.NO",
+              "Type of work",
+              "Name of\nteam\nmembers",
+              "Qualification\n&\ncertification",
+              "Previous\nBanks\nwhere\nteam\nmember\nwas\nassociated",
+              "Duration\nof team\nmember\nassociation",
+              "No. of\nyears\nof\nexperience"
+            ],
+            [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "page_number": 141,
+      "text_chars": 1077,
+      "text_blocks": 23,
+      "tables": [],
+      "warnings": []
+    },
+    {
+      "page_number": 142,
+      "text_chars": 891,
+      "text_blocks": 18,
+      "tables": [
+        {
+          "table_index": 1,
+          "bbox": [
+            52.54,
+            161.3,
+            529.1,
+            305.21
+          ],
+          "row_count": 8,
+          "column_count": 7,
+          "empty_cells": 37,
+          "rows": [
+            [
+              "Sl. No.",
+              "Name of the",
+              "Purchase",
+              "Date of completion of delivery",
+              null,
+              "Contact person",
+              "Total"
+            ],
+            [
+              "",
+              "Client",
+              "Order/Indent",
+              "as per contract as well as Actual",
+              null,
+              "• Name",
+              "Amount of"
+            ],
+            [
+              null,
+              "",
+              "Number &",
+              "",
+              null,
+              "• Tel. No.",
+              "Order"
+            ],
+            [
+              null,
+              null,
+              "Date",
+              "As per contract",
+              "Actual",
+              "• Fax No.",
+              ""
+            ],
+            [
+              null,
+              null,
+              "",
+              null,
+              null,
+              "• Address",
+              null
+            ],
+            [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "page_number": 143,
+      "text_chars": 1422,
+      "text_blocks": 17,
+      "tables": [],
+      "warnings": []
+    },
+    {
+      "page_number": 144,
+      "text_chars": 1492,
+      "text_blocks": 12,
+      "tables": [],
+      "warnings": []
+    },
+    {
+      "page_number": 145,
+      "text_chars": 2258,
+      "text_blocks": 26,
+      "tables": [
+        {
+          "table_index": 1,
+          "bbox": [
+            87.95,
+            173.07,
+            750.73,
+            468.48
+          ],
+          "row_count": 6,
+          "column_count": 14,
+          "empty_cells": 65,
+          "rows": [
+            [
+              "S\nN",
+              "Application/Database\n/\nSoftware/Utility/Tool\n/Container\nplatform/CICD etc. as\npart of Scope of RFP",
+              "Location\n(DC/DRC/\nNear to\nDC)",
+              "Count\nof\nlicense\ns\nrequir\ned\nwith\nmetric\n(User\nBased\n/\nProces\nsor\nBased\n/ any\nother)",
+              "Instance\n(Prod/Pre-\nProd/Dev/\nUAT)",
+              "OS\nDeployment\nCategory\n(Physical\nServer/VM/Co\nntainer)",
+              "OS\nType\n(like\nWindo\nws,\nRHEL,\netc.)",
+              "No of\nOS\nInsta\nnce",
+              "Hardware Requirement including OS\nutilization",
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              "No of\nphysi\ncal\nCore\ns",
+              "Details\nof\nType\nof\nHardw\nare",
+              "Mem\nory\n(In\nGB)",
+              "Physi\ncal\nStora\nge\n(In\nGB)",
+              "SAN\nStora\nge\n(In\nGB)",
+              "Obje\nct\nStora\nge\n(In\nGB)"
+            ],
+            [
+              "1",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "2",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "3",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "4",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "page_number": 146,
+      "text_chars": 1552,
+      "text_blocks": 10,
+      "tables": [
+        {
+          "table_index": 1,
+          "bbox": [
+            116.66,
+            131.06,
+            759.94,
+            213.65
+          ],
+          "row_count": 4,
+          "column_count": 5,
+          "empty_cells": 15,
+          "rows": [
+            [
+              "SN",
+              "Any other Hardware Items required for operation of UPI Switch\ne.g. HSM/Load Balancer/ network switches etc.",
+              "Number of Item",
+              "Any other relevant\ndetail of the\nComponent",
+              "Rational for including\nthe component"
+            ],
+            [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "page_number": 147,
+      "text_chars": 1439,
+      "text_blocks": 15,
+      "tables": [],
+      "warnings": []
+    }
+  ],
+  "warnings": [],
+  "page_count": 147
+}

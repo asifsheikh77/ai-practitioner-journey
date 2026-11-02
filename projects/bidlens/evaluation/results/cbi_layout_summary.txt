@@ -1,0 +1,72 @@
+PDF: data\raw\cbi_upi_rfp.pdf
+Pages: 147
+Pages with detected tables: 52
+Total detected tables: 61
+Pages with warnings: 0
+
+TABLE INVENTORY (1-based PDF pages):
+page 6: 1 table(s); shapes=28x2
+page 7: 1 table(s); shapes=29x2
+page 8: 1 table(s); shapes=28x2
+page 9: 1 table(s); shapes=17x2
+page 10: 1 table(s); shapes=9x2
+page 11: 1 table(s); shapes=2x2
+page 12: 1 table(s); shapes=8x4
+page 13: 1 table(s); shapes=6x4
+page 21: 1 table(s); shapes=9x4
+page 26: 1 table(s); shapes=11x6
+page 39: 1 table(s); shapes=9x2
+page 42: 1 table(s); shapes=13x4
+page 48: 2 table(s); shapes=7x3, 7x2
+page 49: 4 table(s); shapes=2x2, 2x2, 2x2, 3x2
+page 53: 1 table(s); shapes=14x4
+page 55: 1 table(s); shapes=7x2
+page 56: 1 table(s); shapes=7x2
+page 58: 1 table(s); shapes=6x4
+page 77: 1 table(s); shapes=38x3
+page 78: 1 table(s); shapes=6x3
+page 80: 1 table(s); shapes=10x5
+page 81: 1 table(s); shapes=5x6
+page 82: 2 table(s); shapes=8x13, 6x13
+page 83: 3 table(s); shapes=4x13, 8x6, 4x12
+page 84: 1 table(s); shapes=13x12
+page 85: 1 table(s); shapes=9x13
+page 86: 1 table(s); shapes=9x13
+page 88: 1 table(s); shapes=17x9
+page 89: 1 table(s); shapes=3x9
+page 100: 1 table(s); shapes=15x2
+page 104: 1 table(s); shapes=15x2
+page 108: 2 table(s); shapes=4x3, 13x4
+page 109: 1 table(s); shapes=23x4
+page 110: 1 table(s); shapes=22x4
+page 111: 1 table(s); shapes=19x4
+page 112: 1 table(s); shapes=17x4
+page 113: 1 table(s); shapes=20x4
+page 114: 1 table(s); shapes=10x4
+page 115: 2 table(s); shapes=4x3, 21x5
+page 116: 1 table(s); shapes=18x5
+page 117: 1 table(s); shapes=2x5
+page 118: 1 table(s); shapes=10x9
+page 119: 1 table(s); shapes=2x5
+page 125: 1 table(s); shapes=10x5
+page 126: 1 table(s); shapes=8x6
+page 127: 1 table(s); shapes=9x6
+page 128: 1 table(s); shapes=3x6
+page 138: 1 table(s); shapes=4x5
+page 140: 1 table(s); shapes=4x7
+page 142: 1 table(s); shapes=8x7
+page 145: 1 table(s); shapes=6x14
+page 146: 1 table(s); shapes=4x5
+
+WARNINGS:
+
+REFERENCE PAGE 12:
+Table 1: 8 rows x 4 cols
+  row 0: ["#", "Eligibility of the Bidder", "Documents to be submitted", "Compliance\n(Y/N)"]
+  row 1: ["1.", "Bidder should be a Registered company under\nIndian Companies Act. 1956/2013 or\nLLP/Partnership firm and should have been in\nexistence for a minimum period of 5 years in\nIndia, as on date of submission of RFP.", "Copy of the Certificate of Incorporation\nissued by Registrar of\nCompanies/Registrar of firms and full\naddress of the registered office of the\nbidder", ""]
+  row 2: ["2.", "Bidder should be registered under G.S.T. and/or\ntax registration in state where bidder has a\nregistered office", "Proof of registration with GSTIN", ""]
+  row 3: ["3.", "The bidder must have an annual turnover in\nIndia of INR 20 crores per annum in the last\nthree financial years (i.e. 2021-22, 2022-23 and\n2023-24) as per the audited balance sheet\navailable at the time of submission of tender, of\nindividual company and not as group of\ncompanies", "Copy of audited Balance Sheet and\nCertificate of the Chartered Accountant\nfor preceding three FY.", ""]
+  row 4: ["4.", "The bidder should have made operating profits\nin at least two financial years out of last three\nfinancial years (i.e. 2021-22, 2022-23 and 2023-\n24).", "Copy of audited Balance Sheet and\nCertificate of the Chartered Accountant\nfor preceding three FY.", ""]
+  row 5: ["5.", "The bidder should have a positive net worth in\nlast three financial years (i.e. 2021-22, 2022-23\nand 2023-24).", "Certificate of the Chartered Accountant\nfor preceding three FY.", ""]
+  row 6: ["6.", "The Bidder should have implemented the\nproposed UPI solution which should be running\npresently in at least two Scheduled Commercial\nBanks (SCB), out of which one Bank should\nhave minimum average 1 Crore transactions\n(including financial and non-financial) per day\nduring last one year from October-23 to\nSeptember-24.", "Credential letter along with Proof of\ntransaction", ""]
+  row 7: ["7.", "At the time of bidding, the Bidder should not\nhave been blacklisted/ debarred by any Govt. /\nIBA/ RBI/ PSU /PSE/ or Banks, Financial\ninstitutes for any reason or non-implementation/\ndelivery of the order. Self-declaration to that\neffect should be submitted along with the\ntechnical bid.", "Submit the undertaking on Company’s\nletter head", ""]
