@@ -6,7 +6,7 @@ from pathlib import Path
 
 import numpy as np
 
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / 'src'))
 from bidlens.retrieval import BidLensRetriever, load_chunks, reciprocal_rank_fusion
 from bidlens.table_repair import build_replacement_corpus, load_verified_rows

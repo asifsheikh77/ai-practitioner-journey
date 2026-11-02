@@ -71,6 +71,10 @@ This project's central engineering lesson: **more sophisticated ranking does not
 - `docs/`: architecture, evaluation findings and portfolio case study
 - `demo_output/`: generated local artifacts (publish only after source-rights review)
 
+## Experiments
+
+Historical ingestion, eligibility, retrieval and failure-analysis scripts are preserved under `experiments/`. See the [experiment guide](experiments/README.md) for original-to-current paths, dataset requirements, reproduction commands and evaluation limitations. Active entry points remain in `scripts/`; historical results remain in `evaluation/results/`.
+
 ## Limitations
 
 - Five fixed searches are **not exhaustive requirement extraction**.

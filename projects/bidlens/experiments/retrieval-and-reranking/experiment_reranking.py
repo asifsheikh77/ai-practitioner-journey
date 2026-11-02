@@ -7,7 +7,7 @@ import sys
 import time
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / 'src'))
 from bidlens.retrieval import BidLensRetriever, load_chunks
 from bidlens.table_repair import load_verified_rows, build_replacement_corpus, score_ids

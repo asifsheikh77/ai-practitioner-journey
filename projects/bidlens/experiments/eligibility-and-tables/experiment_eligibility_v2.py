@@ -1,10 +1,10 @@
-"""Run from the BidLens project root: python scripts/experiment_eligibility_v2.py"""
+"""Run from the BidLens project root: python experiments/eligibility-and-tables/experiment_eligibility_v2.py"""
 import argparse
 import json
 import sys
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / 'src'))
 from bidlens.retrieval import BidLensRetriever, load_chunks
 from bidlens.eligibility_v2 import (load_reviewed_records,
