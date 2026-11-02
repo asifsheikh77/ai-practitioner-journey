@@ -1,0 +1,5 @@
+[
+  {"id":"Q001","question":"What minimum annual turnover must a bidder demonstrate?","gold_record_ids":["cbi_upi_rfp:p0012:req003"],"verified":true},
+  {"id":"Q002","question":"What prior UPI implementation experience must the bidder demonstrate?","gold_record_ids":["cbi_upi_rfp:p0012:req006"],"verified":true},
+  {"id":"Q003","question":"What operating profitability and net-worth criteria must the bidder meet?","gold_record_ids":["cbi_upi_rfp:p0012:req004","cbi_upi_rfp:p0012:req005"],"verified":true}
+]

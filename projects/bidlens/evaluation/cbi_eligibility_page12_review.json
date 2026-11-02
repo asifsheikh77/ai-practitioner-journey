@@ -1,0 +1,67 @@
+[
+  {
+    "criterion_number": 1,
+    "document_id": "cbi_upi_rfp",
+    "page_number": 12,
+    "requirement": "Bidder should be a Registered company under Indian Companies Act. 1956/2013 or LLP/Partnership firm and should have been in existence for a minimum period of 5 years in India, as on date of submission of RFP.",
+    "supporting_documentation": "Copy of the Certificate of Incorporation issued by Registrar of Companies/Registrar of firms and full address of the registered office of the bidder.",
+    "source_chunk_ids": ["cbi_upi_rfp:p0012:c001"],
+    "review_status": "verified"
+  },
+  {
+    "criterion_number": 2,
+    "document_id": "cbi_upi_rfp",
+    "page_number": 12,
+    "requirement": "Bidder should be registered under G.S.T. and/or tax registration in state where bidder has a registered office",
+    "supporting_documentation": "Proof of registration with GSTIN",
+    "source_chunk_ids": ["cbi_upi_rfp:p0012:c001"],
+    "review_status": "verified"
+  },
+  {
+    "criterion_number": 3,
+    "document_id": "cbi_upi_rfp",
+    "page_number": 12,
+    "requirement": "The bidder must have an annual turnover in India of INR 20 crores per annum in the last three financial years (i.e. 2021-22, 2022-23 and 2023-24) as per the audited balance sheet available at the time of submission of tender, of individual company and not as group of companies",
+    "supporting_documentation": "Copy of audited Balance Sheet and Certificate of the Chartered Accountant for preceding three FY.",
+    "source_chunk_ids": ["cbi_upi_rfp:p0012:c001"],
+    "review_status": "verified"
+  },
+  {
+    "criterion_number": 4,
+    "document_id": "cbi_upi_rfp",
+    "page_number": 12,
+    "requirement": "The bidder should have made operating profits in at least two financial years out of last three financial years (i.e. 2021-22, 2022-23 and 2023-24).",
+    "supporting_documentation": "Copy of audited Balance Sheet and Certificate of the Chartered Accountant for preceding three FY.",
+    "source_chunk_ids": ["cbi_upi_rfp:p0012:c002"],
+    "review_status": "verified"
+  },
+  {
+    "criterion_number": 5,
+    "document_id": "cbi_upi_rfp",
+    "page_number": 12,
+    "requirement": "The bidder should have a positive net worth in last three financial years (i.e. 2021-22, 2022-23 and 2023-24).",
+    "supporting_documentation": "Certificate of the Chartered Accountant for preceding three FY.",
+    "source_chunk_ids": ["cbi_upi_rfp:p0012:c002"],
+    "review_status": "verified"
+  },
+  {
+    "criterion_number": 6,
+    "document_id": "cbi_upi_rfp",
+    "page_number": 12,
+    "requirement": "The Bidder should have implemented the proposed UPI solution which should be running presently in at least two Scheduled Commercial Banks (SCB), out of which one Bank should have minimum average 1 Crore transactions (including financial and non-financial) per day during last one year from October-23 to September-24.",
+    "supporting_documentation": "Credential letter along with Proof of transaction",
+    "source_chunk_ids": [
+      "cbi_upi_rfp:p0012:c002"
+    ],
+    "review_status": "verified"
+  },
+  {
+    "criterion_number": 7,
+    "document_id": "cbi_upi_rfp",
+    "page_number": 12,
+    "requirement": "At the time of bidding, the Bidder should not have been blacklisted/ debarred by any Govt. / IBA/ RBI/ PSU /PSE/ or Banks, Financial institutes for any reason or non-implementation/ delivery of the order. Self-declaration to that effect should be submitted along with the technical bid.",
+    "supporting_documentation": "Submit the undertaking on Company’s letter head",
+    "source_chunk_ids": ["cbi_upi_rfp:p0012:c003"],
+    "review_status": "verified"
+  }
+]

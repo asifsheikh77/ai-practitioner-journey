@@ -10,6 +10,16 @@
       "document_type": "RFP",
       "status": "selected",
       "reuse_review": "pending"
+    },
+    {
+      "document_id": "cbi_upi_rfp",
+      "title": "RFP for Supply, Implementation, Migration and Maintenance of UPI Solution",
+      "issuer": "Central Bank of India",
+      "tender_number": "GEM/2024/B/5670501",
+      "source_url": "https://centralbank.bank.in/sites/default/files/2025-01/RFP_UPI.pdf",
+      "local_path": "data/raw/cbi_upi_rfp.pdf",
+      "expected_pages": 147,
+      "retrieved_date": "2026-10-29"
     }
   ]
 }

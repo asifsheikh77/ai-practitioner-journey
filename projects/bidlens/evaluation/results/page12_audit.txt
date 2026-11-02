@@ -1,0 +1,157 @@
+PDF: cbi_upi_rfp.pdf; PDF page index: 12; total pages: 147
+=== RAW TEXT ===
+ 
+ 
+Page 12 of 147 
+ 
+RFP for UPI Solution - Tender No. GEM/2024/B/5670501 
+2. Eligibility Criteria 
+The Bidder must fulfil following eligibility criteria: 
+# 
+Eligibility of the Bidder 
+Documents to be submitted 
+Compliance 
+(Y/N) 
+1.  Bidder should be a Registered company under 
+Indian 
+Companies 
+Act. 
+1956/2013 
+or 
+LLP/Partnership firm and should have been in 
+existence for a minimum period of 5 years in 
+India, as on date of submission of RFP.  
+Copy of the Certificate of Incorporation 
+issued 
+by 
+Registrar 
+of 
+Companies/Registrar of firms and full 
+address of the registered office of the 
+bidder 
+ 
+2.  Bidder should be registered under G.S.T. and/or 
+tax registration in state where bidder has a 
+registered office 
+Proof of registration with GSTIN 
+ 
+3.  The bidder must have an annual turnover in 
+India of INR 20 crores per annum in the last 
+three financial years (i.e. 2021-22, 2022-23 and 
+2023-24) as per the audited balance sheet 
+available at the time of submission of tender, of 
+individual company and not as group of 
+companies 
+Copy of audited Balance Sheet and  
+Certificate of the Chartered Accountant 
+for preceding three FY. 
+ 
+4.  The bidder should have made operating profits 
+in at least two financial years out of last three 
+financial years (i.e. 2021-22, 2022-23 and 2023-
+24). 
+Copy of audited Balance Sheet and  
+Certificate of the Chartered Accountant 
+for preceding three FY. 
+ 
+5.  The bidder should have a positive net worth in 
+last three financial years (i.e. 2021-22, 2022-23 
+and 2023-24). 
+Certificate of the Chartered Accountant 
+for preceding three FY. 
+ 
+6.  The Bidder should have implemented the 
+proposed UPI solution which should be running 
+presently in at least two Scheduled Commercial 
+Banks (SCB), out of which one Bank should 
+have minimum average 1 Crore transactions 
+(including financial and non-financial) per day 
+during last one year from October-23 to 
+September-24. 
+Credential letter along with Proof of 
+transaction  
+ 
+7.  At the time of bidding, the Bidder should not 
+have been blacklisted/ debarred by any Govt. / 
+IBA/ RBI/ PSU /PSE/ or Banks, Financial 
+institutes for any reason or non-implementation/ 
+delivery of the order. Self-declaration to that 
+effect should be submitted along with the 
+technical bid. 
+Submit the undertaking on Company’s 
+letter head 
+ 
+
+=== SORTED TEXT ===
+                                   RFP for UPI Solution - Tender No. GEM/2024/B/5670501
+
+
+   2. Eligibility Criteria
+
+The Bidder must fulfil following eligibility criteria:
+
+  #    Eligibility of the Bidder                   Documents to be submitted           Compliance
+
+                                                                                         (Y/N)
+
+ 1.     Bidder should be a Registered company under  Copy of the Certificate of Incorporation
+        Indian   Companies   Act.   1956/2013   or   issued     by      Registrar      of
+        LLP/Partnership firm and should have been in  Companies/Registrar of firms and full
+        existence for a minimum period of 5 years in   address of the registered office of the
+         India, as on date of submission of RFP.           bidder
+
+ 2.     Bidder should be registered under G.S.T. and/or  Proof of registration with GSTIN
+        tax  registration  in  state where bidder has a
+         registered office
+
+ 3.    The bidder must have an annual turnover in  Copy of audited Balance Sheet and
+        India of INR 20 crores per annum in the last
+                                                              Certificate of the Chartered Accountant        three financial years (i.e. 2021-22, 2022-23 and
+                                                             for preceding three FY.       2023-24)  as  per  the  audited  balance  sheet
+        available at the time of submission of tender, of
+        individual  company  and  not  as  group  of
+       companies
+
+ 4.    The bidder should have made operating profits  Copy of audited Balance Sheet and
+         in at least two financial years out of last three
+                                                              Certificate of the Chartered Accountant         financial years (i.e. 2021-22, 2022-23 and 2023-
+                                                             for preceding three FY.        24).
+
+ 5.    The bidder should have a positive net worth in   Certificate of the Chartered Accountant
+          last three financial years (i.e. 2021-22, 2022-23   for preceding three FY.
+       and 2023-24).
+
+ 6.    The  Bidder  should  have  implemented  the   Credential  letter along with Proof of
+       proposed UPI solution which should be running   transaction
+        presently in at least two Scheduled Commercial
+       Banks (SCB), out of which one Bank should
+       have minimum average 1 Crore transactions
+        (including financial and non-financial) per day
+        during  last  one  year  from  October-23  to
+       September-24.
+
+ 7.    At the time of bidding, the Bidder should not  Submit the undertaking on Company’s
+       have been blacklisted/ debarred by any Govt. /   letter head
+       IBA/ RBI/ PSU /PSE/  or Banks,  Financial
+         institutes for any reason or non-implementation/
+        delivery of the order. Self-declaration to that
+         effect  should be  submitted  along  with  the
+        technical bid.
+
+
+
+
+
+                                     Page 12 of 147
+=== TABLE DETECTION ===
+Tables detected: 1
+
+TABLE 1: rows=8 cols=4
+["#", "Eligibility of the Bidder", "Documents to be submitted", "Compliance\n(Y/N)"]
+["1.", "Bidder should be a Registered company under\nIndian Companies Act. 1956/2013 or\nLLP/Partnership firm and should have been in\nexistence for a minimum period of 5 years in\nIndia, as on date of submission of RFP.", "Copy of the Certificate of Incorporation\nissued by Registrar of\nCompanies/Registrar of firms and full\naddress of the registered office of the\nbidder", ""]
+["2.", "Bidder should be registered under G.S.T. and/or\ntax registration in state where bidder has a\nregistered office", "Proof of registration with GSTIN", ""]
+["3.", "The bidder must have an annual turnover in\nIndia of INR 20 crores per annum in the last\nthree financial years (i.e. 2021-22, 2022-23 and\n2023-24) as per the audited balance sheet\navailable at the time of submission of tender, of\nindividual company and not as group of\ncompanies", "Copy of audited Balance Sheet and\nCertificate of the Chartered Accountant\nfor preceding three FY.", ""]
+["4.", "The bidder should have made operating profits\nin at least two financial years out of last three\nfinancial years (i.e. 2021-22, 2022-23 and 2023-\n24).", "Copy of audited Balance Sheet and\nCertificate of the Chartered Accountant\nfor preceding three FY.", ""]
+["5.", "The bidder should have a positive net worth in\nlast three financial years (i.e. 2021-22, 2022-23\nand 2023-24).", "Certificate of the Chartered Accountant\nfor preceding three FY.", ""]
+["6.", "The Bidder should have implemented the\nproposed UPI solution which should be running\npresently in at least two Scheduled Commercial\nBanks (SCB), out of which one Bank should\nhave minimum average 1 Crore transactions\n(including financial and non-financial) per day\nduring last one year from October-23 to\nSeptember-24.", "Credential letter along with Proof of\ntransaction", ""]
+["7.", "At the time of bidding, the Bidder should not\nhave been blacklisted/ debarred by any Govt. /\nIBA/ RBI/ PSU /PSE/ or Banks, Financial\ninstitutes for any reason or non-implementation/\ndelivery of the order. Self-declaration to that\neffect should be submitted along with the\ntechnical bid.", "Submit the undertaking on Company’s\nletter head", ""]

@@ -1,0 +1,873 @@
+[
+  {
+    "id": "Q001",
+    "question": "What minimum annual turnover must a bidder demonstrate?",
+    "source_pages": [
+      12
+    ],
+    "v1_original_gold_ids": [
+      "cbi_upi_rfp:p0012:c001"
+    ],
+    "v2_support_candidate_ids": [
+      "cbi_upi_rfp:p0012:elig003"
+    ],
+    "facets": [
+      {
+        "facet_id": "Q001.F01",
+        "requirement": "Annual turnover of INR 20 crore in India",
+        "v1_evidence_ids": [
+          "cbi_upi_rfp:p0012:c001"
+        ],
+        "v2_evidence_ids": [
+          "cbi_upi_rfp:p0012:elig003"
+        ],
+        "status": "narrow_assertion_verified_gold_not_certified"
+      },
+      {
+        "facet_id": "Q001.F02",
+        "requirement": "Each of FY 2021-22, 2022-23 and 2023-24",
+        "v1_evidence_ids": [
+          "cbi_upi_rfp:p0012:c001"
+        ],
+        "v2_evidence_ids": [
+          "cbi_upi_rfp:p0012:elig003"
+        ],
+        "status": "narrow_assertion_verified_gold_not_certified"
+      }
+    ],
+    "mapping_status": "facet_review_required"
+  },
+  {
+    "id": "Q002",
+    "question": "What prior UPI implementation experience must the bidder demonstrate?",
+    "source_pages": [
+      12,
+      14
+    ],
+    "v1_original_gold_ids": [
+      "cbi_upi_rfp:p0012:c002"
+    ],
+    "v2_support_candidate_ids": [
+      "cbi_upi_rfp:p0012:elig006"
+    ],
+    "facets": [
+      {
+        "facet_id": "Q002.F01",
+        "requirement": "Proposed UPI solution running in at least two Scheduled Commercial Banks",
+        "v1_evidence_ids": [
+          "cbi_upi_rfp:p0012:c002"
+        ],
+        "v2_evidence_ids": [
+          "cbi_upi_rfp:p0012:elig006"
+        ],
+        "status": "narrow_assertion_verified_gold_not_certified"
+      },
+      {
+        "facet_id": "Q002.F02",
+        "requirement": "At least one bank averages 1 crore daily financial and nonfinancial transactions in stated period",
+        "v1_evidence_ids": [
+          "cbi_upi_rfp:p0012:c002"
+        ],
+        "v2_evidence_ids": [
+          "cbi_upi_rfp:p0012:elig006"
+        ],
+        "status": "narrow_assertion_verified_gold_not_certified"
+      },
+      {
+        "facet_id": "Q002.F03",
+        "requirement": "SCB exclusions and eligibility definition on page 14",
+        "v1_evidence_ids": [
+          "cbi_upi_rfp:p0014:c001"
+        ],
+        "v2_evidence_ids": [
+          "cbi_upi_rfp:p0014:n002"
+        ],
+        "status": "narrow_assertion_verified_gold_not_certified"
+      }
+    ],
+    "mapping_status": "facet_review_required"
+  },
+  {
+    "id": "Q003",
+    "question": "What operating profitability and net-worth criteria must the bidder meet?",
+    "source_pages": [
+      12
+    ],
+    "v1_original_gold_ids": [
+      "cbi_upi_rfp:p0012:c002"
+    ],
+    "v2_support_candidate_ids": [
+      "cbi_upi_rfp:p0012:elig004",
+      "cbi_upi_rfp:p0012:elig005"
+    ],
+    "facets": [
+      {
+        "facet_id": "Q003.F01",
+        "requirement": "Operating profit in at least two of three specified financial years",
+        "v1_evidence_ids": [
+          "cbi_upi_rfp:p0012:c002"
+        ],
+        "v2_evidence_ids": [
+          "cbi_upi_rfp:p0012:elig004"
+        ],
+        "status": "narrow_assertion_verified_gold_not_certified"
+      },
+      {
+        "facet_id": "Q003.F02",
+        "requirement": "Positive net worth in all three specified financial years",
+        "v1_evidence_ids": [
+          "cbi_upi_rfp:p0012:c002"
+        ],
+        "v2_evidence_ids": [
+          "cbi_upi_rfp:p0012:elig005"
+        ],
+        "status": "narrow_assertion_verified_gold_not_certified"
+      }
+    ],
+    "mapping_status": "facet_review_required"
+  },
+  {
+    "id": "Q004",
+    "question": "What is the required earnest money deposit, and which bidders may qualify for an exemption?",
+    "source_pages": [
+      10,
+      11,
+      14
+    ],
+    "v1_original_gold_ids": [
+      "cbi_upi_rfp:p0010:c002",
+      "cbi_upi_rfp:p0011:c002",
+      "cbi_upi_rfp:p0014:c002"
+    ],
+    "v2_support_candidate_ids": [
+      "cbi_upi_rfp:p0011:n003",
+      "cbi_upi_rfp:p0014:n003"
+    ],
+    "facets": [
+      {
+        "facet_id": "Q004.F01",
+        "requirement": "EMD amount of INR 1.5 crore",
+        "v1_evidence_ids": [
+          "cbi_upi_rfp:p0010:c002"
+        ],
+        "v2_evidence_ids": [
+          "cbi_upi_rfp:p0010:t01:r002"
+        ],
+        "status": "narrow_assertion_verified_gold_not_certified"
+      },
+      {
+        "facet_id": "Q004.F02",
+        "requirement": "Eligible Micro and Small Enterprises exemption with required certificate",
+        "v1_evidence_ids": [
+          "cbi_upi_rfp:p0011:c002"
+        ],
+        "v2_evidence_ids": [
+          "cbi_upi_rfp:p0011:n003"
+        ],
+        "status": "narrow_assertion_verified_gold_not_certified"
+      }
+    ],
+    "mapping_status": "facet_review_required"
+  },
+  {
+    "id": "Q005",
+    "question": "How are technical bids evaluated, and what minimum technical score is required to qualify?",
+    "source_pages": [
+      48,
+      49,
+      50,
+      51
+    ],
+    "v1_original_gold_ids": [
+      "cbi_upi_rfp:p0048:c001",
+      "cbi_upi_rfp:p0048:c002",
+      "cbi_upi_rfp:p0048:c003"
+    ],
+    "v2_support_candidate_ids": [
+      "cbi_upi_rfp:p0048:n004",
+      "cbi_upi_rfp:p0050:n005"
+    ],
+    "facets": [
+      {
+        "facet_id": "Q005.F01",
+        "requirement": "Technical evaluation scoring criteria and total points",
+        "v1_evidence_ids": [
+          "cbi_upi_rfp:p0048:c002"
+        ],
+        "v2_evidence_ids": [
+          "cbi_upi_rfp:p0048:t01:r001",
+          "cbi_upi_rfp:p0048:t01:r002",
+          "cbi_upi_rfp:p0048:t01:r003",
+          "cbi_upi_rfp:p0048:t01:r004",
+          "cbi_upi_rfp:p0048:t01:r005",
+          "cbi_upi_rfp:p0048:t01:r006",
+          "cbi_upi_rfp:p0048:n004"
+        ],
+        "status": "narrow_assertion_verified_gold_not_certified"
+      },
+      {
+        "facet_id": "Q005.F02",
+        "requirement": "Minimum 60 percent or 150/250 technical qualifying score",
+        "v1_evidence_ids": [
+          "cbi_upi_rfp:p0050:c003"
+        ],
+        "v2_evidence_ids": [
+          "cbi_upi_rfp:p0050:n005"
+        ],
+        "status": "narrow_assertion_verified_gold_not_certified"
+      },
+      {
+        "facet_id": "Q005.F03",
+        "requirement": "Bank discretion to relax threshold, subject to specified floor",
+        "v1_evidence_ids": [
+          "cbi_upi_rfp:p0050:c003"
+        ],
+        "v2_evidence_ids": [
+          "cbi_upi_rfp:p0050:n005"
+        ],
+        "status": "narrow_assertion_verified_gold_not_certified"
+      }
+    ],
+    "mapping_status": "facet_review_required"
+  },
+  {
+    "id": "Q006",
+    "question": "What infrastructure and deployment responsibilities does the bidder have for the UPI solution?",
+    "source_pages": [
+      19,
+      20,
+      21,
+      22,
+      145,
+      146
+    ],
+    "v1_original_gold_ids": [
+      "cbi_upi_rfp:p0019:c002"
+    ],
+    "v2_support_candidate_ids": [
+      "cbi_upi_rfp:p0019:n003",
+      "cbi_upi_rfp:p0019:n004",
+      "cbi_upi_rfp:p0019:n005",
+      "cbi_upi_rfp:p0020:n002",
+      "cbi_upi_rfp:p0020:n004",
+      "cbi_upi_rfp:p0021:n003",
+      "cbi_upi_rfp:p0021:n004",
+      "cbi_upi_rfp:p0022:n002",
+      "cbi_upi_rfp:p0145:n002",
+      "cbi_upi_rfp:p0146:n003"
+    ],
+    "facets": [
+      {
+        "facet_id": "Q006.F01",
+        "requirement": "Responsibility for infrastructure sizing and bill of materials",
+        "v1_evidence_ids": [
+          "cbi_upi_rfp:p0020:c002",
+          "cbi_upi_rfp:p0021:c002"
+        ],
+        "v2_evidence_ids": [
+          "cbi_upi_rfp:p0020:n004",
+          "cbi_upi_rfp:p0021:n004"
+        ],
+        "status": "narrow_assertion_verified_gold_not_certified"
+      },
+      {
+        "facet_id": "Q006.F02",
+        "requirement": "Active-active DC and DR architecture",
+        "v1_evidence_ids": [
+          "cbi_upi_rfp:p0019:c003"
+        ],
+        "v2_evidence_ids": [
+          "cbi_upi_rfp:p0019:n004"
+        ],
+        "status": "narrow_assertion_verified_gold_not_certified"
+      },
+      {
+        "facet_id": "Q006.F03",
+        "requirement": "Allocation of Bank-provided hardware versus bidder-provided software and services",
+        "v1_evidence_ids": [
+          "cbi_upi_rfp:p0021:c002",
+          "cbi_upi_rfp:p0021:c003",
+          "cbi_upi_rfp:p0051:c003"
+        ],
+        "v2_evidence_ids": [
+          "cbi_upi_rfp:p0021:n004",
+          "cbi_upi_rfp:p0051:n008"
+        ],
+        "status": "narrow_assertion_verified_gold_not_certified"
+      }
+    ],
+    "mapping_status": "facet_review_required"
+  },
+  {
+    "id": "Q007",
+    "question": "What migration responsibilities does the selected bidder have for the existing UPI switch?",
+    "source_pages": [
+      22,
+      23,
+      24
+    ],
+    "v1_original_gold_ids": [
+      "cbi_upi_rfp:p0022:c003",
+      "cbi_upi_rfp:p0022:c004",
+      "cbi_upi_rfp:p0022:c005",
+      "cbi_upi_rfp:p0023:c001",
+      "cbi_upi_rfp:p0023:c002",
+      "cbi_upi_rfp:p0023:c003",
+      "cbi_upi_rfp:p0024:c001"
+    ],
+    "v2_support_candidate_ids": [
+      "cbi_upi_rfp:p0022:n004",
+      "cbi_upi_rfp:p0022:n005",
+      "cbi_upi_rfp:p0023:n002",
+      "cbi_upi_rfp:p0023:n003",
+      "cbi_upi_rfp:p0023:n004",
+      "cbi_upi_rfp:p0024:n002",
+      "cbi_upi_rfp:p0024:n003"
+    ],
+    "facets": [
+      {
+        "facet_id": "Q007.F01",
+        "requirement": "Migration of customer and transaction data from existing switch",
+        "v1_evidence_ids": [
+          "cbi_upi_rfp:p0023:c001"
+        ],
+        "v2_evidence_ids": [
+          "cbi_upi_rfp:p0023:n002"
+        ],
+        "status": "narrow_assertion_verified_gold_not_certified"
+      },
+      {
+        "facet_id": "Q007.F02",
+        "requirement": "Zero data loss, confidentiality and integrity",
+        "v1_evidence_ids": [
+          "cbi_upi_rfp:p0022:c004"
+        ],
+        "v2_evidence_ids": [
+          "cbi_upi_rfp:p0022:n004"
+        ],
+        "status": "narrow_assertion_verified_gold_not_certified"
+      },
+      {
+        "facet_id": "Q007.F03",
+        "requirement": "Migration plan, pre/post activities and interface continuity",
+        "v1_evidence_ids": [
+          "cbi_upi_rfp:p0022:c003",
+          "cbi_upi_rfp:p0022:c004",
+          "cbi_upi_rfp:p0022:c005",
+          "cbi_upi_rfp:p0023:c001",
+          "cbi_upi_rfp:p0023:c002",
+          "cbi_upi_rfp:p0023:c003",
+          "cbi_upi_rfp:p0022:c002"
+        ],
+        "v2_evidence_ids": [
+          "cbi_upi_rfp:p0022:n004",
+          "cbi_upi_rfp:p0022:n005",
+          "cbi_upi_rfp:p0023:n002",
+          "cbi_upi_rfp:p0023:n003",
+          "cbi_upi_rfp:p0023:n004",
+          "cbi_upi_rfp:p0023:n005",
+          "cbi_upi_rfp:p0022:n003"
+        ],
+        "status": "narrow_assertion_verified_gold_not_certified"
+      }
+    ],
+    "mapping_status": "facet_review_required"
+  },
+  {
+    "id": "Q008",
+    "question": "What disaster recovery mechanism and continuity capabilities must the UPI solution provide?",
+    "source_pages": [
+      31
+    ],
+    "v1_original_gold_ids": [
+      "cbi_upi_rfp:p0031:c004"
+    ],
+    "v2_support_candidate_ids": [
+      "cbi_upi_rfp:p0031:n004"
+    ],
+    "facets": [
+      {
+        "facet_id": "Q008.F01",
+        "requirement": "RPO of zero minutes",
+        "v1_evidence_ids": [
+          "cbi_upi_rfp:p0031:c004"
+        ],
+        "v2_evidence_ids": [
+          "cbi_upi_rfp:p0031:n004"
+        ],
+        "status": "narrow_assertion_verified_gold_not_certified"
+      },
+      {
+        "facet_id": "Q008.F02",
+        "requirement": "RTO of 90 minutes",
+        "v1_evidence_ids": [
+          "cbi_upi_rfp:p0031:c004"
+        ],
+        "v2_evidence_ids": [
+          "cbi_upi_rfp:p0031:n004"
+        ],
+        "status": "narrow_assertion_verified_gold_not_certified"
+      },
+      {
+        "facet_id": "Q008.F03",
+        "requirement": "Disaster recovery: maintain BCP/DR readiness and primary-to-DR replication; submit primary/secondary replication architecture; plan backups and near-site equipment/design to achieve zero RPO",
+        "v1_evidence_ids": [
+          "cbi_upi_rfp:p0030:c003",
+          "cbi_upi_rfp:p0030:c004",
+          "cbi_upi_rfp:p0031:c004",
+          "cbi_upi_rfp:p0031:c005"
+        ],
+        "v2_evidence_ids": [
+          "cbi_upi_rfp:p0030:n004",
+          "cbi_upi_rfp:p0031:n004"
+        ],
+        "status": "narrow_assertion_verified_gold_not_certified"
+      }
+    ],
+    "mapping_status": "facet_review_required"
+  },
+  {
+    "id": "Q009",
+    "question": "What infrastructure sizing information must bidders provide or justify?",
+    "source_pages": [
+      145,
+      146
+    ],
+    "v1_original_gold_ids": [
+      "cbi_upi_rfp:p0145:c001",
+      "cbi_upi_rfp:p0146:c001",
+      "cbi_upi_rfp:p0146:c002"
+    ],
+    "v2_support_candidate_ids": [
+      "cbi_upi_rfp:p0145:n002",
+      "cbi_upi_rfp:p0146:n003"
+    ],
+    "facets": [
+      {
+        "facet_id": "Q009.F01",
+        "requirement": "Submit infrastructure sizing with technical bid in required format",
+        "v1_evidence_ids": [
+          "cbi_upi_rfp:p0145:c001"
+        ],
+        "v2_evidence_ids": [
+          "cbi_upi_rfp:p0145:n002"
+        ],
+        "status": "narrow_assertion_verified_gold_not_certified"
+      },
+      {
+        "facet_id": "Q009.F02",
+        "requirement": "Independently size the proposed infrastructure based on projected volumes and peak business TPS growth, including proposed server/infrastructure specifications and quantities for redundancy",
+        "v1_evidence_ids": [
+          "cbi_upi_rfp:p0022:c002"
+        ],
+        "v2_evidence_ids": [
+          "cbi_upi_rfp:p0022:n003"
+        ],
+        "status": "narrow_assertion_verified_gold_not_certified"
+      }
+    ],
+    "mapping_status": "facet_review_required"
+  },
+  {
+    "id": "Q010",
+    "question": "What UPI transaction and application capabilities are required of the proposed solution?",
+    "source_pages": [
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      115,
+      116,
+      117
+    ],
+    "v1_original_gold_ids": [
+      "cbi_upi_rfp:p0115:c001",
+      "cbi_upi_rfp:p0115:c002",
+      "cbi_upi_rfp:p0116:c001",
+      "cbi_upi_rfp:p0116:c002",
+      "cbi_upi_rfp:p0117:c001"
+    ],
+    "v2_support_candidate_ids": [
+      "cbi_upi_rfp:p0031:n005",
+      "cbi_upi_rfp:p0032:n002",
+      "cbi_upi_rfp:p0032:n003",
+      "cbi_upi_rfp:p0034:n003",
+      "cbi_upi_rfp:p0034:n008",
+      "cbi_upi_rfp:p0036:n009",
+      "cbi_upi_rfp:p0037:n002",
+      "cbi_upi_rfp:p0037:n003",
+      "cbi_upi_rfp:p0037:n005",
+      "cbi_upi_rfp:p0037:n007"
+    ],
+    "facets": [
+      {
+        "facet_id": "Q010.F01",
+        "requirement": "UPI transaction and interoperability capabilities",
+        "v1_evidence_ids": [
+          "cbi_upi_rfp:p0116:c001"
+        ],
+        "v2_evidence_ids": [
+          "cbi_upi_rfp:p0116:t01:r001"
+        ],
+        "status": "narrow_assertion_verified_gold_not_certified",
+        "verification_scope": "Only the named representative requirement, not exhaustive facet coverage"
+      },
+      {
+        "facet_id": "Q010.F02",
+        "requirement": "Onboarding and application/portal capabilities",
+        "v1_evidence_ids": [
+          "cbi_upi_rfp:p0115:c002"
+        ],
+        "v2_evidence_ids": [
+          "cbi_upi_rfp:p0115:t02:r003"
+        ],
+        "status": "narrow_assertion_verified_gold_not_certified",
+        "verification_scope": "Only the named representative requirement, not exhaustive facet coverage"
+      },
+      {
+        "facet_id": "Q010.F03",
+        "requirement": "Integration and supporting functional features",
+        "v1_evidence_ids": [
+          "cbi_upi_rfp:p0034:c002"
+        ],
+        "v2_evidence_ids": [
+          "cbi_upi_rfp:p0034:n006"
+        ],
+        "status": "narrow_assertion_verified_gold_not_certified",
+        "verification_scope": "Only the named representative requirement, not exhaustive facet coverage"
+      }
+    ],
+    "mapping_status": "facet_review_required"
+  },
+  {
+    "id": "Q011",
+    "question": "What reconciliation and settlement capabilities must the UPI solution support?",
+    "source_pages": [
+      37,
+      38
+    ],
+    "v1_original_gold_ids": [
+      "cbi_upi_rfp:p0037:c003",
+      "cbi_upi_rfp:p0038:c001"
+    ],
+    "v2_support_candidate_ids": [
+      "cbi_upi_rfp:p0037:n008",
+      "cbi_upi_rfp:p0038:n002"
+    ],
+    "facets": [
+      {
+        "facet_id": "Q011.F01",
+        "requirement": "Reconciliation reports required by Bank and NPCI",
+        "v1_evidence_ids": [
+          "cbi_upi_rfp:p0037:c003",
+          "cbi_upi_rfp:p0038:c001"
+        ],
+        "v2_evidence_ids": [
+          "cbi_upi_rfp:p0037:n008",
+          "cbi_upi_rfp:p0038:n002"
+        ],
+        "status": "narrow_assertion_verified_gold_not_certified"
+      },
+      {
+        "facet_id": "Q011.F02",
+        "requirement": "Real-time cycle-wise reports aligned to NPCI cycles",
+        "v1_evidence_ids": [
+          "cbi_upi_rfp:p0038:c001"
+        ],
+        "v2_evidence_ids": [
+          "cbi_upi_rfp:p0038:n002"
+        ],
+        "status": "narrow_assertion_verified_gold_not_certified"
+      }
+    ],
+    "mapping_status": "facet_review_required"
+  },
+  {
+    "id": "Q012",
+    "question": "What management information and reporting capabilities are required?",
+    "source_pages": [
+      38
+    ],
+    "v1_original_gold_ids": [
+      "cbi_upi_rfp:p0038:c002",
+      "cbi_upi_rfp:p0038:c003"
+    ],
+    "v2_support_candidate_ids": [
+      "cbi_upi_rfp:p0038:n004",
+      "cbi_upi_rfp:p0038:n005",
+      "cbi_upi_rfp:p0038:n006"
+    ],
+    "facets": [
+      {
+        "facet_id": "Q012.F01",
+        "requirement": "UPI MIS: real-time customized analytical dashboards including risk-management reports and graphical views, plus mandatory risk reports on one-to-many, many-to-one, suspicious activity and customer remittance patterns",
+        "v1_evidence_ids": [
+          "cbi_upi_rfp:p0038:c001",
+          "cbi_upi_rfp:p0038:c002",
+          "cbi_upi_rfp:p0038:c003"
+        ],
+        "v2_evidence_ids": [
+          "cbi_upi_rfp:p0038:n004",
+          "cbi_upi_rfp:p0038:n006"
+        ],
+        "status": "narrow_assertion_verified_gold_not_certified"
+      },
+      {
+        "facet_id": "Q012.F02",
+        "requirement": "Transaction detail and channel-wise reporting",
+        "v1_evidence_ids": [
+          "cbi_upi_rfp:p0038:c001"
+        ],
+        "v2_evidence_ids": [
+          "cbi_upi_rfp:p0038:n005"
+        ],
+        "status": "narrow_assertion_verified_gold_not_certified"
+      },
+      {
+        "facet_id": "Q012.F03",
+        "requirement": "Daily monitoring, app installation reporting and date-range support",
+        "v1_evidence_ids": [
+          "cbi_upi_rfp:p0038:c002"
+        ],
+        "v2_evidence_ids": [
+          "cbi_upi_rfp:p0038:n006"
+        ],
+        "status": "narrow_assertion_verified_gold_not_certified"
+      }
+    ],
+    "mapping_status": "facet_review_required"
+  },
+  {
+    "id": "Q013",
+    "question": "What are the bidder’s obligations for user acceptance testing and knowledge transfer?",
+    "source_pages": [
+      38,
+      39,
+      40,
+      41,
+      42
+    ],
+    "v1_original_gold_ids": [
+      "cbi_upi_rfp:p0038:c003",
+      "cbi_upi_rfp:p0039:c001",
+      "cbi_upi_rfp:p0039:c002",
+      "cbi_upi_rfp:p0039:c003",
+      "cbi_upi_rfp:p0039:c004",
+      "cbi_upi_rfp:p0040:c003",
+      "cbi_upi_rfp:p0040:c004",
+      "cbi_upi_rfp:p0041:c001",
+      "cbi_upi_rfp:p0041:c002",
+      "cbi_upi_rfp:p0041:c003"
+    ],
+    "v2_support_candidate_ids": [
+      "cbi_upi_rfp:p0038:n007",
+      "cbi_upi_rfp:p0039:n002",
+      "cbi_upi_rfp:p0040:n006",
+      "cbi_upi_rfp:p0041:n002",
+      "cbi_upi_rfp:p0041:n003",
+      "cbi_upi_rfp:p0042:n003"
+    ],
+    "facets": [
+      {
+        "facet_id": "Q013.F01",
+        "requirement": "Dedicated team and premises for UAT",
+        "v1_evidence_ids": [
+          "cbi_upi_rfp:p0038:c003"
+        ],
+        "v2_evidence_ids": [
+          "cbi_upi_rfp:p0038:n007"
+        ],
+        "status": "narrow_assertion_verified_gold_not_certified"
+      },
+      {
+        "facet_id": "Q013.F02",
+        "requirement": "UAT preparation, reporting and issue management",
+        "v1_evidence_ids": [
+          "cbi_upi_rfp:p0038:c003",
+          "cbi_upi_rfp:p0039:c002",
+          "cbi_upi_rfp:p0039:c004"
+        ],
+        "v2_evidence_ids": [
+          "cbi_upi_rfp:p0038:n007",
+          "cbi_upi_rfp:p0039:t01:r005",
+          "cbi_upi_rfp:p0039:n002"
+        ],
+        "status": "narrow_assertion_verified_gold_not_certified"
+      },
+      {
+        "facet_id": "Q013.F03",
+        "requirement": "Mandatory training and knowledge transfer to Bank staff",
+        "v1_evidence_ids": [
+          "cbi_upi_rfp:p0041:c002"
+        ],
+        "v2_evidence_ids": [
+          "cbi_upi_rfp:p0041:n002"
+        ],
+        "status": "narrow_assertion_verified_gold_not_certified"
+      }
+    ],
+    "mapping_status": "facet_review_required"
+  },
+  {
+    "id": "Q014",
+    "question": "What service availability and support SLA obligations apply to the UPI switch?",
+    "source_pages": [
+      55,
+      56,
+      57,
+      58
+    ],
+    "v1_original_gold_ids": [
+      "cbi_upi_rfp:p0055:c002",
+      "cbi_upi_rfp:p0055:c003",
+      "cbi_upi_rfp:p0056:c001",
+      "cbi_upi_rfp:p0056:c002",
+      "cbi_upi_rfp:p0056:c003"
+    ],
+    "v2_support_candidate_ids": [
+      "cbi_upi_rfp:p0055:n003",
+      "cbi_upi_rfp:p0056:n002",
+      "cbi_upi_rfp:p0056:n005",
+      "cbi_upi_rfp:p0056:n006",
+      "cbi_upi_rfp:p0057:n002",
+      "cbi_upi_rfp:p0057:n004"
+    ],
+    "facets": [
+      {
+        "facet_id": "Q014.F01",
+        "requirement": "Availability uptime thresholds and measurement",
+        "v1_evidence_ids": [
+          "cbi_upi_rfp:p0055:c002"
+        ],
+        "v2_evidence_ids": [
+          "cbi_upi_rfp:p0055:n003"
+        ],
+        "status": "narrow_assertion_verified_gold_not_certified"
+      },
+      {
+        "facet_id": "Q014.F02",
+        "requirement": "SLA penalty calculation and consequences",
+        "v1_evidence_ids": [
+          "cbi_upi_rfp:p0055:c003"
+        ],
+        "v2_evidence_ids": [
+          "cbi_upi_rfp:p0055:t01:r002"
+        ],
+        "status": "narrow_assertion_verified_gold_not_certified"
+      },
+      {
+        "facet_id": "Q014.F03",
+        "requirement": "Onsite support and regulatory maintenance obligations",
+        "v1_evidence_ids": [
+          "cbi_upi_rfp:p0042:c001"
+        ],
+        "v2_evidence_ids": [
+          "cbi_upi_rfp:p0042:n002"
+        ],
+        "status": "narrow_assertion_verified_gold_not_certified"
+      }
+    ],
+    "mapping_status": "facet_review_required"
+  },
+  {
+    "id": "Q015",
+    "question": "What information security and privacy safeguards must the bidder comply with?",
+    "source_pages": [
+      67,
+      68,
+      71,
+      144,
+      147
+    ],
+    "v1_original_gold_ids": [
+      "cbi_upi_rfp:p0067:c001",
+      "cbi_upi_rfp:p0071:c001",
+      "cbi_upi_rfp:p0071:c002",
+      "cbi_upi_rfp:p0071:c003"
+    ],
+    "v2_support_candidate_ids": [
+      "cbi_upi_rfp:p0067:n002",
+      "cbi_upi_rfp:p0071:n003",
+      "cbi_upi_rfp:p0144:n007"
+    ],
+    "facets": [
+      {
+        "facet_id": "Q015.F01",
+        "requirement": "Input and communication controls, system hardening and access security",
+        "v1_evidence_ids": [
+          "cbi_upi_rfp:p0067:c001"
+        ],
+        "v2_evidence_ids": [
+          "cbi_upi_rfp:p0067:n002"
+        ],
+        "status": "narrow_assertion_verified_gold_not_certified"
+      },
+      {
+        "facet_id": "Q015.F02",
+        "requirement": "On termination or expiration of the confidentiality agreement, cease use/disclosure of confidential information and, upon request, return or destroy tangible confidential information and copies",
+        "v1_evidence_ids": [
+          "cbi_upi_rfp:p0102:c004"
+        ],
+        "v2_evidence_ids": [
+          "cbi_upi_rfp:p0102:n005"
+        ],
+        "status": "narrow_assertion_verified_gold_not_certified"
+      },
+      {
+        "facet_id": "Q015.F03",
+        "requirement": "Malware-free and code integrity undertaking",
+        "v1_evidence_ids": [
+          "cbi_upi_rfp:p0144:c001"
+        ],
+        "v2_evidence_ids": [
+          "cbi_upi_rfp:p0144:n007"
+        ],
+        "status": "narrow_assertion_verified_gold_not_certified"
+      }
+    ],
+    "mapping_status": "facet_review_required"
+  },
+  {
+    "id": "Q016",
+    "question": "What is the contract period, and what extension provisions apply?",
+    "source_pages": [
+      58,
+      139
+    ],
+    "v1_original_gold_ids": [
+      "cbi_upi_rfp:p0058:c003",
+      "cbi_upi_rfp:p0139:c001"
+    ],
+    "v2_support_candidate_ids": [
+      "cbi_upi_rfp:p0058:n006"
+    ],
+    "facets": [
+      {
+        "facet_id": "Q016.F01",
+        "requirement": "Seven-year contract from project sign-off",
+        "v1_evidence_ids": [
+          "cbi_upi_rfp:p0058:c003"
+        ],
+        "v2_evidence_ids": [
+          "cbi_upi_rfp:p0058:n006"
+        ],
+        "status": "narrow_assertion_verified_gold_not_certified"
+      },
+      {
+        "facet_id": "Q016.F02",
+        "requirement": "Potential three-year support extension on mutually agreed terms",
+        "v1_evidence_ids": [
+          "cbi_upi_rfp:p0058:c003"
+        ],
+        "v2_evidence_ids": [
+          "cbi_upi_rfp:p0058:n006"
+        ],
+        "status": "narrow_assertion_verified_gold_not_certified"
+      }
+    ],
+    "mapping_status": "facet_review_required"
+  }
+]
