@@ -90,6 +90,8 @@ python scripts/evaluate_qa.py                         # writes evaluation/result
 streamlit run app/streamlit_app.py
 ```
 
+To inspect truncated model output locally, set `BIDLENS_DEBUG_DIR=evaluation/results/phase2/debug` (dumps contain RFP text and are git-ignored).
+
 For a cloud runtime, set `OPENAI_API_KEY` or `GEMINI_API_KEY` and pass `--provider openai|gemini` (or choose it in the app sidebar). `python scripts/check_llm.py --provider gemini` tests connectivity without sending RFP text.
 
 ## Evaluation and engineering findings
@@ -98,23 +100,32 @@ Across 16 review questions and **42 provisionally mapped evidence facets**, at a
 
 This project's central engineering lesson: **more sophisticated ranking does not necessarily produce more complete evidence coverage**.
 
-### Phase 2 question answering: first graded run (before fixes)
+### Phase 2 question answering: two graded runs
 
-20 questions (16 answerable, 4 unanswerable with absence not fully audited), Llama 3.1 8B via Ollama, provisional gate thresholds (0.30 similarity, 0.50 coverage), one reviewer. Counts, not rates:
+Both runs use the same 20 questions (16 answerable, 4 unanswerable with absence not fully audited), Llama 3.1 8B via Ollama, the same provisional gate thresholds (0.30 similarity, 0.50 coverage) and one reviewer. Counts, not rates:
 
-| Measure | Result |
-|---|---|
-| Unanswerable questions correctly abstained | 4/4 (1 blocked by the gate, 3 declined by the model) |
-| Answerable questions blocked by the gate | 0/16 |
-| Answers shown to the user | 6 (5 answered, 1 partial); all surviving claims graded supported; 5 fully correct, 1 partial |
-| Answerable questions where the system abstained | 10/16 |
-| Provisional gold evidence present in retrieved context | 14/16 |
+| Measure | Run 1 (before fixes) | Run 2 (after fixes) |
+|---|---|---|
+| Answerable questions answered | 6/16 (5 full, 1 partial) | 16/16 (12 full, 4 partial) |
+| Answerable questions where the system abstained | 10/16 | 0/16 |
+| Operational errors (parse failure, truncation) | 4 | 0 |
+| Unanswerable questions correctly abstained | 4/4 (1 gate, 3 model) | 4/4 (1 gate, 3 model) |
+| Answerable questions blocked by the gate | 0/16 | 0/16 |
+| Provisional gold evidence in retrieved context | 14/16 | 14/16 |
+| Provisional gold evidence cited in the answer | 5/16 | 14/16 |
+| Claims removed by verification | 20 (19 were a citation-format fault) | 5 (3 figure mismatches, 2 term-overlap) |
+| Human grade of displayed answers | all surviving claims supported; 5 correct, 1 partial | all surviving claims supported; 16 correct |
+| Median total latency | about 40 s | about 48 s (answered questions only) |
 
-The 10 over-abstentions were implementation faults, not retrieval or knowledge failures. Six were caused by the model writing citations as `<passage id="...">` instead of the bare ID, which strict validation rejected (for four of those questions the rejected answer was graded correct). Four were JSON parse failures that cluster near a 1,000-token output cap, most likely truncation, though the run did not record the cause. Of 20 claims removed by verification, 19 were this citation-format artifact and one was a genuine support-check rejection, so that count should not be read as the verifier catching bad claims.
+**What changed between runs.** Run 1's ten over-abstentions were implementation faults rather than retrieval or knowledge failures: six were citations written as `<passage id="...">` that strict validation rejected, and four were JSON replies cut off at the output limit. The fixes were tolerant citation parsing (the ID must still be a passage that was sent), an explicit 8,192-token Ollama context window, a shorter answer format (at most six one-sentence claims), schema-constrained decoding on Ollama, one retry with a tighter prompt on truncation, collapsing of duplicate claims, and explicit errors instead of broken JSON. No truncation or retry occurred in Run 2; this run does not show which of the fixes prevented it. Latency rose because more questions now produce full answers.
 
-Fixes made afterwards: tolerant citation parsing (the ID must still be a passage that was sent), a 2,000-token output limit with explicit errors on truncation, and an explicit 8,192-token Ollama context window. Results of a re-run after these fixes have not been added yet.
+**How to read Run 2.**
 
-Everything is measured on one document with 20 questions, provisional gold evidence and a single reviewer, so these figures describe behavior on this sample and do not generalize. Median generation latency on a local 8B model was about 40 seconds.
+- **It is in-sample.** The fixes were made after seeing Run 1's failures on these same questions, so Run 2 shows that those faults are gone, not how the system performs on new questions. A held-out adversarial set (contradictions, absent evidence) is the planned test.
+- **Correct is not the same as complete.** Ten of the 16 answerable questions reached the six-claim limit in the prompt. Whether that limit drops required facets has not been checked against the rubric's per-question facets.
+- **Verification has a recall cost that is not yet graded.** The five removed claims include the earnest-money amount in Q004 (rejected as "figure not in cited text"), list-number figures in Q005, and two paraphrases rejected for low term overlap. Whether each removal was correct has not been reviewed.
+- **Gold evidence is provisional.** Q002 and Q012 were graded correct although the mapped gold passage was not in context, which suggests the mapping is incomplete.
+- **Small and single-source.** One RFP, 20 questions, one reviewer, and absence of evidence for the four unanswerable questions is not fully audited. Median latency covers answered questions only because abstention paths do not yet record total time, and hardware is not specified.
 
 ## Repository guide
 
@@ -138,7 +149,7 @@ Historical ingestion, eligibility, retrieval and failure-analysis scripts are pr
 - No vendor evidence is supplied; vendor compliance is **UNKNOWN** and bid decision **NOT ASSESSED**.
 - Evidence citation integrity is not the same as semantic correctness.
 - Generated answers come from a language model. The support check is a screen, not proof of entailment, and the evidence gate is a heuristic: it can misjudge vague but legitimate questions.
-- Gate thresholds are provisional, and Phase 2 is evaluated on a single RFP.
+- Gate thresholds are provisional, and Phase 2 is evaluated on a single RFP with an in-sample question set.
 - Cloud runtimes (OpenAI, Gemini) send retrieved RFP passages to an external service; local Ollama does not.
 - Source document permissions must be checked before publishing the PDF or extracted text.
 - No hosted deployment, authentication, production monitoring or procurement certification is claimed.
@@ -153,4 +164,4 @@ How to structure difficult PDF evidence, combine lexical and semantic search, ev
 
 ## Status
 
-**Portfolio demonstration — Phase 2 (grounded Q&A) implemented; post-fix evaluation re-run pending.** Retrieval experiments are frozen. This is an educational engineering artifact, not a production compliance system.
+**Portfolio demonstration — Phase 2 (grounded Q&A) implemented; two graded runs recorded; held-out adversarial evaluation pending.** Retrieval experiments are frozen. This is an educational engineering artifact, not a production compliance system.

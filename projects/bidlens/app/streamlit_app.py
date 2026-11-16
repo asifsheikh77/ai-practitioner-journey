@@ -78,7 +78,9 @@ if r is not None:
         if r.outcome in ("answered", "partial"):
             (st.success if r.outcome == "answered" else st.warning)(
                 "Answer found in the RFP." if r.outcome == "answered"
-                else "Partial answer: some statements were removed because they could not be verified.")
+                else ("Partial answer: the model's output was cut off, so it may be incomplete."
+                      if r.truncated else
+                      "Partial answer: some statements were removed because they could not be verified."))
             for c in r.claims:
                 st.markdown(f"- {c.text}  \n  " + " ".join(f"`{i}`" for i in c.citations))
         elif r.outcome == "out_of_scope":
@@ -103,7 +105,7 @@ if r is not None:
                 for x in r.rejected:
                     st.write(f"“{x['text']}” — {x['reason']}")
         with st.expander("Why this result? (gate signals, model, timings)"):
-            st.json({"outcome": r.outcome, "reason": r.reason, "gate": r.gate,
+            st.json({"outcome": r.outcome, "reason": r.reason, "notes": r.notes, "gate": r.gate,
                      "model": r.model, "timings_s": r.timings_s})
     with right:
         if r.outcome == "out_of_scope":

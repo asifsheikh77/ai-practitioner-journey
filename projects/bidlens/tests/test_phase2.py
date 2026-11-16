@@ -143,3 +143,65 @@ def test_tag_formatted_fabricated_id_still_rejected():
 def test_citation_id_prefix_is_not_a_match():
     from bidlens.answering import resolve_citation
     assert resolve_citation("d:p0012:elig0031", {"d:p0012:elig003": 1}) is None
+
+
+# ---- truncation handling ----
+from bidlens.answering import MAX_CLAIMS, recover_claims  # noqa: E402
+from bidlens.llm import LLMTruncated  # noqa: E402
+
+GOOD = {"text": "Annual turnover of INR 20 crore is required.", "citations": ["d:p0012:elig003"]}
+CUT = '{"answerable": true, "claims": [' + json.dumps(GOOD) + ', {"text": "Turnover in eac'
+
+
+def test_recover_claims_returns_only_complete_objects():
+    assert recover_claims(CUT) == [GOOD]
+    assert recover_claims("garbage") == []
+    assert recover_claims('{"answerable": true, "claims": [') == []
+
+
+def test_truncated_then_retry_succeeds():
+    client = FakeClient([LLMTruncated("cut", "x"), reply(claims=[GOOD])])
+    r = answer_question("annual turnover bidder", search_returning(TURNOVER), client)
+    assert r.status == ANSWERED and not r.truncated and "retried" in r.notes[0]
+    assert "too long" in client.calls[1][1]          # retry used the tighter prompt
+
+
+def test_truncated_twice_recovers_complete_claims_as_partial():
+    client = FakeClient([LLMTruncated("cut", CUT), LLMTruncated("cut", CUT)])
+    r = answer_question("annual turnover bidder", search_returning(TURNOVER), client)
+    assert r.status == PARTIAL and r.truncated and len(r.claims) == 1
+    assert "cut off" in r.reason
+
+
+def test_truncated_twice_with_nothing_recoverable_is_error():
+    client = FakeClient([LLMTruncated("cut", '{"answerable": tr'), LLMTruncated("cut", "")])
+    r = answer_question("annual turnover bidder", search_returning(TURNOVER), client)
+    assert r.outcome == "error" and "cut off" in r.reason and "total" in r.timings_s
+
+
+def test_recovered_claims_still_face_verification():
+    bad = {"text": "Annual turnover of INR 99 crore is required.", "citations": ["d:p0012:elig003"]}
+    partial = '{"claims": [' + json.dumps(bad) + ', {"text": "unfin'
+    client = FakeClient([LLMTruncated("cut", partial), LLMTruncated("cut", partial)])
+    r = answer_question("annual turnover bidder", search_returning(TURNOVER), client)
+    assert r.claims == [] and r.rejected and r.outcome == "unverified"
+
+
+def test_duplicate_claims_collapsed_and_cap_enforced():
+    dup = [GOOD, dict(GOOD), dict(GOOD, text=GOOD["text"].upper())]
+    r = answer_question("annual turnover bidder", search_returning(TURNOVER), FakeClient([reply(claims=dup)]))
+    assert len(r.claims) == 1 and not r.rejected
+    many = [dict(GOOD, text=f"Annual turnover of INR 20 crore is required, variant {i}.") for i in range(MAX_CLAIMS + 3)]
+    r = answer_question("annual turnover bidder", search_returning(TURNOVER), FakeClient([reply(claims=many)]))
+    assert len(r.claims) <= MAX_CLAIMS and any("limit" in x["reason"] for x in r.rejected)
+
+
+def test_debug_dump_only_when_enabled(tmp_path, monkeypatch):
+    monkeypatch.delenv("BIDLENS_DEBUG_DIR", raising=False)
+    answer_question("annual turnover bidder", search_returning(TURNOVER),
+                    FakeClient([LLMTruncated("c", CUT), LLMTruncated("c", CUT)]))
+    assert not list(tmp_path.iterdir())
+    monkeypatch.setenv("BIDLENS_DEBUG_DIR", str(tmp_path / "dbg"))
+    answer_question("annual turnover bidder", search_returning(TURNOVER),
+                    FakeClient([LLMTruncated("c", CUT), LLMTruncated("c", CUT)]))
+    assert len(list((tmp_path / "dbg").iterdir())) == 2

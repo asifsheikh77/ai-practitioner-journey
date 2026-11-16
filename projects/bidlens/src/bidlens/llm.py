@@ -29,10 +29,19 @@ class LLMError(RuntimeError):
     pass
 
 
+class LLMTruncated(LLMError):
+    """Output hit the token limit. ``partial`` holds what was generated so far."""
+
+    def __init__(self, message: str, partial: str = ""):
+        super().__init__(message)
+        self.partial = partial
+
+
 class LLMClient(Protocol):
     name: str
 
-    def complete(self, system: str, user: str, max_tokens: int = 1000) -> str: ...
+    def complete(self, system: str, user: str, max_tokens: int = 1000,
+                 json_schema: dict | None = None) -> str: ...
 
 
 def default_timeout(fallback: float) -> float:
@@ -62,9 +71,9 @@ def _post(url: str, payload: dict, headers: dict, timeout: float) -> dict:
         raise LLMError(f"Cannot reach {url}: {e.reason}") from e
 
 
-def _truncated(provider: str, max_tokens: int) -> LLMError:
-    return LLMError(f"{provider} output hit the {max_tokens}-token limit and was cut off; "
-                    "ask a narrower question or raise max_output_tokens")
+def _truncated(provider: str, max_tokens: int, partial: str = "") -> LLMTruncated:
+    return LLMTruncated(f"{provider} output hit the {max_tokens}-token limit and was cut off; "
+                        "ask a narrower question or raise max_output_tokens", partial)
 
 
 class OllamaClient:
@@ -75,21 +84,36 @@ class OllamaClient:
         # Ollama's default context window can be as small as 2048 tokens and
         # silently truncates longer prompts, so set it explicitly.
         self.num_ctx = int(os.getenv("BIDLENS_OLLAMA_NUM_CTX", "8192"))
+        self.structured = os.getenv("BIDLENS_OLLAMA_STRUCTURED", "1") != "0"
         self.name = f"ollama:{self.model}"
 
-    def complete(self, system: str, user: str, max_tokens: int = 1000) -> str:
-        data = _post(f"{self.host}/api/chat", {
-            "model": self.model, "stream": False, "format": "json",
+    def _chat(self, system: str, user: str, max_tokens: int, fmt) -> dict:
+        return _post(f"{self.host}/api/chat", {
+            "model": self.model, "stream": False, "format": fmt,
             "options": {"temperature": 0, "num_predict": max_tokens, "num_ctx": self.num_ctx},
             "messages": [{"role": "system", "content": system},
                          {"role": "user", "content": user}],
         }, {}, self.timeout)
-        if data.get("done_reason") == "length":
-            raise _truncated("ollama", max_tokens)
+
+    def complete(self, system: str, user: str, max_tokens: int = 1000,
+                 json_schema: dict | None = None) -> str:
+        # A JSON schema makes Ollama constrain decoding to valid, bounded output,
+        # which prevents runaway or malformed JSON. Older Ollama versions reject it
+        # (HTTP 400); then we fall back to plain JSON mode for the rest of the session.
+        use_schema = json_schema is not None and self.structured
         try:
-            return data["message"]["content"]
-        except (KeyError, TypeError) as e:
-            raise LLMError(f"Unexpected Ollama response: {str(data)[:200]}") from e
+            data = self._chat(system, user, max_tokens, json_schema if use_schema else "json")
+        except LLMError as e:
+            if not (use_schema and "HTTP 400" in str(e)):
+                raise
+            self.structured = False
+            data = self._chat(system, user, max_tokens, "json")
+        content = (data.get("message") or {}).get("content", "")
+        if data.get("done_reason") == "length":
+            raise _truncated("ollama", max_tokens, content)
+        if not content and "message" not in data:
+            raise LLMError(f"Unexpected Ollama response: {str(data)[:200]}")
+        return content
 
 
 class OpenAIClient:
@@ -106,7 +130,8 @@ class OpenAIClient:
         self.timeout = timeout or default_timeout(120)
         self.name = f"openai:{self.model}"
 
-    def complete(self, system: str, user: str, max_tokens: int = 1000) -> str:
+    def complete(self, system: str, user: str, max_tokens: int = 1000,
+                 json_schema: dict | None = None) -> str:
         payload = {
             "model": self.model,
             "max_completion_tokens": max_tokens,
@@ -122,7 +147,7 @@ class OpenAIClient:
         try:
             choice = data["choices"][0]
             if choice.get("finish_reason") == "length":
-                raise _truncated("openai", max_tokens)
+                raise _truncated("openai", max_tokens, (choice.get("message") or {}).get("content") or "")
             return choice["message"]["content"] or ""
         except (KeyError, IndexError, TypeError) as e:
             raise LLMError(f"Unexpected OpenAI response: {str(data)[:200]}") from e
@@ -145,7 +170,8 @@ class GeminiClient:
         self.timeout = timeout or default_timeout(120)
         self.name = f"gemini:{self.model}"
 
-    def complete(self, system: str, user: str, max_tokens: int = 1000) -> str:
+    def complete(self, system: str, user: str, max_tokens: int = 1000,
+                 json_schema: dict | None = None) -> str:
         config = {"maxOutputTokens": max_tokens + self.headroom,
                   "responseMimeType": "application/json"}
         if self.thinking_level:
@@ -160,10 +186,11 @@ class GeminiClient:
             raise LLMError(f"Gemini blocked the prompt: {block}")
         try:
             cand = data["candidates"][0]
+            parts = (cand.get("content") or {}).get("parts") or []
+            text = "".join(p.get("text", "") for p in parts if not p.get("thought"))
             if cand.get("finishReason") == "MAX_TOKENS":
-                raise _truncated("gemini", max_tokens + self.headroom)
-            parts = cand["content"]["parts"]
-            return "".join(p.get("text", "") for p in parts if not p.get("thought"))
+                raise _truncated("gemini", max_tokens + self.headroom, text)
+            return text
         except (KeyError, IndexError, TypeError) as e:
             raise LLMError(f"Unexpected Gemini response: {str(data)[:200]}") from e
 
@@ -176,11 +203,15 @@ class FakeClient:
         self.calls: list[tuple[str, str]] = []
         self.name = "fake"
 
-    def complete(self, system: str, user: str, max_tokens: int = 1000) -> str:
+    def complete(self, system: str, user: str, max_tokens: int = 1000,
+                 json_schema: dict | None = None) -> str:
         self.calls.append((system, user))
         if not self.responses:
             raise LLMError("FakeClient exhausted")
-        return self.responses.pop(0)
+        item = self.responses.pop(0)
+        if isinstance(item, Exception):
+            raise item
+        return item
 
 
 def make_client(provider: str = "ollama", model: str | None = None) -> LLMClient:

@@ -42,7 +42,8 @@ def main():
         cited = {c for cl in r.claims for c in cl.citations}
         records.append({
             "id": q["id"], "question": q["question"], "answerable": q["answerability"] == "answerable",
-            "status": r.status, "reason": r.reason, "gate": r.gate,
+            "status": r.status, "outcome": r.outcome, "reason": r.reason, "truncated": r.truncated,
+            "notes": r.notes, "gate": r.gate,
             "gold_in_context": (bool(gold & ctx) if gold else None),
             "gold_cited": (bool(gold & cited) if gold else None),
             "claims": [c.__dict__ for c in r.claims], "rejected": r.rejected, "gaps": r.gaps,
@@ -58,10 +59,12 @@ def main():
     summary = {
         "model": client.name, "gate": {"min_semantic": gate.min_semantic, "min_coverage": gate.min_coverage},
         "n_answerable": len(ans), "n_unanswerable": len(unans),
-        "unanswerable_abstained": sum(x["status"] == INSUFFICIENT for x in unans),
-        "answerable_over_abstained": sum(x["status"] == INSUFFICIENT for x in ans),
+        "unanswerable_abstained": sum(x["status"] == INSUFFICIENT and x["outcome"] != "error" for x in unans),
+        "answerable_over_abstained": sum(x["status"] == INSUFFICIENT and x["outcome"] != "error" for x in ans),
         "gold_in_context": f"{sum(x['gold_in_context'] for x in gold)}/{len(gold)}",
         "gold_cited": f"{sum(bool(x['gold_cited']) for x in gold)}/{len(gold)}",
+        "operational_errors": sum(x["outcome"] == "error" for x in records),
+        "truncation_recoveries": sum(bool(x["truncated"]) for x in records),
         "claims_kept": sum(len(x["claims"]) for x in records),
         "claims_removed_by_verification": sum(len(x["rejected"]) for x in records),
         "median_total_latency_s": statistics.median(totals) if totals else None,

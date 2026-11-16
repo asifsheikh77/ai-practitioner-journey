@@ -13,3 +13,6 @@ data/processed/*
 !data/processed/.gitkeep
 
 *.log
+
+# local debug dumps of truncated model output (contain RFP text)
+evaluation/results/phase2/debug/

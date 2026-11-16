@@ -1,0 +1,1243 @@
+{
+  "summary": {
+    "model": "ollama:llama3.1:8b",
+    "gate": {
+      "min_semantic": 0.3,
+      "min_coverage": 0.5
+    },
+    "n_answerable": 16,
+    "n_unanswerable": 4,
+    "unanswerable_abstained": 4,
+    "answerable_over_abstained": 0,
+    "gold_in_context": "14/16",
+    "gold_cited": "14/16",
+    "operational_errors": 0,
+    "truncation_recoveries": 0,
+    "claims_kept": 66,
+    "claims_removed_by_verification": 5,
+    "median_total_latency_s": 47.6255,
+    "caveats": [
+      "Gold = provisional rubric candidates, not certified.",
+      "Unanswerable absence not fully audited.",
+      "Correctness and semantic support require human review of human_review fields."
+    ]
+  },
+  "records": [
+    {
+      "id": "Q001",
+      "question": "What minimum annual turnover must a bidder demonstrate?",
+      "answerable": true,
+      "status": "ANSWERED",
+      "outcome": "answered",
+      "reason": "all claims passed citation and support checks",
+      "truncated": false,
+      "notes": [],
+      "gate": {
+        "status": "ANSWERABLE",
+        "reason": "retrieval signals pass thresholds",
+        "top_semantic": 0.6114928126335144,
+        "coverage": 1.0,
+        "missing_terms": []
+      },
+      "gold_in_context": true,
+      "gold_cited": true,
+      "claims": [
+        {
+          "text": "The bidder must have an annual turnover in India of INR 20 crores per annum in the last three financial years.",
+          "citations": [
+            "cbi_upi_rfp:p0126:t01:r004",
+            "cbi_upi_rfp:p0012:elig003"
+          ],
+          "support_note": "term overlap 100%"
+        }
+      ],
+      "rejected": [],
+      "gaps": "",
+      "timings_s": {
+        "retrieval": 11.133,
+        "generation": 31.535,
+        "verification": 0.0,
+        "total": 42.669
+      },
+      "human_review": {
+        "answer_correct": true,
+        "claims_supported": true,
+        "notes": ""
+      }
+    },
+    {
+      "id": "Q002",
+      "question": "What prior UPI implementation experience must the bidder demonstrate?",
+      "answerable": true,
+      "status": "ANSWERED",
+      "outcome": "answered",
+      "reason": "all claims passed citation and support checks",
+      "truncated": false,
+      "notes": [],
+      "gate": {
+        "status": "ANSWERABLE",
+        "reason": "retrieval signals pass thresholds",
+        "top_semantic": 0.64033043384552,
+        "coverage": 0.8333333333333334,
+        "missing_terms": [
+          "prior"
+        ]
+      },
+      "gold_in_context": false,
+      "gold_cited": false,
+      "claims": [
+        {
+          "text": "The bidder must demonstrate prior experience of having implemented UPI switch and BHIM CentPay (UPI App) under OPEX model.",
+          "citations": [
+            "cbi_upi_rfp:p0015:n003"
+          ],
+          "support_note": "term overlap 62%"
+        }
+      ],
+      "rejected": [],
+      "gaps": "",
+      "timings_s": {
+        "retrieval": 0.014,
+        "generation": 23.198,
+        "verification": 0.0,
+        "total": 23.213
+      },
+      "human_review": {
+        "answer_correct": true,
+        "claims_supported": true,
+        "notes": ""
+      }
+    },
+    {
+      "id": "Q003",
+      "question": "What operating profitability and net-worth criteria must the bidder meet?",
+      "answerable": true,
+      "status": "ANSWERED",
+      "outcome": "answered",
+      "reason": "all claims passed citation and support checks",
+      "truncated": false,
+      "notes": [],
+      "gate": {
+        "status": "ANSWERABLE",
+        "reason": "retrieval signals pass thresholds",
+        "top_semantic": 0.7658095359802246,
+        "coverage": 0.8571428571428572,
+        "missing_terms": [
+          "profitability"
+        ]
+      },
+      "gold_in_context": true,
+      "gold_cited": true,
+      "claims": [
+        {
+          "text": "The bidder must have made operating profits in at least two financial years out of last three financial years.",
+          "citations": [
+            "cbi_upi_rfp:p0012:elig004",
+            "cbi_upi_rfp:p0126:t01:r005"
+          ],
+          "support_note": "term overlap 100%"
+        },
+        {
+          "text": "The bidder should have a positive net worth in last three financial years.",
+          "citations": [
+            "cbi_upi_rfp:p0012:elig005",
+            "cbi_upi_rfp:p0126:t01:r006"
+          ],
+          "support_note": "term overlap 100%"
+        }
+      ],
+      "rejected": [],
+      "gaps": "",
+      "timings_s": {
+        "retrieval": 0.015,
+        "generation": 30.799,
+        "verification": 0.0,
+        "total": 30.814
+      },
+      "human_review": {
+        "answer_correct": true,
+        "claims_supported": true,
+        "notes": ""
+      }
+    },
+    {
+      "id": "Q004",
+      "question": "What is the required earnest money deposit, and which bidders may qualify for an exemption?",
+      "answerable": true,
+      "status": "PARTIAL",
+      "outcome": "partial",
+      "reason": "1 claim(s) removed by verification",
+      "truncated": false,
+      "notes": [],
+      "gate": {
+        "status": "ANSWERABLE",
+        "reason": "retrieval signals pass thresholds",
+        "top_semantic": 0.575522780418396,
+        "coverage": 0.7142857142857143,
+        "missing_terms": [
+          "exemption",
+          "qualify"
+        ]
+      },
+      "gold_in_context": true,
+      "gold_cited": true,
+      "claims": [
+        {
+          "text": "Micro and Small Enterprises may be exempted from payment of earnest money deposit upon submission of a valid MSME certificate copy.",
+          "citations": [
+            "cbi_upi_rfp:p0011:n003"
+          ],
+          "support_note": "term overlap 100%"
+        }
+      ],
+      "rejected": [
+        {
+          "text": "The required earnest money deposit is ₹ 1,50,00,000/- (₹ One Crore Fifty Lakhs only).",
+          "citations": [
+            "cbi_upi_rfp:p0126:n002",
+            "cbi_upi_rfp:p0045:n003"
+          ],
+          "reason": "figures not in cited text: ['15000000']"
+        }
+      ],
+      "gaps": "",
+      "timings_s": {
+        "retrieval": 0.032,
+        "generation": 35.122,
+        "verification": 0.0,
+        "total": 35.155
+      },
+      "human_review": {
+        "answer_correct": true,
+        "claims_supported": true,
+        "notes": ""
+      }
+    },
+    {
+      "id": "Q005",
+      "question": "How are technical bids evaluated, and what minimum technical score is required to qualify?",
+      "answerable": true,
+      "status": "PARTIAL",
+      "outcome": "partial",
+      "reason": "2 claim(s) removed by verification",
+      "truncated": false,
+      "notes": [],
+      "gate": {
+        "status": "ANSWERABLE",
+        "reason": "retrieval signals pass thresholds",
+        "top_semantic": 0.7210326194763184,
+        "coverage": 1.0,
+        "missing_terms": []
+      },
+      "gold_in_context": true,
+      "gold_cited": true,
+      "claims": [
+        {
+          "text": "Technical bids are evaluated on the basis of compliance with eligibility criteria, technical specification, and other terms & conditions stipulated in the RFP.",
+          "citations": [
+            "cbi_upi_rfp:p0047:n002"
+          ],
+          "support_note": "term overlap 100%"
+        },
+        {
+          "text": "The technical evaluation criterion involves the following major areas: Compliance to the bill of materials, and the Bidder is expected to provide their ‘compliance’ against each item stated in the Bill of material.",
+          "citations": [
+            "cbi_upi_rfp:p0050:n005"
+          ],
+          "support_note": "term overlap 100%"
+        },
+        {
+          "text": "The technical evaluation marks will be 250, and the minimum qualifying marks for the next stage of evaluation is 60% (150 out of 250).",
+          "citations": [
+            "cbi_upi_rfp:p0048:n004"
+          ],
+          "support_note": "term overlap 100%"
+        },
+        {
+          "text": "The technical qualification cut – off to qualify for commercial evaluation process would be 60%. Bidder’s scoring below the same would not be considered for commercial evaluation.",
+          "citations": [
+            "cbi_upi_rfp:p0050:n005"
+          ],
+          "support_note": "term overlap 100%"
+        }
+      ],
+      "rejected": [
+        {
+          "text": "The technical evaluation criterion would broadly involve the following major areas: • Compliance to the bill of materials as in Annexure 2: Commercial Bill of Material",
+          "citations": [
+            "cbi_upi_rfp:p0048:n002"
+          ],
+          "reason": "figures not in cited text: ['2']"
+        },
+        {
+          "text": "The technical evaluation criterion would involve the following major areas: • Compliance to the bill of materials as in Annexure 2: Commercial Bill of Material",
+          "citations": [
+            "cbi_upi_rfp:p0048:n002"
+          ],
+          "reason": "figures not in cited text: ['2']"
+        }
+      ],
+      "gaps": "",
+      "timings_s": {
+        "retrieval": 0.021,
+        "generation": 60.899,
+        "verification": 0.001,
+        "total": 60.921
+      },
+      "human_review": {
+        "answer_correct": true,
+        "claims_supported": true,
+        "notes": ""
+      }
+    },
+    {
+      "id": "Q006",
+      "question": "What infrastructure and deployment responsibilities does the bidder have for the UPI solution?",
+      "answerable": true,
+      "status": "ANSWERED",
+      "outcome": "answered",
+      "reason": "all claims passed citation and support checks",
+      "truncated": false,
+      "notes": [],
+      "gate": {
+        "status": "ANSWERABLE",
+        "reason": "retrieval signals pass thresholds",
+        "top_semantic": 0.7115253806114197,
+        "coverage": 0.8333333333333334,
+        "missing_terms": [
+          "deployment"
+        ]
+      },
+      "gold_in_context": true,
+      "gold_cited": true,
+      "claims": [
+        {
+          "text": "The bidder must design the UPI Infrastructure to meet the Bank’s requirements.",
+          "citations": [
+            "cbi_upi_rfp:p0021:n003"
+          ],
+          "support_note": "term overlap 100%"
+        },
+        {
+          "text": "The bidder has to provide the Certificate that the proposed Infrastructure will successfully handle the projected volumes & peak business TPS.",
+          "citations": [
+            "cbi_upi_rfp:p0021:n003"
+          ],
+          "support_note": "term overlap 100%"
+        },
+        {
+          "text": "The bidder needs to size the infrastructure (hardware, Operating System and other related Hardware/Software) for the solution based on the volume and the growth indicated above and propose the same as part of their technical bid submission.",
+          "citations": [
+            "cbi_upi_rfp:p0021:n004"
+          ],
+          "support_note": "term overlap 100%"
+        },
+        {
+          "text": "The Bank may use existing IT infrastructure or procure separately the required infrastructure based on the sizing proposed by the bidder in Annexure-30.",
+          "citations": [
+            "cbi_upi_rfp:p0021:n004"
+          ],
+          "support_note": "term overlap 100%"
+        },
+        {
+          "text": "The complete implementation, maintenance and support of the Unified Payment Interface (UPI) solution shall be part of the scope of the bidder.",
+          "citations": [
+            "cbi_upi_rfp:p0018:n005",
+            "cbi_upi_rfp:p0021:n004"
+          ],
+          "support_note": "term overlap 100%"
+        },
+        {
+          "text": "The bidder is expected to complete the responsibilities that have been assigned as per the implementation timelines mentioned in Section - Project timelines.",
+          "citations": [
+            "cbi_upi_rfp:p0057:n004"
+          ],
+          "support_note": "term overlap 100%"
+        }
+      ],
+      "rejected": [],
+      "gaps": "",
+      "timings_s": {
+        "retrieval": 0.021,
+        "generation": 51.587,
+        "verification": 0.001,
+        "total": 51.609
+      },
+      "human_review": {
+        "answer_correct": true,
+        "claims_supported": true,
+        "notes": ""
+      }
+    },
+    {
+      "id": "Q007",
+      "question": "What migration responsibilities does the selected bidder have for the existing UPI switch?",
+      "answerable": true,
+      "status": "ANSWERED",
+      "outcome": "answered",
+      "reason": "all claims passed citation and support checks",
+      "truncated": false,
+      "notes": [],
+      "gate": {
+        "status": "ANSWERABLE",
+        "reason": "retrieval signals pass thresholds",
+        "top_semantic": 0.740313708782196,
+        "coverage": 0.8571428571428572,
+        "missing_terms": [
+          "selected"
+        ]
+      },
+      "gold_in_context": true,
+      "gold_cited": true,
+      "claims": [
+        {
+          "text": "The bidder shall be responsible for migration of the switch data, from the existing switch to the proposed switch.",
+          "citations": [
+            "cbi_upi_rfp:p0022:n004"
+          ],
+          "support_note": "term overlap 100%"
+        },
+        {
+          "text": "The bidder shall migrate the existing UPI switch network including replenishing the assets to their network.",
+          "citations": [
+            "cbi_upi_rfp:p0023:n004"
+          ],
+          "support_note": "term overlap 100%"
+        },
+        {
+          "text": "The bidder shall perform the Project Management/Program Management of all the activities related to the scope of services and conduct regular review with the Bank’s team to complete the activities in a time bound manner.",
+          "citations": [
+            "cbi_upi_rfp:p0024:n002"
+          ],
+          "support_note": "term overlap 100%"
+        },
+        {
+          "text": "The bidder shall establish an interface between old switch and the new switch",
+          "citations": [
+            "cbi_upi_rfp:p0022:n003"
+          ],
+          "support_note": "term overlap 100%"
+        },
+        {
+          "text": "The bidder shall migrate the existing UPI switch as well as data, as per schedule",
+          "citations": [
+            "cbi_upi_rfp:p0023:n004"
+          ],
+          "support_note": "term overlap 100%"
+        },
+        {
+          "text": "The bidder shall coordinate with Bank’s existing outsourced Switch service provider for migration of UPI switch data, from existing system to the proposed",
+          "citations": [
+            "cbi_upi_rfp:p0022:n004"
+          ],
+          "support_note": "term overlap 100%"
+        }
+      ],
+      "rejected": [],
+      "gaps": "",
+      "timings_s": {
+        "retrieval": 0.016,
+        "generation": 49.861,
+        "verification": 0.001,
+        "total": 49.878
+      },
+      "human_review": {
+        "answer_correct": true,
+        "claims_supported": true,
+        "notes": ""
+      }
+    },
+    {
+      "id": "Q008",
+      "question": "What disaster recovery mechanism and continuity capabilities must the UPI solution provide?",
+      "answerable": true,
+      "status": "ANSWERED",
+      "outcome": "answered",
+      "reason": "all claims passed citation and support checks",
+      "truncated": false,
+      "notes": [],
+      "gate": {
+        "status": "ANSWERABLE",
+        "reason": "retrieval signals pass thresholds",
+        "top_semantic": 0.5897237062454224,
+        "coverage": 0.875,
+        "missing_terms": [
+          "capabilities"
+        ]
+      },
+      "gold_in_context": true,
+      "gold_cited": true,
+      "claims": [
+        {
+          "text": "The proposed system must be capable of and compatible for Disaster Recovery Implementation with Recovery Point Objective (RPO) - 0 minutes and Recovery Time Objective (RTO) - 90 minutes.",
+          "citations": [
+            "cbi_upi_rfp:p0031:n004"
+          ],
+          "support_note": "term overlap 100%"
+        },
+        {
+          "text": "The bidder needs to submit the technical architecture relating to data replication between primary and secondary site.",
+          "citations": [
+            "cbi_upi_rfp:p0031:n004"
+          ],
+          "support_note": "term overlap 100%"
+        },
+        {
+          "text": "The bidder will have to design solution to achieve Zero RPO and provision the equipment to be deployed at Near Site to DC.",
+          "citations": [
+            "cbi_upi_rfp:p0031:n004"
+          ],
+          "support_note": "term overlap 100%"
+        },
+        {
+          "text": "The solution to be installed at Bank’s Data Centre, Near site to DC (Navi Mumbai) and Disaster Recovery Centre (Hyderabad).",
+          "citations": [
+            "cbi_upi_rfp:p0024:n004"
+          ],
+          "support_note": "term overlap 100%"
+        },
+        {
+          "text": "The bidder must design the solution with high availability & secure Infrastructure in Data Centre and Disaster Recovery site as per Industry accepted security standards and best practices.",
+          "citations": [
+            "cbi_upi_rfp:p0021:n005"
+          ],
+          "support_note": "term overlap 100%"
+        },
+        {
+          "text": "Implementing and maintaining BCP and the DR readiness (including data replication), for the UPI switch and associated services in order to meet the Bank’s RTO and RPO Objective.",
+          "citations": [
+            "cbi_upi_rfp:p0030:n004"
+          ],
+          "support_note": "term overlap 100%"
+        }
+      ],
+      "rejected": [],
+      "gaps": "",
+      "timings_s": {
+        "retrieval": 0.018,
+        "generation": 52.726,
+        "verification": 0.001,
+        "total": 52.746
+      },
+      "human_review": {
+        "answer_correct": true,
+        "claims_supported": true,
+        "notes": ""
+      }
+    },
+    {
+      "id": "Q009",
+      "question": "What infrastructure sizing information must bidders provide or justify?",
+      "answerable": true,
+      "status": "ANSWERED",
+      "outcome": "answered",
+      "reason": "all claims passed citation and support checks",
+      "truncated": false,
+      "notes": [],
+      "gate": {
+        "status": "ANSWERABLE",
+        "reason": "retrieval signals pass thresholds",
+        "top_semantic": 0.6321986317634583,
+        "coverage": 0.8333333333333334,
+        "missing_terms": [
+          "justify"
+        ]
+      },
+      "gold_in_context": true,
+      "gold_cited": true,
+      "claims": [
+        {
+          "text": "Bidders need to submit infrastructure sizing requirement along with bids in following formats: Table-1",
+          "citations": [
+            "cbi_upi_rfp:p0145:n002"
+          ],
+          "support_note": "term overlap 100%"
+        },
+        {
+          "text": "Bidders should size the infrastructure (hardware, Operating System and other related Hardware/Software) for the solution based on the volume and the growth indicated above",
+          "citations": [
+            "cbi_upi_rfp:p0021:n004"
+          ],
+          "support_note": "term overlap 100%"
+        },
+        {
+          "text": "The Bidder is responsible to arrive at the sizing independently based on the volume and the peak business TPS growth indicated in the RFP",
+          "citations": [
+            "cbi_upi_rfp:p0022:n003"
+          ],
+          "support_note": "term overlap 100%"
+        },
+        {
+          "text": "The Bank will assess the proposed sizing submitted by bidder, independently",
+          "citations": [
+            "cbi_upi_rfp:p0022:n003"
+          ],
+          "support_note": "term overlap 100%"
+        },
+        {
+          "text": "The Bidder needs to provide complete Unified Payment Interface (UPI) solution details, including infrastructure sizing, as part of their technical proposal",
+          "citations": [
+            "cbi_upi_rfp:p0021:n004",
+            "cbi_upi_rfp:p0020:n005"
+          ],
+          "support_note": "term overlap 88%"
+        },
+        {
+          "text": "The proposed sizing proposed by the Bidder does not match the performance/service levels of the Bank as per the threshold mentioned in Section 7.5",
+          "citations": [
+            "cbi_upi_rfp:p0022:n003"
+          ],
+          "support_note": "term overlap 100%"
+        }
+      ],
+      "rejected": [],
+      "gaps": "",
+      "timings_s": {
+        "retrieval": 0.018,
+        "generation": 51.319,
+        "verification": 0.001,
+        "total": 51.339
+      },
+      "human_review": {
+        "answer_correct": true,
+        "claims_supported": true,
+        "notes": ""
+      }
+    },
+    {
+      "id": "Q010",
+      "question": "What UPI transaction and application capabilities are required of the proposed solution?",
+      "answerable": true,
+      "status": "PARTIAL",
+      "outcome": "partial",
+      "reason": "1 claim(s) removed by verification",
+      "truncated": false,
+      "notes": [],
+      "gate": {
+        "status": "ANSWERABLE",
+        "reason": "retrieval signals pass thresholds",
+        "top_semantic": 0.6852050423622131,
+        "coverage": 0.8571428571428572,
+        "missing_terms": [
+          "capabilities"
+        ]
+      },
+      "gold_in_context": true,
+      "gold_cited": true,
+      "claims": [
+        {
+          "text": "The solution should be able to handle 40 million transactions per day on go live day.",
+          "citations": [
+            "cbi_upi_rfp:p0021:n003"
+          ],
+          "support_note": "term overlap 100%"
+        },
+        {
+          "text": "The proposed UPI solution should be able to integrate seamlessly with the existing alternative channels along with NPCI solution.",
+          "citations": [
+            "cbi_upi_rfp:p0015:n004"
+          ],
+          "support_note": "term overlap 82%"
+        },
+        {
+          "text": "The solution should be able to segregate the UPI switches based on Issuer/Acquirer/PSP or any such combination.",
+          "citations": [
+            "cbi_upi_rfp:p0021:n003",
+            "cbi_upi_rfp:p0024:n004"
+          ],
+          "support_note": "term overlap 100%"
+        },
+        {
+          "text": "The proposed UPI solution should be able to migrate all the user registered for the Bank’s existing UPI app.",
+          "citations": [
+            "cbi_upi_rfp:p0031:n005"
+          ],
+          "support_note": "term overlap 80%"
+        },
+        {
+          "text": "The solution should be able to integrate with various bank systems, including CBS, Enterprise Service Bus, Payment Hub, Middleware, SDR, FI Server, Card Management System, Mobile Banking, ATM switch, Internet Payment Gateway, Net Banking, Aadhaar Pay, and Aadhaar Data Vault.",
+          "citations": [
+            "cbi_upi_rfp:p0031:n005"
+          ],
+          "support_note": "term overlap 90%"
+        }
+      ],
+      "rejected": [
+        {
+          "text": "The proposed UPI solution should be able to route, process, validate, and report transactions to and from NPCI.",
+          "citations": [
+            "cbi_upi_rfp:p0015:n004"
+          ],
+          "reason": "only 50% of claim terms appear in cited text"
+        }
+      ],
+      "gaps": "",
+      "timings_s": {
+        "retrieval": 0.016,
+        "generation": 56.947,
+        "verification": 0.001,
+        "total": 56.964
+      },
+      "human_review": {
+        "answer_correct": true,
+        "claims_supported": true,
+        "notes": ""
+      }
+    },
+    {
+      "id": "Q011",
+      "question": "What reconciliation and settlement capabilities must the UPI solution support?",
+      "answerable": true,
+      "status": "PARTIAL",
+      "outcome": "partial",
+      "reason": "1 claim(s) removed by verification",
+      "truncated": false,
+      "notes": [],
+      "gate": {
+        "status": "ANSWERABLE",
+        "reason": "retrieval signals pass thresholds",
+        "top_semantic": 0.6005678176879883,
+        "coverage": 0.8333333333333334,
+        "missing_terms": [
+          "capabilities"
+        ]
+      },
+      "gold_in_context": true,
+      "gold_cited": true,
+      "claims": [
+        {
+          "text": "The proposed solution must provide reconciliation related reports as required by the BANK.",
+          "citations": [
+            "cbi_upi_rfp:p0037:n008"
+          ],
+          "support_note": "term overlap 100%"
+        },
+        {
+          "text": "The UPI solution must interface with the Bank’s Reconciliation System to provide reports required by the Bank.",
+          "citations": [
+            "cbi_upi_rfp:p0030:n002"
+          ],
+          "support_note": "term overlap 100%"
+        }
+      ],
+      "rejected": [
+        {
+          "text": "The UPI solution must provide reports related to reconciliation & settlement.",
+          "citations": [
+            "cbi_upi_rfp:p0117:t01:r001"
+          ],
+          "reason": "only 57% of claim terms appear in cited text"
+        }
+      ],
+      "gaps": "",
+      "timings_s": {
+        "retrieval": 0.018,
+        "generation": 27.246,
+        "verification": 0.0,
+        "total": 27.264
+      },
+      "human_review": {
+        "answer_correct": true,
+        "claims_supported": true,
+        "notes": ""
+      }
+    },
+    {
+      "id": "Q012",
+      "question": "What management information and reporting capabilities are required?",
+      "answerable": true,
+      "status": "ANSWERED",
+      "outcome": "answered",
+      "reason": "all claims passed citation and support checks",
+      "truncated": false,
+      "notes": [],
+      "gate": {
+        "status": "ANSWERABLE",
+        "reason": "retrieval signals pass thresholds",
+        "top_semantic": 0.49393561482429504,
+        "coverage": 1.0,
+        "missing_terms": []
+      },
+      "gold_in_context": false,
+      "gold_cited": false,
+      "claims": [
+        {
+          "text": "Monitoring of quality gates should be enabled through a dashboard and a report should be shared with the Bank for all release cycles.",
+          "citations": [
+            "cbi_upi_rfp:p0036:n002"
+          ],
+          "support_note": "term overlap 100%"
+        },
+        {
+          "text": "A quality dashboard is required.",
+          "citations": [
+            "cbi_upi_rfp:p0036:n002"
+          ],
+          "support_note": "term overlap 100%"
+        },
+        {
+          "text": "A report should be shared with the Bank for all release cycles.",
+          "citations": [
+            "cbi_upi_rfp:p0036:n002"
+          ],
+          "support_note": "term overlap 100%"
+        },
+        {
+          "text": "A dashboard should have the capability to generate reports like count of Financial & Non-Financial Transactions for a period, Number of Customers on-boarded etc.",
+          "citations": [
+            "cbi_upi_rfp:p0028:n004"
+          ],
+          "support_note": "term overlap 100%"
+        },
+        {
+          "text": "Automated testing, quality dashboard, backlog planning, log management, performance testing etc. are required.",
+          "citations": [
+            "cbi_upi_rfp:p0036:n002"
+          ],
+          "support_note": "term overlap 100%"
+        },
+        {
+          "text": "Automatic notification/reporting of application unavailability through mails, SMSs, etc. is required.",
+          "citations": [
+            "cbi_upi_rfp:p0111:t01:r003"
+          ],
+          "support_note": "term overlap 90%"
+        }
+      ],
+      "rejected": [],
+      "gaps": "",
+      "timings_s": {
+        "retrieval": 0.017,
+        "generation": 41.341,
+        "verification": 0.001,
+        "total": 41.359
+      },
+      "human_review": {
+        "answer_correct": true,
+        "claims_supported": true,
+        "notes": ""
+      }
+    },
+    {
+      "id": "Q013",
+      "question": "What are the bidder’s obligations for user acceptance testing and knowledge transfer?",
+      "answerable": true,
+      "status": "ANSWERED",
+      "outcome": "answered",
+      "reason": "all claims passed citation and support checks",
+      "truncated": false,
+      "notes": [],
+      "gate": {
+        "status": "ANSWERABLE",
+        "reason": "retrieval signals pass thresholds",
+        "top_semantic": 0.6418002247810364,
+        "coverage": 1.0,
+        "missing_terms": []
+      },
+      "gold_in_context": true,
+      "gold_cited": true,
+      "claims": [
+        {
+          "text": "The bidder shall provide minimum 2 sets of 5-day Training/Knowledge Transfer to Bank and Bank’s associated vendor.",
+          "citations": [
+            "cbi_upi_rfp:p0040:n006"
+          ],
+          "support_note": "term overlap 100%"
+        },
+        {
+          "text": "The bidder should assign a dedicated team for UAT with UPI.",
+          "citations": [
+            "cbi_upi_rfp:p0038:n007"
+          ],
+          "support_note": "term overlap 100%"
+        },
+        {
+          "text": "The bidder shall provide such necessary information, documentation to Bank or its designee, for the effective management and maintenance of the Deliverables under this Contract.",
+          "citations": [
+            "cbi_upi_rfp:p0070:n003"
+          ],
+          "support_note": "term overlap 100%"
+        },
+        {
+          "text": "The bidder shall jointly manage the solution with Bank or designated team for a reasonable period of time.",
+          "citations": [
+            "cbi_upi_rfp:p0070:n003"
+          ],
+          "support_note": "term overlap 100%"
+        },
+        {
+          "text": "The bidder shall assist Bank in migration of the Solution to another, if desired by Bank.",
+          "citations": [
+            "cbi_upi_rfp:p0070:n003"
+          ],
+          "support_note": "term overlap 100%"
+        },
+        {
+          "text": "The bidder shall remediate any deficiency identified in the performance of the UPI Switch Application /softwares, as observed during the Acceptance Test.",
+          "citations": [
+            "cbi_upi_rfp:p0042:n003"
+          ],
+          "support_note": "term overlap 100%"
+        }
+      ],
+      "rejected": [],
+      "gaps": "",
+      "timings_s": {
+        "retrieval": 0.019,
+        "generation": 48.938,
+        "verification": 0.001,
+        "total": 48.959
+      },
+      "human_review": {
+        "answer_correct": true,
+        "claims_supported": true,
+        "notes": ""
+      }
+    },
+    {
+      "id": "Q014",
+      "question": "What service availability and support SLA obligations apply to the UPI switch?",
+      "answerable": true,
+      "status": "ANSWERED",
+      "outcome": "answered",
+      "reason": "all claims passed citation and support checks",
+      "truncated": false,
+      "notes": [],
+      "gate": {
+        "status": "ANSWERABLE",
+        "reason": "retrieval signals pass thresholds",
+        "top_semantic": 0.6916511654853821,
+        "coverage": 0.75,
+        "missing_terms": [
+          "apply",
+          "obligations"
+        ]
+      },
+      "gold_in_context": true,
+      "gold_cited": true,
+      "claims": [
+        {
+          "text": "The vendor must guarantee a minimum uptime of 99.99% for the UPI switch, calculated on a monthly basis.",
+          "citations": [
+            "cbi_upi_rfp:p0055:n003"
+          ],
+          "support_note": "term overlap 100%"
+        },
+        {
+          "text": "The vendor will have to guarantee a minimum uptime of 99.99% for the UPI switch, calculated on a monthly basis.",
+          "citations": [
+            "cbi_upi_rfp:p0056:n003"
+          ],
+          "support_note": "term overlap 60%"
+        },
+        {
+          "text": "A Service Level Default will occur when the vendor fails to meet Minimum uptime (99.99 %), as measured on a monthly basis.",
+          "citations": [
+            "cbi_upi_rfp:p0056:n003"
+          ],
+          "support_note": "term overlap 100%"
+        },
+        {
+          "text": "The vendor must guarantee 99.99% availability for the proposed solution.",
+          "citations": [
+            "cbi_upi_rfp:p0055:n003"
+          ],
+          "support_note": "term overlap 100%"
+        },
+        {
+          "text": "The SLA signed should be in line with RBI/NCIIPC guidelines.",
+          "citations": [
+            "cbi_upi_rfp:p0055:n003"
+          ],
+          "support_note": "term overlap 100%"
+        },
+        {
+          "text": "The penalty will be calculated as per the details given below.",
+          "citations": [
+            "cbi_upi_rfp:p0055:n003"
+          ],
+          "support_note": "term overlap 100%"
+        }
+      ],
+      "rejected": [],
+      "gaps": "",
+      "timings_s": {
+        "retrieval": 0.02,
+        "generation": 46.271,
+        "verification": 0.001,
+        "total": 46.292
+      },
+      "human_review": {
+        "answer_correct": true,
+        "claims_supported": true,
+        "notes": ""
+      }
+    },
+    {
+      "id": "Q015",
+      "question": "What information security and privacy safeguards must the bidder comply with?",
+      "answerable": true,
+      "status": "ANSWERED",
+      "outcome": "answered",
+      "reason": "all claims passed citation and support checks",
+      "truncated": false,
+      "notes": [],
+      "gate": {
+        "status": "ANSWERABLE",
+        "reason": "retrieval signals pass thresholds",
+        "top_semantic": 0.7259153127670288,
+        "coverage": 1.0,
+        "missing_terms": []
+      },
+      "gold_in_context": true,
+      "gold_cited": true,
+      "claims": [
+        {
+          "text": "The bidder must comply with the Bank's Information Security Policy.",
+          "citations": [
+            "cbi_upi_rfp:p0067:n002"
+          ],
+          "support_note": "term overlap 100%"
+        },
+        {
+          "text": "The bidder must ensure that all sub-contractors comply with the Bank's Information Security Policy.",
+          "citations": [
+            "cbi_upi_rfp:p0065:n004",
+            "cbi_upi_rfp:p0071:n003"
+          ],
+          "support_note": "term overlap 78%"
+        },
+        {
+          "text": "The bidder must disclose security breaches to the Bank without delay.",
+          "citations": [
+            "cbi_upi_rfp:p0067:n002"
+          ],
+          "support_note": "term overlap 100%"
+        },
+        {
+          "text": "The bidder must comply with the regulator's guidelines.",
+          "citations": [
+            "cbi_upi_rfp:p0067:n002"
+          ],
+          "support_note": "term overlap 100%"
+        },
+        {
+          "text": "The bidder must comply with the Digital Personal Data Protection Act, 2023 (DPDPA) and its amendments.",
+          "citations": [
+            "cbi_upi_rfp:p0073:n004"
+          ],
+          "support_note": "term overlap 100%"
+        },
+        {
+          "text": "The bidder must ensure that all data and information is protected from unauthorized disclosure, modification, or access.",
+          "citations": [
+            "cbi_upi_rfp:p0065:n003"
+          ],
+          "support_note": "term overlap 78%"
+        }
+      ],
+      "rejected": [],
+      "gaps": "",
+      "timings_s": {
+        "retrieval": 0.022,
+        "generation": 50.455,
+        "verification": 0.001,
+        "total": 50.479
+      },
+      "human_review": {
+        "answer_correct": true,
+        "claims_supported": true,
+        "notes": ""
+      }
+    },
+    {
+      "id": "Q016",
+      "question": "What is the contract period, and what extension provisions apply?",
+      "answerable": true,
+      "status": "ANSWERED",
+      "outcome": "answered",
+      "reason": "all claims passed citation and support checks",
+      "truncated": false,
+      "notes": [],
+      "gate": {
+        "status": "ANSWERABLE",
+        "reason": "retrieval signals pass thresholds",
+        "top_semantic": 0.5051199197769165,
+        "coverage": 0.6,
+        "missing_terms": [
+          "apply",
+          "provisions"
+        ]
+      },
+      "gold_in_context": true,
+      "gold_cited": true,
+      "claims": [
+        {
+          "text": "The Contract Period will be of 7 years, starting from Project Sign-off.",
+          "citations": [
+            "cbi_upi_rfp:p0058:n006"
+          ],
+          "support_note": "term overlap 86%"
+        },
+        {
+          "text": "After completion of seven years, the support can be extended for another three years on mutually agreed terms based on seventh year rate.",
+          "citations": [
+            "cbi_upi_rfp:p0058:n006"
+          ],
+          "support_note": "term overlap 100%"
+        }
+      ],
+      "rejected": [],
+      "gaps": "",
+      "timings_s": {
+        "retrieval": 0.02,
+        "generation": 32.656,
+        "verification": 0.0,
+        "total": 32.676
+      },
+      "human_review": {
+        "answer_correct": true,
+        "claims_supported": true,
+        "notes": ""
+      }
+    },
+    {
+      "id": "Q017",
+      "question": "Which cloud provider—AWS, Azure, or Google Cloud—was ultimately selected for the production deployment?",
+      "answerable": false,
+      "status": "INSUFFICIENT_EVIDENCE",
+      "outcome": "out_of_scope",
+      "reason": "only 38% of query terms appear in retrieved text (need 50%)",
+      "truncated": false,
+      "notes": [],
+      "gate": {
+        "status": "INSUFFICIENT_EVIDENCE",
+        "reason": "only 38% of query terms appear in retrieved text (need 50%)",
+        "top_semantic": 0.5096122622489929,
+        "coverage": 0.375,
+        "missing_terms": [
+          "aws",
+          "azure",
+          "google",
+          "provider",
+          "selected"
+        ]
+      },
+      "gold_in_context": null,
+      "gold_cited": null,
+      "claims": [],
+      "rejected": [],
+      "gaps": "",
+      "timings_s": {
+        "retrieval": 0.032
+      },
+      "human_review": {
+        "answer_correct": true,
+        "claims_supported": true,
+        "notes": ""
+      }
+    },
+    {
+      "id": "Q018",
+      "question": "What was the exact final contract price paid to the winning bidder?",
+      "answerable": false,
+      "status": "INSUFFICIENT_EVIDENCE",
+      "outcome": "not_in_document",
+      "reason": "model reported the passages do not answer the question",
+      "truncated": false,
+      "notes": [],
+      "gate": {
+        "status": "ANSWERABLE",
+        "reason": "retrieval signals pass thresholds",
+        "top_semantic": 0.4670454263687134,
+        "coverage": 0.8,
+        "missing_terms": [
+          "winning"
+        ]
+      },
+      "gold_in_context": null,
+      "gold_cited": null,
+      "claims": [],
+      "rejected": [],
+      "gaps": "The passages do not contain information about the final contract price paid to the winning bidder.",
+      "timings_s": {
+        "retrieval": 0.018,
+        "generation": 21.6
+      },
+      "human_review": {
+        "answer_correct": true,
+        "claims_supported": true,
+        "notes": ""
+      }
+    },
+    {
+      "id": "Q019",
+      "question": "Which company ultimately won this tender?",
+      "answerable": false,
+      "status": "INSUFFICIENT_EVIDENCE",
+      "outcome": "not_in_document",
+      "reason": "model reported the passages do not answer the question",
+      "truncated": false,
+      "notes": [],
+      "gate": {
+        "status": "ANSWERABLE",
+        "reason": "retrieval signals pass thresholds",
+        "top_semantic": 0.3967554569244385,
+        "coverage": 0.6666666666666667,
+        "missing_terms": [
+          "won"
+        ]
+      },
+      "gold_in_context": null,
+      "gold_cited": null,
+      "claims": [],
+      "rejected": [],
+      "gaps": "The passages do not mention the winner of the tender.",
+      "timings_s": {
+        "retrieval": 0.024,
+        "generation": 12.491
+      },
+      "human_review": {
+        "answer_correct": true,
+        "claims_supported": true,
+        "notes": ""
+      }
+    },
+    {
+      "id": "Q020",
+      "question": "What uptime percentage did the deployed UPI system actually achieve during its first year in production?",
+      "answerable": false,
+      "status": "INSUFFICIENT_EVIDENCE",
+      "outcome": "not_in_document",
+      "reason": "model reported the passages do not answer the question",
+      "truncated": false,
+      "notes": [],
+      "gate": {
+        "status": "ANSWERABLE",
+        "reason": "retrieval signals pass thresholds",
+        "top_semantic": 0.5935967564582825,
+        "coverage": 0.6363636363636364,
+        "missing_terms": [
+          "achieve",
+          "did",
+          "during",
+          "first"
+        ]
+      },
+      "gold_in_context": null,
+      "gold_cited": null,
+      "claims": [],
+      "rejected": [],
+      "gaps": "The passages do not contain information about the actual uptime percentage achieved by the deployed UPI system during its first year in production.",
+      "timings_s": {
+        "retrieval": 0.031,
+        "generation": 18.533
+      },
+      "human_review": {
+        "answer_correct": true,
+        "claims_supported": true,
+        "notes": ""
+      }
+    }
+  ]
+}

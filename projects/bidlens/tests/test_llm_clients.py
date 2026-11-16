@@ -114,3 +114,34 @@ def test_timeout_env_override(monkeypatch):
     assert GeminiClient(api_key="k").timeout == 300
     monkeypatch.delenv("BIDLENS_LLM_TIMEOUT")
     assert GeminiClient(api_key="k").timeout == 120
+
+
+def test_ollama_uses_schema_and_falls_back_on_400(monkeypatch):
+    calls = []
+
+    def fake_post(url, payload, headers, timeout):
+        calls.append(payload["format"])
+        if isinstance(payload["format"], dict):
+            raise LLMError("HTTP 400 from x: format must be a string")
+        return {"message": {"content": "{}"}, "done_reason": "stop"}
+
+    monkeypatch.setattr(llm, "_post", fake_post)
+    c = OllamaClient()
+    assert c.complete("s", "u", json_schema={"type": "object"}) == "{}"
+    assert isinstance(calls[0], dict) and calls[1] == "json"
+    c.complete("s", "u", json_schema={"type": "object"})
+    assert calls[2] == "json"            # remembered: no repeated 400s
+
+
+def test_truncation_carries_partial_text(captured):
+    captured["response"] = {"done_reason": "length", "message": {"content": '{"claims": [{"te'}}
+    with pytest.raises(llm.LLMTruncated) as e:
+        OllamaClient().complete("s", "u")
+    assert e.value.partial.startswith('{"claims"')
+
+
+def test_ollama_structured_can_be_disabled(captured, monkeypatch):
+    monkeypatch.setenv("BIDLENS_OLLAMA_STRUCTURED", "0")
+    captured["response"] = {"message": {"content": "{}"}}
+    OllamaClient().complete("s", "u", json_schema={"type": "object"})
+    assert captured["payload"]["format"] == "json"
