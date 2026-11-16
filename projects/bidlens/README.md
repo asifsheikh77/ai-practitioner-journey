@@ -1,6 +1,8 @@
 # BidLens — Evidence-Grounded RFP Review
 
-**Portfolio project | Python 3.12 | PDF ingestion | Hybrid retrieval | Evaluation**
+**Portfolio engineering project | Python 3.12 | structured PDF ingestion | hybrid retrieval | evidence-grounded RAG | Streamlit | evaluation**
+
+> **Status (November 2026):** Phase 2 portfolio milestone. Functional prototype with recorded single-document evaluation, not a production procurement, compliance or bid-decision system.
 
 BidLens is a local, reproducible demonstration of evidence discovery in complex IT procurement RFPs. It extracts structured, page-referenced passages from PDFs, retrieves relevant evidence using BM25 and sentence embeddings, and creates a human-reviewable report with source citations. **Phase 2** adds grounded question answering: free-text questions are answered only from retrieved passages, every statement carries a verified citation, and the system says so when the document does not contain the answer.
 
@@ -48,7 +50,39 @@ flowchart TD
 
 Each layer can only remove content. Retrieved text is passed to the model as untrusted data. Model runtimes sit behind one adapter: **local Ollama by default**, with opt-in OpenAI and Gemini (these send retrieved RFP passages to an external API). Details and configuration: [`docs/PHASE2.md`](docs/PHASE2.md).
 
-## Architecture
+## System architecture and data flow
+
+The ingestion path runs offline. The question-answering path consumes the searchable V2 records, not the raw PDF. This separation makes extraction errors inspectable before generation.
+
+```mermaid
+flowchart LR
+    PDF[RFP PDF] --> EX[PyMuPDF narrative + table extraction]
+    EX --> CL[Conservative cleanup and first-row recovery]
+    CL --> EN[Enrichment + quality flags]
+    EN --> DB[(V2 JSONL: page-linked records)]
+    DB --> IDX[BM25 + MiniLM embeddings]
+    IDX --> RRF[Reciprocal rank fusion]
+    RRF --> G{Relevance gate}
+    G -- fails --> AB[Abstain]
+    G -- passes --> CTX[Bounded cited passages]
+    CTX --> LLM[Ollama / OpenAI / Gemini]
+    LLM --> CH[JSON claims + citation resolution]
+    CH --> SUP[Numeric and term-overlap support screen]
+    SUP --> OUT[Answer / partial / insufficient]
+```
+
+### Key design trade-offs
+
+| Choice | Reason | Consequence |
+|---|---|---|
+| Page-linked table/eligibility records | Preserve procurement structure | Some document-specific extraction heuristics remain |
+| BM25 + MiniLM + RRF | Balance exact identifiers and paraphrases without score normalization | Rank fusion does not provide calibrated confidence |
+| Token-bounded top-ranked passages | Control context size and latency | Can omit evidence needed for complete answers |
+| Citation-ID checks and support screen | Reject invented IDs and some unsupported statements | Does not prove entailment, especially negation or conditions |
+| Local Ollama default | Avoid sending retrieved RFP text to cloud services | Local model latency and resource requirements |
+| Human review instead of compliance decisions | No vendor-response evidence in the sample | Not a bid/no-bid engine |
+
+### Evidence-discovery report architecture
 
 ```mermaid
 flowchart TD
@@ -64,35 +98,46 @@ flowchart TD
     I --> J[Human review and source verification]
 ```
 
+## Reproducibility: from a clean checkout
+
+**The source PDF and generated V2 JSONL are intentionally not committed.** Obtain the RFP from the URL in [`sources.json`](sources.json), verify the edition and permissions, and place it at `data/raw/cbi_upi_rfp.pdf`. Some ingestion heuristics and checks are specific to this 147-page RFP. The first semantic run may download model weights.
+
 ## Quick start (Windows PowerShell)
 
-Requires Python 3.12, an existing project checkout, the V2 JSONL data and the demo script from the portfolio MVP patch.
+Run from `projects/bidlens/`. Requires Python 3.12, the source PDF above, and an available Python environment. The commands below regenerate V2 rather than assuming ignored data is already present.
 
 ```powershell
 py -3.12 -m venv .venv
 .\.venv\Scripts\Activate.ps1
-python -m pip install -r requirements.txt
+python -m pip install -r requirements.txt -r requirements-phase2.txt
 python -m pip install -e .
-python -m pytest tests/test_demo_assessment.py -q
+python scripts/ingest_rfp_v2.py --pdf data/raw/cbi_upi_rfp.pdf --output data/processed/cbi_upi_rfp_v2.jsonl --report evaluation/results/ingestion_v2_report.json
+python -m pytest tests -q -rs
 python scripts/demo_assessment.py --root . --output-dir demo_output
 python scripts/validate_demo.py --report demo_output/assessment.json --chunks data/processed/cbi_upi_rfp_v2.jsonl
 ```
 
 The embedding model (`sentence-transformers/all-MiniLM-L6-v2`) may download on the first run. The demo uses **V2 hybrid retrieval (BM25 + semantic reciprocal rank fusion)**. The validation command checks source record IDs, page metadata, exact extracted text and the explicit abstention status. It **does not** verify that a passage truly supports a requirement or that the original PDF was extracted correctly.
 
-## Running Phase 2
+## Running Phase 2 (local Ollama or opt-in cloud providers)
 
 ```powershell
 python -m pip install -r requirements.txt -r requirements-phase2.txt
 python scripts/calibrate_gate.py                      # inspect gate signals on the question set
 python scripts/ask.py "What minimum annual turnover must a bidder demonstrate?"
-python scripts/evaluate_qa.py                         # writes evaluation/results/phase2/qa_eval_*.json
+python scripts/evaluate_qa.py --provider ollama       # writes evaluation/results/phase2/qa_eval_*.json
 streamlit run app/streamlit_app.py
 ```
 
 To inspect truncated model output locally, set `BIDLENS_DEBUG_DIR=evaluation/results/phase2/debug` (dumps contain RFP text and are git-ignored).
 
 For a cloud runtime, set `OPENAI_API_KEY` or `GEMINI_API_KEY` and pass `--provider openai|gemini` (or choose it in the app sidebar). `python scripts/check_llm.py --provider gemini` tests connectivity without sending RFP text.
+
+## How to review the outputs
+
+Each answer includes an outcome, claim text, citation IDs and the retrieved passages. Citation integrity means that an ID was supplied to the model; it does **not** establish that the cited sentence entails the claim. `ANSWERED` means the implemented screens passed, not that the answer is certified correct or complete. `PARTIAL` means some claims were removed or output was recovered after truncation. `INSUFFICIENT_EVIDENCE` can also appear on error paths; inspect `outcome` and `reason` together.
+
+The original five-topic report is **retrieval-only** and must not be confused with LLM question answering. Neither workflow assesses vendor compliance.
 
 ## Evaluation and engineering findings
 
@@ -140,6 +185,17 @@ Both runs use the same 20 questions (16 answerable, 4 unanswerable with absence 
 ## Experiments
 
 Historical ingestion, eligibility, retrieval and failure-analysis scripts are preserved under `experiments/`. See the [experiment guide](experiments/README.md) for original-to-current paths, dataset requirements, reproduction commands and evaluation limitations. Active entry points remain in `scripts/`; historical results remain in `evaluation/results/`.
+
+## Peer-review checklist
+
+- [ ] Verify PDF provenance and rights before redistributing source passages.
+- [ ] Rebuild V2 records; inspect ingestion acceptance checks and extraction warnings.
+- [ ] Run `python -m pytest tests -q -rs` and record any skipped tests.
+- [ ] Run CLI and Streamlit on the same V2 corpus and record model versions, hardware and environment.
+- [ ] Inspect source PDF pages for cited tables and continuation rows.
+- [ ] Challenge Q002, Q012, rejected claims and negative/contradictory questions.
+- [ ] Distinguish in-sample human grades from independent correctness and completeness testing.
+- [ ] Ensure no API keys, private PDFs or debug dumps are committed.
 
 ## Limitations
 
