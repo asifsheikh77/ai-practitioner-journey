@@ -1,13 +1,13 @@
 
 from __future__ import annotations
 
+import hashlib
 import json
 import re
 from pathlib import Path
 
 import numpy as np
 from rank_bm25 import BM25Okapi
-from sentence_transformers import SentenceTransformer
 
 
 MODEL_NAME = "sentence-transformers/all-MiniLM-L6-v2"
@@ -73,12 +73,14 @@ class BidLensRetriever:
         self,
         chunks: list[dict],
         model_name: str = MODEL_NAME,
+        cache_dir: Path | None = None,
     ):
         if not chunks:
             raise ValueError("Chunk collection cannot be empty")
 
         self.chunks = chunks
         self.model_name = model_name
+        self.cache_dir = Path(cache_dir) if cache_dir else None
 
         self.tokenized = [
             tokenize(chunk["text"])
@@ -92,11 +94,34 @@ class BidLensRetriever:
         self.model = None
         self.embeddings = None
 
+    def _cache_file(self) -> Path | None:
+        """Cache key = model name + hash of ordered chunk IDs and texts."""
+        if self.cache_dir is None:
+            return None
+        digest = hashlib.sha256()
+        digest.update(self.model_name.encode())
+        for chunk in self.chunks:
+            digest.update(chunk["chunk_id"].encode())
+            digest.update(chunk["text"].encode())
+        return self.cache_dir / f"embeddings_{digest.hexdigest()[:16]}.npy"
+
+    def _ensure_model(self):
+        if self.model is None:
+            # Imported lazily so BM25-only use needs no torch install.
+            from sentence_transformers import SentenceTransformer
+
+            self.model = SentenceTransformer(self.model_name)
+
     def _ensure_embeddings(self):
         if self.embeddings is not None:
             return
 
-        self.model = SentenceTransformer(self.model_name)
+        cache_file = self._cache_file()
+        if cache_file is not None and cache_file.exists():
+            self.embeddings = np.load(cache_file)
+            return
+
+        self._ensure_model()
 
         self.embeddings = self.model.encode(
             [chunk["text"] for chunk in self.chunks],
@@ -104,6 +129,10 @@ class BidLensRetriever:
             normalize_embeddings=True,
             show_progress_bar=True,
         )
+
+        if cache_file is not None:
+            cache_file.parent.mkdir(parents=True, exist_ok=True)
+            np.save(cache_file, self.embeddings)
 
     def _bm25_scores(self, query: str) -> np.ndarray:
         return np.asarray(
@@ -113,6 +142,7 @@ class BidLensRetriever:
 
     def _semantic_scores(self, query: str) -> np.ndarray:
         self._ensure_embeddings()
+        self._ensure_model()
 
         query_vector = self.model.encode(
             [query],
@@ -183,6 +213,16 @@ class BidLensRetriever:
                 "document_id": chunk["document_id"],
                 "page_number": chunk["page_number"],
                 "score": float(scores[index]),
+                # Raw per-retriever signals (None when not computed). RRF
+                # "score" is rank-only, so relevance gating uses these.
+                "bm25_score": (
+                    float(bm25_scores[index])
+                    if bm25_scores is not None else None
+                ),
+                "semantic_score": (
+                    float(semantic_scores[index])
+                    if semantic_scores is not None else None
+                ),
                 "text": chunk["text"],
             })
 

@@ -1,0 +1,1021 @@
+{
+  "n_questions": 20,
+  "rows": [
+    {
+      "id": "Q001",
+      "answerable": true,
+      "top_semantic": 0.6114928126335144,
+      "coverage": 1.0,
+      "missing": []
+    },
+    {
+      "id": "Q002",
+      "answerable": true,
+      "top_semantic": 0.64033043384552,
+      "coverage": 0.8333333333333334,
+      "missing": [
+        "prior"
+      ]
+    },
+    {
+      "id": "Q003",
+      "answerable": true,
+      "top_semantic": 0.7658095359802246,
+      "coverage": 0.8571428571428572,
+      "missing": [
+        "profitability"
+      ]
+    },
+    {
+      "id": "Q004",
+      "answerable": true,
+      "top_semantic": 0.575522780418396,
+      "coverage": 0.7142857142857143,
+      "missing": [
+        "exemption",
+        "qualify"
+      ]
+    },
+    {
+      "id": "Q005",
+      "answerable": true,
+      "top_semantic": 0.7210326194763184,
+      "coverage": 1.0,
+      "missing": []
+    },
+    {
+      "id": "Q006",
+      "answerable": true,
+      "top_semantic": 0.7115253806114197,
+      "coverage": 0.8333333333333334,
+      "missing": [
+        "deployment"
+      ]
+    },
+    {
+      "id": "Q007",
+      "answerable": true,
+      "top_semantic": 0.740313708782196,
+      "coverage": 0.8571428571428572,
+      "missing": [
+        "selected"
+      ]
+    },
+    {
+      "id": "Q008",
+      "answerable": true,
+      "top_semantic": 0.5897237062454224,
+      "coverage": 0.875,
+      "missing": [
+        "capabilities"
+      ]
+    },
+    {
+      "id": "Q009",
+      "answerable": true,
+      "top_semantic": 0.6321986317634583,
+      "coverage": 0.8333333333333334,
+      "missing": [
+        "justify"
+      ]
+    },
+    {
+      "id": "Q010",
+      "answerable": true,
+      "top_semantic": 0.6852050423622131,
+      "coverage": 0.8571428571428572,
+      "missing": [
+        "capabilities"
+      ]
+    },
+    {
+      "id": "Q011",
+      "answerable": true,
+      "top_semantic": 0.6005678176879883,
+      "coverage": 0.8333333333333334,
+      "missing": [
+        "capabilities"
+      ]
+    },
+    {
+      "id": "Q012",
+      "answerable": true,
+      "top_semantic": 0.49393561482429504,
+      "coverage": 1.0,
+      "missing": []
+    },
+    {
+      "id": "Q013",
+      "answerable": true,
+      "top_semantic": 0.6418002247810364,
+      "coverage": 1.0,
+      "missing": []
+    },
+    {
+      "id": "Q014",
+      "answerable": true,
+      "top_semantic": 0.6916511654853821,
+      "coverage": 0.75,
+      "missing": [
+        "apply",
+        "obligations"
+      ]
+    },
+    {
+      "id": "Q015",
+      "answerable": true,
+      "top_semantic": 0.7259153127670288,
+      "coverage": 1.0,
+      "missing": []
+    },
+    {
+      "id": "Q016",
+      "answerable": true,
+      "top_semantic": 0.5051199197769165,
+      "coverage": 0.6,
+      "missing": [
+        "apply",
+        "provisions"
+      ]
+    },
+    {
+      "id": "Q017",
+      "answerable": false,
+      "top_semantic": 0.5096122622489929,
+      "coverage": 0.375,
+      "missing": [
+        "aws",
+        "azure",
+        "google",
+        "provider",
+        "selected"
+      ]
+    },
+    {
+      "id": "Q018",
+      "answerable": false,
+      "top_semantic": 0.4670454263687134,
+      "coverage": 0.8,
+      "missing": [
+        "winning"
+      ]
+    },
+    {
+      "id": "Q019",
+      "answerable": false,
+      "top_semantic": 0.3967554569244385,
+      "coverage": 0.6666666666666667,
+      "missing": [
+        "won"
+      ]
+    },
+    {
+      "id": "Q020",
+      "answerable": false,
+      "top_semantic": 0.5935967564582825,
+      "coverage": 0.6363636363636364,
+      "missing": [
+        "achieve",
+        "did",
+        "during",
+        "first"
+      ]
+    }
+  ],
+  "best": [
+    {
+      "min_semantic": 0.45,
+      "min_coverage": 0.4,
+      "answerable_passed": 16,
+      "answerable_blocked": 0,
+      "unanswerable_blocked": 2,
+      "unanswerable_passed": 2
+    },
+    {
+      "min_semantic": 0.45,
+      "min_coverage": 0.5,
+      "answerable_passed": 16,
+      "answerable_blocked": 0,
+      "unanswerable_blocked": 2,
+      "unanswerable_passed": 2
+    },
+    {
+      "min_semantic": 0.45,
+      "min_coverage": 0.6,
+      "answerable_passed": 16,
+      "answerable_blocked": 0,
+      "unanswerable_blocked": 2,
+      "unanswerable_passed": 2
+    },
+    {
+      "min_semantic": 0.4,
+      "min_coverage": 0.4,
+      "answerable_passed": 16,
+      "answerable_blocked": 0,
+      "unanswerable_blocked": 2,
+      "unanswerable_passed": 2
+    },
+    {
+      "min_semantic": 0.4,
+      "min_coverage": 0.5,
+      "answerable_passed": 16,
+      "answerable_blocked": 0,
+      "unanswerable_blocked": 2,
+      "unanswerable_passed": 2
+    }
+  ],
+  "grid": [
+    {
+      "min_semantic": 0.1,
+      "min_coverage": 0.2,
+      "answerable_passed": 16,
+      "answerable_blocked": 0,
+      "unanswerable_blocked": 0,
+      "unanswerable_passed": 4
+    },
+    {
+      "min_semantic": 0.1,
+      "min_coverage": 0.3,
+      "answerable_passed": 16,
+      "answerable_blocked": 0,
+      "unanswerable_blocked": 0,
+      "unanswerable_passed": 4
+    },
+    {
+      "min_semantic": 0.1,
+      "min_coverage": 0.4,
+      "answerable_passed": 16,
+      "answerable_blocked": 0,
+      "unanswerable_blocked": 1,
+      "unanswerable_passed": 3
+    },
+    {
+      "min_semantic": 0.1,
+      "min_coverage": 0.5,
+      "answerable_passed": 16,
+      "answerable_blocked": 0,
+      "unanswerable_blocked": 1,
+      "unanswerable_passed": 3
+    },
+    {
+      "min_semantic": 0.1,
+      "min_coverage": 0.6,
+      "answerable_passed": 16,
+      "answerable_blocked": 0,
+      "unanswerable_blocked": 1,
+      "unanswerable_passed": 3
+    },
+    {
+      "min_semantic": 0.1,
+      "min_coverage": 0.7,
+      "answerable_passed": 15,
+      "answerable_blocked": 1,
+      "unanswerable_blocked": 3,
+      "unanswerable_passed": 1
+    },
+    {
+      "min_semantic": 0.1,
+      "min_coverage": 0.8,
+      "answerable_passed": 13,
+      "answerable_blocked": 3,
+      "unanswerable_blocked": 3,
+      "unanswerable_passed": 1
+    },
+    {
+      "min_semantic": 0.1,
+      "min_coverage": 0.9,
+      "answerable_passed": 5,
+      "answerable_blocked": 11,
+      "unanswerable_blocked": 4,
+      "unanswerable_passed": 0
+    },
+    {
+      "min_semantic": 0.1,
+      "min_coverage": 1.0,
+      "answerable_passed": 5,
+      "answerable_blocked": 11,
+      "unanswerable_blocked": 4,
+      "unanswerable_passed": 0
+    },
+    {
+      "min_semantic": 0.15,
+      "min_coverage": 0.2,
+      "answerable_passed": 16,
+      "answerable_blocked": 0,
+      "unanswerable_blocked": 0,
+      "unanswerable_passed": 4
+    },
+    {
+      "min_semantic": 0.15,
+      "min_coverage": 0.3,
+      "answerable_passed": 16,
+      "answerable_blocked": 0,
+      "unanswerable_blocked": 0,
+      "unanswerable_passed": 4
+    },
+    {
+      "min_semantic": 0.15,
+      "min_coverage": 0.4,
+      "answerable_passed": 16,
+      "answerable_blocked": 0,
+      "unanswerable_blocked": 1,
+      "unanswerable_passed": 3
+    },
+    {
+      "min_semantic": 0.15,
+      "min_coverage": 0.5,
+      "answerable_passed": 16,
+      "answerable_blocked": 0,
+      "unanswerable_blocked": 1,
+      "unanswerable_passed": 3
+    },
+    {
+      "min_semantic": 0.15,
+      "min_coverage": 0.6,
+      "answerable_passed": 16,
+      "answerable_blocked": 0,
+      "unanswerable_blocked": 1,
+      "unanswerable_passed": 3
+    },
+    {
+      "min_semantic": 0.15,
+      "min_coverage": 0.7,
+      "answerable_passed": 15,
+      "answerable_blocked": 1,
+      "unanswerable_blocked": 3,
+      "unanswerable_passed": 1
+    },
+    {
+      "min_semantic": 0.15,
+      "min_coverage": 0.8,
+      "answerable_passed": 13,
+      "answerable_blocked": 3,
+      "unanswerable_blocked": 3,
+      "unanswerable_passed": 1
+    },
+    {
+      "min_semantic": 0.15,
+      "min_coverage": 0.9,
+      "answerable_passed": 5,
+      "answerable_blocked": 11,
+      "unanswerable_blocked": 4,
+      "unanswerable_passed": 0
+    },
+    {
+      "min_semantic": 0.15,
+      "min_coverage": 1.0,
+      "answerable_passed": 5,
+      "answerable_blocked": 11,
+      "unanswerable_blocked": 4,
+      "unanswerable_passed": 0
+    },
+    {
+      "min_semantic": 0.2,
+      "min_coverage": 0.2,
+      "answerable_passed": 16,
+      "answerable_blocked": 0,
+      "unanswerable_blocked": 0,
+      "unanswerable_passed": 4
+    },
+    {
+      "min_semantic": 0.2,
+      "min_coverage": 0.3,
+      "answerable_passed": 16,
+      "answerable_blocked": 0,
+      "unanswerable_blocked": 0,
+      "unanswerable_passed": 4
+    },
+    {
+      "min_semantic": 0.2,
+      "min_coverage": 0.4,
+      "answerable_passed": 16,
+      "answerable_blocked": 0,
+      "unanswerable_blocked": 1,
+      "unanswerable_passed": 3
+    },
+    {
+      "min_semantic": 0.2,
+      "min_coverage": 0.5,
+      "answerable_passed": 16,
+      "answerable_blocked": 0,
+      "unanswerable_blocked": 1,
+      "unanswerable_passed": 3
+    },
+    {
+      "min_semantic": 0.2,
+      "min_coverage": 0.6,
+      "answerable_passed": 16,
+      "answerable_blocked": 0,
+      "unanswerable_blocked": 1,
+      "unanswerable_passed": 3
+    },
+    {
+      "min_semantic": 0.2,
+      "min_coverage": 0.7,
+      "answerable_passed": 15,
+      "answerable_blocked": 1,
+      "unanswerable_blocked": 3,
+      "unanswerable_passed": 1
+    },
+    {
+      "min_semantic": 0.2,
+      "min_coverage": 0.8,
+      "answerable_passed": 13,
+      "answerable_blocked": 3,
+      "unanswerable_blocked": 3,
+      "unanswerable_passed": 1
+    },
+    {
+      "min_semantic": 0.2,
+      "min_coverage": 0.9,
+      "answerable_passed": 5,
+      "answerable_blocked": 11,
+      "unanswerable_blocked": 4,
+      "unanswerable_passed": 0
+    },
+    {
+      "min_semantic": 0.2,
+      "min_coverage": 1.0,
+      "answerable_passed": 5,
+      "answerable_blocked": 11,
+      "unanswerable_blocked": 4,
+      "unanswerable_passed": 0
+    },
+    {
+      "min_semantic": 0.25,
+      "min_coverage": 0.2,
+      "answerable_passed": 16,
+      "answerable_blocked": 0,
+      "unanswerable_blocked": 0,
+      "unanswerable_passed": 4
+    },
+    {
+      "min_semantic": 0.25,
+      "min_coverage": 0.3,
+      "answerable_passed": 16,
+      "answerable_blocked": 0,
+      "unanswerable_blocked": 0,
+      "unanswerable_passed": 4
+    },
+    {
+      "min_semantic": 0.25,
+      "min_coverage": 0.4,
+      "answerable_passed": 16,
+      "answerable_blocked": 0,
+      "unanswerable_blocked": 1,
+      "unanswerable_passed": 3
+    },
+    {
+      "min_semantic": 0.25,
+      "min_coverage": 0.5,
+      "answerable_passed": 16,
+      "answerable_blocked": 0,
+      "unanswerable_blocked": 1,
+      "unanswerable_passed": 3
+    },
+    {
+      "min_semantic": 0.25,
+      "min_coverage": 0.6,
+      "answerable_passed": 16,
+      "answerable_blocked": 0,
+      "unanswerable_blocked": 1,
+      "unanswerable_passed": 3
+    },
+    {
+      "min_semantic": 0.25,
+      "min_coverage": 0.7,
+      "answerable_passed": 15,
+      "answerable_blocked": 1,
+      "unanswerable_blocked": 3,
+      "unanswerable_passed": 1
+    },
+    {
+      "min_semantic": 0.25,
+      "min_coverage": 0.8,
+      "answerable_passed": 13,
+      "answerable_blocked": 3,
+      "unanswerable_blocked": 3,
+      "unanswerable_passed": 1
+    },
+    {
+      "min_semantic": 0.25,
+      "min_coverage": 0.9,
+      "answerable_passed": 5,
+      "answerable_blocked": 11,
+      "unanswerable_blocked": 4,
+      "unanswerable_passed": 0
+    },
+    {
+      "min_semantic": 0.25,
+      "min_coverage": 1.0,
+      "answerable_passed": 5,
+      "answerable_blocked": 11,
+      "unanswerable_blocked": 4,
+      "unanswerable_passed": 0
+    },
+    {
+      "min_semantic": 0.3,
+      "min_coverage": 0.2,
+      "answerable_passed": 16,
+      "answerable_blocked": 0,
+      "unanswerable_blocked": 0,
+      "unanswerable_passed": 4
+    },
+    {
+      "min_semantic": 0.3,
+      "min_coverage": 0.3,
+      "answerable_passed": 16,
+      "answerable_blocked": 0,
+      "unanswerable_blocked": 0,
+      "unanswerable_passed": 4
+    },
+    {
+      "min_semantic": 0.3,
+      "min_coverage": 0.4,
+      "answerable_passed": 16,
+      "answerable_blocked": 0,
+      "unanswerable_blocked": 1,
+      "unanswerable_passed": 3
+    },
+    {
+      "min_semantic": 0.3,
+      "min_coverage": 0.5,
+      "answerable_passed": 16,
+      "answerable_blocked": 0,
+      "unanswerable_blocked": 1,
+      "unanswerable_passed": 3
+    },
+    {
+      "min_semantic": 0.3,
+      "min_coverage": 0.6,
+      "answerable_passed": 16,
+      "answerable_blocked": 0,
+      "unanswerable_blocked": 1,
+      "unanswerable_passed": 3
+    },
+    {
+      "min_semantic": 0.3,
+      "min_coverage": 0.7,
+      "answerable_passed": 15,
+      "answerable_blocked": 1,
+      "unanswerable_blocked": 3,
+      "unanswerable_passed": 1
+    },
+    {
+      "min_semantic": 0.3,
+      "min_coverage": 0.8,
+      "answerable_passed": 13,
+      "answerable_blocked": 3,
+      "unanswerable_blocked": 3,
+      "unanswerable_passed": 1
+    },
+    {
+      "min_semantic": 0.3,
+      "min_coverage": 0.9,
+      "answerable_passed": 5,
+      "answerable_blocked": 11,
+      "unanswerable_blocked": 4,
+      "unanswerable_passed": 0
+    },
+    {
+      "min_semantic": 0.3,
+      "min_coverage": 1.0,
+      "answerable_passed": 5,
+      "answerable_blocked": 11,
+      "unanswerable_blocked": 4,
+      "unanswerable_passed": 0
+    },
+    {
+      "min_semantic": 0.35,
+      "min_coverage": 0.2,
+      "answerable_passed": 16,
+      "answerable_blocked": 0,
+      "unanswerable_blocked": 0,
+      "unanswerable_passed": 4
+    },
+    {
+      "min_semantic": 0.35,
+      "min_coverage": 0.3,
+      "answerable_passed": 16,
+      "answerable_blocked": 0,
+      "unanswerable_blocked": 0,
+      "unanswerable_passed": 4
+    },
+    {
+      "min_semantic": 0.35,
+      "min_coverage": 0.4,
+      "answerable_passed": 16,
+      "answerable_blocked": 0,
+      "unanswerable_blocked": 1,
+      "unanswerable_passed": 3
+    },
+    {
+      "min_semantic": 0.35,
+      "min_coverage": 0.5,
+      "answerable_passed": 16,
+      "answerable_blocked": 0,
+      "unanswerable_blocked": 1,
+      "unanswerable_passed": 3
+    },
+    {
+      "min_semantic": 0.35,
+      "min_coverage": 0.6,
+      "answerable_passed": 16,
+      "answerable_blocked": 0,
+      "unanswerable_blocked": 1,
+      "unanswerable_passed": 3
+    },
+    {
+      "min_semantic": 0.35,
+      "min_coverage": 0.7,
+      "answerable_passed": 15,
+      "answerable_blocked": 1,
+      "unanswerable_blocked": 3,
+      "unanswerable_passed": 1
+    },
+    {
+      "min_semantic": 0.35,
+      "min_coverage": 0.8,
+      "answerable_passed": 13,
+      "answerable_blocked": 3,
+      "unanswerable_blocked": 3,
+      "unanswerable_passed": 1
+    },
+    {
+      "min_semantic": 0.35,
+      "min_coverage": 0.9,
+      "answerable_passed": 5,
+      "answerable_blocked": 11,
+      "unanswerable_blocked": 4,
+      "unanswerable_passed": 0
+    },
+    {
+      "min_semantic": 0.35,
+      "min_coverage": 1.0,
+      "answerable_passed": 5,
+      "answerable_blocked": 11,
+      "unanswerable_blocked": 4,
+      "unanswerable_passed": 0
+    },
+    {
+      "min_semantic": 0.4,
+      "min_coverage": 0.2,
+      "answerable_passed": 16,
+      "answerable_blocked": 0,
+      "unanswerable_blocked": 1,
+      "unanswerable_passed": 3
+    },
+    {
+      "min_semantic": 0.4,
+      "min_coverage": 0.3,
+      "answerable_passed": 16,
+      "answerable_blocked": 0,
+      "unanswerable_blocked": 1,
+      "unanswerable_passed": 3
+    },
+    {
+      "min_semantic": 0.4,
+      "min_coverage": 0.4,
+      "answerable_passed": 16,
+      "answerable_blocked": 0,
+      "unanswerable_blocked": 2,
+      "unanswerable_passed": 2
+    },
+    {
+      "min_semantic": 0.4,
+      "min_coverage": 0.5,
+      "answerable_passed": 16,
+      "answerable_blocked": 0,
+      "unanswerable_blocked": 2,
+      "unanswerable_passed": 2
+    },
+    {
+      "min_semantic": 0.4,
+      "min_coverage": 0.6,
+      "answerable_passed": 16,
+      "answerable_blocked": 0,
+      "unanswerable_blocked": 2,
+      "unanswerable_passed": 2
+    },
+    {
+      "min_semantic": 0.4,
+      "min_coverage": 0.7,
+      "answerable_passed": 15,
+      "answerable_blocked": 1,
+      "unanswerable_blocked": 3,
+      "unanswerable_passed": 1
+    },
+    {
+      "min_semantic": 0.4,
+      "min_coverage": 0.8,
+      "answerable_passed": 13,
+      "answerable_blocked": 3,
+      "unanswerable_blocked": 3,
+      "unanswerable_passed": 1
+    },
+    {
+      "min_semantic": 0.4,
+      "min_coverage": 0.9,
+      "answerable_passed": 5,
+      "answerable_blocked": 11,
+      "unanswerable_blocked": 4,
+      "unanswerable_passed": 0
+    },
+    {
+      "min_semantic": 0.4,
+      "min_coverage": 1.0,
+      "answerable_passed": 5,
+      "answerable_blocked": 11,
+      "unanswerable_blocked": 4,
+      "unanswerable_passed": 0
+    },
+    {
+      "min_semantic": 0.45,
+      "min_coverage": 0.2,
+      "answerable_passed": 16,
+      "answerable_blocked": 0,
+      "unanswerable_blocked": 1,
+      "unanswerable_passed": 3
+    },
+    {
+      "min_semantic": 0.45,
+      "min_coverage": 0.3,
+      "answerable_passed": 16,
+      "answerable_blocked": 0,
+      "unanswerable_blocked": 1,
+      "unanswerable_passed": 3
+    },
+    {
+      "min_semantic": 0.45,
+      "min_coverage": 0.4,
+      "answerable_passed": 16,
+      "answerable_blocked": 0,
+      "unanswerable_blocked": 2,
+      "unanswerable_passed": 2
+    },
+    {
+      "min_semantic": 0.45,
+      "min_coverage": 0.5,
+      "answerable_passed": 16,
+      "answerable_blocked": 0,
+      "unanswerable_blocked": 2,
+      "unanswerable_passed": 2
+    },
+    {
+      "min_semantic": 0.45,
+      "min_coverage": 0.6,
+      "answerable_passed": 16,
+      "answerable_blocked": 0,
+      "unanswerable_blocked": 2,
+      "unanswerable_passed": 2
+    },
+    {
+      "min_semantic": 0.45,
+      "min_coverage": 0.7,
+      "answerable_passed": 15,
+      "answerable_blocked": 1,
+      "unanswerable_blocked": 3,
+      "unanswerable_passed": 1
+    },
+    {
+      "min_semantic": 0.45,
+      "min_coverage": 0.8,
+      "answerable_passed": 13,
+      "answerable_blocked": 3,
+      "unanswerable_blocked": 3,
+      "unanswerable_passed": 1
+    },
+    {
+      "min_semantic": 0.45,
+      "min_coverage": 0.9,
+      "answerable_passed": 5,
+      "answerable_blocked": 11,
+      "unanswerable_blocked": 4,
+      "unanswerable_passed": 0
+    },
+    {
+      "min_semantic": 0.45,
+      "min_coverage": 1.0,
+      "answerable_passed": 5,
+      "answerable_blocked": 11,
+      "unanswerable_blocked": 4,
+      "unanswerable_passed": 0
+    },
+    {
+      "min_semantic": 0.5,
+      "min_coverage": 0.2,
+      "answerable_passed": 15,
+      "answerable_blocked": 1,
+      "unanswerable_blocked": 2,
+      "unanswerable_passed": 2
+    },
+    {
+      "min_semantic": 0.5,
+      "min_coverage": 0.3,
+      "answerable_passed": 15,
+      "answerable_blocked": 1,
+      "unanswerable_blocked": 2,
+      "unanswerable_passed": 2
+    },
+    {
+      "min_semantic": 0.5,
+      "min_coverage": 0.4,
+      "answerable_passed": 15,
+      "answerable_blocked": 1,
+      "unanswerable_blocked": 3,
+      "unanswerable_passed": 1
+    },
+    {
+      "min_semantic": 0.5,
+      "min_coverage": 0.5,
+      "answerable_passed": 15,
+      "answerable_blocked": 1,
+      "unanswerable_blocked": 3,
+      "unanswerable_passed": 1
+    },
+    {
+      "min_semantic": 0.5,
+      "min_coverage": 0.6,
+      "answerable_passed": 15,
+      "answerable_blocked": 1,
+      "unanswerable_blocked": 3,
+      "unanswerable_passed": 1
+    },
+    {
+      "min_semantic": 0.5,
+      "min_coverage": 0.7,
+      "answerable_passed": 14,
+      "answerable_blocked": 2,
+      "unanswerable_blocked": 4,
+      "unanswerable_passed": 0
+    },
+    {
+      "min_semantic": 0.5,
+      "min_coverage": 0.8,
+      "answerable_passed": 12,
+      "answerable_blocked": 4,
+      "unanswerable_blocked": 4,
+      "unanswerable_passed": 0
+    },
+    {
+      "min_semantic": 0.5,
+      "min_coverage": 0.9,
+      "answerable_passed": 4,
+      "answerable_blocked": 12,
+      "unanswerable_blocked": 4,
+      "unanswerable_passed": 0
+    },
+    {
+      "min_semantic": 0.5,
+      "min_coverage": 1.0,
+      "answerable_passed": 4,
+      "answerable_blocked": 12,
+      "unanswerable_blocked": 4,
+      "unanswerable_passed": 0
+    },
+    {
+      "min_semantic": 0.55,
+      "min_coverage": 0.2,
+      "answerable_passed": 14,
+      "answerable_blocked": 2,
+      "unanswerable_blocked": 3,
+      "unanswerable_passed": 1
+    },
+    {
+      "min_semantic": 0.55,
+      "min_coverage": 0.3,
+      "answerable_passed": 14,
+      "answerable_blocked": 2,
+      "unanswerable_blocked": 3,
+      "unanswerable_passed": 1
+    },
+    {
+      "min_semantic": 0.55,
+      "min_coverage": 0.4,
+      "answerable_passed": 14,
+      "answerable_blocked": 2,
+      "unanswerable_blocked": 3,
+      "unanswerable_passed": 1
+    },
+    {
+      "min_semantic": 0.55,
+      "min_coverage": 0.5,
+      "answerable_passed": 14,
+      "answerable_blocked": 2,
+      "unanswerable_blocked": 3,
+      "unanswerable_passed": 1
+    },
+    {
+      "min_semantic": 0.55,
+      "min_coverage": 0.6,
+      "answerable_passed": 14,
+      "answerable_blocked": 2,
+      "unanswerable_blocked": 3,
+      "unanswerable_passed": 1
+    },
+    {
+      "min_semantic": 0.55,
+      "min_coverage": 0.7,
+      "answerable_passed": 14,
+      "answerable_blocked": 2,
+      "unanswerable_blocked": 4,
+      "unanswerable_passed": 0
+    },
+    {
+      "min_semantic": 0.55,
+      "min_coverage": 0.8,
+      "answerable_passed": 12,
+      "answerable_blocked": 4,
+      "unanswerable_blocked": 4,
+      "unanswerable_passed": 0
+    },
+    {
+      "min_semantic": 0.55,
+      "min_coverage": 0.9,
+      "answerable_passed": 4,
+      "answerable_blocked": 12,
+      "unanswerable_blocked": 4,
+      "unanswerable_passed": 0
+    },
+    {
+      "min_semantic": 0.55,
+      "min_coverage": 1.0,
+      "answerable_passed": 4,
+      "answerable_blocked": 12,
+      "unanswerable_blocked": 4,
+      "unanswerable_passed": 0
+    },
+    {
+      "min_semantic": 0.6,
+      "min_coverage": 0.2,
+      "answerable_passed": 12,
+      "answerable_blocked": 4,
+      "unanswerable_blocked": 4,
+      "unanswerable_passed": 0
+    },
+    {
+      "min_semantic": 0.6,
+      "min_coverage": 0.3,
+      "answerable_passed": 12,
+      "answerable_blocked": 4,
+      "unanswerable_blocked": 4,
+      "unanswerable_passed": 0
+    },
+    {
+      "min_semantic": 0.6,
+      "min_coverage": 0.4,
+      "answerable_passed": 12,
+      "answerable_blocked": 4,
+      "unanswerable_blocked": 4,
+      "unanswerable_passed": 0
+    },
+    {
+      "min_semantic": 0.6,
+      "min_coverage": 0.5,
+      "answerable_passed": 12,
+      "answerable_blocked": 4,
+      "unanswerable_blocked": 4,
+      "unanswerable_passed": 0
+    },
+    {
+      "min_semantic": 0.6,
+      "min_coverage": 0.6,
+      "answerable_passed": 12,
+      "answerable_blocked": 4,
+      "unanswerable_blocked": 4,
+      "unanswerable_passed": 0
+    },
+    {
+      "min_semantic": 0.6,
+      "min_coverage": 0.7,
+      "answerable_passed": 12,
+      "answerable_blocked": 4,
+      "unanswerable_blocked": 4,
+      "unanswerable_passed": 0
+    },
+    {
+      "min_semantic": 0.6,
+      "min_coverage": 0.8,
+      "answerable_passed": 11,
+      "answerable_blocked": 5,
+      "unanswerable_blocked": 4,
+      "unanswerable_passed": 0
+    },
+    {
+      "min_semantic": 0.6,
+      "min_coverage": 0.9,
+      "answerable_passed": 4,
+      "answerable_blocked": 12,
+      "unanswerable_blocked": 4,
+      "unanswerable_passed": 0
+    },
+    {
+      "min_semantic": 0.6,
+      "min_coverage": 1.0,
+      "answerable_passed": 4,
+      "answerable_blocked": 12,
+      "unanswerable_blocked": 4,
+      "unanswerable_passed": 0
+    }
+  ]
+}
