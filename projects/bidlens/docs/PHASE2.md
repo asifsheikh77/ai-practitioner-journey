@@ -1,6 +1,6 @@
 # BidLens Phase 2 — Grounded RFP Q&A
 
-Status: implemented and unit-tested with test doubles. **Not yet run end-to-end on the real V2 corpus or scored** — do the steps in "First run" and record the numbers before quoting any.
+Status (November 2026): implemented and unit-tested with test doubles. Two in-sample, single-document Ollama evaluation runs are recorded in `evaluation/results/phase2/`. The latest run answered 16/16 labeled answerable questions (12 full, 4 partial) and abstained on 4/4 labeled unanswerable questions; these are development-set results, not independently verified accuracy or completeness.
 
 ## Pipeline
 
@@ -28,7 +28,7 @@ Retrieved passages are escaped and wrapped in `<passage>` tags; the system promp
 - **OpenAI (opt-in):** `OPENAI_API_KEY`, `BIDLENS_OPENAI_MODEL` (default `gpt-6-luna`). Reasoning is off by default (`BIDLENS_OPENAI_REASONING_EFFORT=none`) for speed; set it to an empty string for older models that reject the field.
 - **Gemini (opt-in):** `GEMINI_API_KEY` (or `GOOGLE_API_KEY`), `BIDLENS_GEMINI_MODEL` (default `gemini-3.8-flash`).
 - Cloud runtimes send retrieved RFP passages to an external service. Model IDs change often; override the defaults via the env vars if a default is retired.
-- A response cut off by the token limit raises an explicit error rather than returning broken JSON.
+- A response cut off by the token limit triggers one shorter retry; if that also truncates, complete claim objects may be recovered and marked partial. If none can be recovered, the call returns an error outcome. This recovery has limitations: it can assume answerability from incomplete JSON.
 
 ## First run (PowerShell, from `projects/bidlens/`)
 
@@ -42,6 +42,10 @@ python scripts/ask.py "What minimum annual turnover must a bidder demonstrate?"
 python scripts/evaluate_qa.py --provider ollama   # writes evaluation/results/phase2/qa_eval_*.json
 streamlit run app/streamlit_app.py
 ```
+
+## Recorded evaluation and interpretation
+
+The initial saved run answered 6/16 answerable questions; after citation-format and generation-output fixes, the latest run answered 16/16 (12 full, 4 partial), with no operational errors recorded. The same 20 questions informed the fixes, so the comparison is **in-sample**. One reviewer graded the latest surviving answers correct, but answer completeness and independent semantic entailment were not established. Four unanswerable labels have not been exhaustively audited for absence. The 42-facet retrieval rubric remains provisional. Source files: `evaluation/results/phase2/qa_eval_20261116-134258.json` and `qa_eval_20261116-140949.json`. Verify these files before quoting exact intermediate-run numbers.
 
 ## Evaluation notes
 
